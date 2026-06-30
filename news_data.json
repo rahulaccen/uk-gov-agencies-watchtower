@@ -1,0 +1,85 @@
+{
+  "lastUpdated": "Loading...",
+  "agencies": [
+    {
+      "id": "hmrc",
+      "name": "HMRC",
+      "fullName": "HM Revenue & Customs",
+      "icon": "💷",
+      "description": "Tax collection & customs",
+      "stories": []
+    },
+    {
+      "id": "home-office",
+      "name": "Home Office",
+      "fullName": "Home Office",
+      "icon": "🛂",
+      "description": "Immigration, visas & security",
+      "stories": []
+    },
+    {
+      "id": "fcdo",
+      "name": "FCDO",
+      "fullName": "Foreign, Commonwealth & Development Office",
+      "icon": "🌐",
+      "description": "Diplomacy & international relations",
+      "stories": []
+    },
+    {
+      "id": "dwp",
+      "name": "DWP",
+      "fullName": "Department for Work and Pensions",
+      "icon": "🏦",
+      "description": "Benefits & pensions",
+      "stories": []
+    },
+    {
+      "id": "defra",
+      "name": "DEFRA",
+      "fullName": "Dept. for Environment, Food & Rural Affairs",
+      "icon": "🌿",
+      "description": "Environment, food & rural affairs",
+      "stories": []
+    },
+    {
+      "id": "mod",
+      "name": "MoD",
+      "fullName": "Ministry of Defence",
+      "icon": "🛡️",
+      "description": "Defence & armed forces",
+      "stories": []
+    },
+    {
+      "id": "dbt",
+      "name": "DBT",
+      "fullName": "Department for Business and Trade",
+      "icon": "📊",
+      "description": "Business & trade",
+      "stories": []
+    },
+    {
+      "id": "dsit",
+      "name": "DSIT",
+      "fullName": "Dept. for Science, Innovation & Technology",
+      "icon": "🔬",
+      "description": "Science, innovation & technology",
+      "stories": []
+    },
+    {
+      "id": "nhs",
+      "name": "NHS",
+      "fullName": "National Health Service",
+      "icon": "🏥",
+      "description": "Health & social care",
+      "stories": []
+    },
+    {
+      "id": "royal-mail",
+      "name": "Royal Mail",
+      "fullName": "Royal Mail / Post Office",
+      "icon": "📮",
+      "description": "Postal & delivery services",
+      "stories": []
+    }
+  ]
+}

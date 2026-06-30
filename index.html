@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UK Gov Agencies Watchtower</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f5f6fa;
+    --surface: #ffffff;
+    --surface2: #f0f2f8;
+    --border: #e2e5ef;
+    --primary: #1a56db;
+    --primary-light: #e8efff;
+    --text: #111827;
+    --text-muted: #6b7280;
+    --text-light: #9ca3af;
+    --accent-green: #059669;
+    --accent-green-bg: #ecfdf5;
+    --accent-red: #dc2626;
+    --accent-red-bg: #fef2f2;
+    --accent-amber: #d97706;
+    --accent-amber-bg: #fffbeb;
+    --accent-blue: #2563eb;
+    --accent-blue-bg: #eff6ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.05), 0 2px 4px rgba(0,0,0,0.04);
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: var(--shadow);
+  }
+  .header-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .logo-icon {
+    width: 36px; height: 36px;
+    background: var(--primary);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+  }
+  .logo-text h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  .logo-text span {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .header-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .last-updated {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    background: var(--surface2);
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .status-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--accent-green);
+    display: inline-block;
+    margin-right: 0.4rem;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  /* ── Layout ── */
+  .layout {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    display: grid;
+    grid-template-columns: 220px 1fr 300px;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    position: sticky;
+    top: 80px;
+  }
+  .sidebar-title {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+  }
+  .agency-nav {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.65rem 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .nav-item:last-child { border-bottom: none; }
+  .nav-item:hover { background: var(--surface2); }
+  .nav-item.active { background: var(--primary-light); color: var(--primary); }
+  .nav-icon { font-size: 1rem; flex-shrink: 0; }
+  .nav-label { font-size: 0.82rem; font-weight: 500; }
+  .nav-count {
+    margin-left: auto;
+    font-size: 0.7rem;
+    background: var(--surface2);
+    color: var(--text-muted);
+    padding: 0.15rem 0.45rem;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .nav-item.active .nav-count {
+    background: var(--primary);
+    color: #fff;
+  }
+
+  /* ── Main ── */
+  .main { min-width: 0; }
+
+  .summary-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    box-shadow: var(--shadow);
+  }
+  .stat-label {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.35rem;
+  }
+  .stat-value {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1;
+  }
+  .stat-sub {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+  }
+  .stat-card.green .stat-value { color: var(--accent-green); }
+  .stat-card.red .stat-value { color: var(--accent-red); }
+  .stat-card.blue .stat-value { color: var(--primary); }
+
+  .agency-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 1.25rem;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .agency-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface2);
+    cursor: pointer;
+  }
+  .agency-header-icon { font-size: 1.25rem; }
+  .agency-header-info { flex: 1; min-width: 0; }
+  .agency-header-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .agency-header-desc {
+    font-size: 0.73rem;
+    color: var(--text-muted);
+  }
+  .agency-badge {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+  }
+  .badge-active { background: var(--accent-green-bg); color: var(--accent-green); }
+  .badge-quiet { background: var(--surface2); color: var(--text-muted); border: 1px solid var(--border); }
+
+  .stories-list { padding: 0; }
+  .story-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    align-items: flex-start;
+    transition: background 0.15s;
+  }
+  .story-item:last-child { border-bottom: none; }
+  .story-item:hover { background: var(--surface2); }
+  .story-num {
+    width: 22px; height: 22px;
+    border-radius: 6px;
+    background: var(--primary-light);
+    color: var(--primary);
+    font-size: 0.72rem;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .story-body { flex: 1; min-width: 0; }
+  .story-headline {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.4;
+    margin-bottom: 0.3rem;
+  }
+  .story-headline a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .story-headline a:hover { color: var(--primary); text-decoration: underline; }
+  .story-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .story-source {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  .story-time {
+    font-size: 0.72rem;
+    color: var(--text-light);
+  }
+  .story-tag {
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .tag-policy { background: var(--accent-blue-bg); color: var(--accent-blue); }
+  .tag-alert { background: var(--accent-red-bg); color: var(--accent-red); }
+  .tag-update { background: var(--accent-green-bg); color: var(--accent-green); }
+  .tag-announcement { background: var(--accent-amber-bg); color: var(--accent-amber); }
+
+  .no-stories {
+    padding: 2rem;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+  .no-stories span { display: block; font-size: 1.5rem; margin-bottom: 0.5rem; }
+
+  /* ── Right Panel ── */
+  .right-panel {
+    position: sticky;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .panel-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .panel-header {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface2);
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .panel-body { padding: 1rem; }
+
+  /* Activity bar */
+  .activity-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+  .activity-row:last-child { margin-bottom: 0; }
+  .activity-icon { font-size: 0.9rem; flex-shrink: 0; }
+  .activity-label { font-size: 0.78rem; color: var(--text); flex: 1; min-width: 0; }
+  .activity-bar-wrap {
+    width: 70px;
+    height: 6px;
+    background: var(--surface2);
+    border-radius: 3px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .activity-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    background: var(--primary);
+    transition: width 0.6s ease;
+  }
+  .activity-num {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    width: 16px;
+    text-align: right;
+  }
+
+  /* Highlights */
+  .highlight-item {
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.8rem;
+    line-height: 1.45;
+    color: var(--text);
+  }
+  .highlight-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .highlight-agency {
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--primary);
+    margin-bottom: 0.2rem;
+  }
+
+  /* ── Loading state ── */
+  .loading-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(255,255,255,0.85);
+    z-index: 200;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .loading-overlay.active { display: flex; }
+  .spinner {
+    width: 40px; height: 40px;
+    border: 3px solid var(--border);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Responsive ── */
+  @media (max-width: 1100px) {
+    .layout { grid-template-columns: 200px 1fr; }
+    .right-panel { display: none; }
+  }
+  @media (max-width: 700px) {
+    .layout { grid-template-columns: 1fr; padding: 1rem; }
+    .sidebar { display: none; }
+    .summary-strip { grid-template-columns: repeat(2, 1fr); }
+    header { padding: 0 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="spinner"></div>
+  <div style="font-size:0.85rem;color:#6b7280">Loading latest news...</div>
+</div>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <div class="logo-icon">🏛️</div>
+      <div class="logo-text">
+        <h1>UK Gov Agencies Watchtower</h1>
+        <span>24-hour news monitor</span>
+      </div>
+    </div>
+    <div class="header-meta">
+      <div class="last-updated">
+        <span class="status-dot"></span>
+        Updated: <span id="lastUpdated">—</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-title">Agencies</div>
+    <nav class="agency-nav" id="agencyNav"></nav>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <div class="summary-strip">
+      <div class="stat-card blue">
+        <div class="stat-label">Total Stories</div>
+        <div class="stat-value" id="totalStories">—</div>
+        <div class="stat-sub">Last 24 hours</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Active Agencies</div>
+        <div class="stat-value" id="activeAgencies">—</div>
+        <div class="stat-sub">With new coverage</div>
+      </div>
+      <div class="stat-card red">
+        <div class="stat-label">Alerts</div>
+        <div class="stat-value" id="alertCount">—</div>
+        <div class="stat-sub">High-priority items</div>
+      </div>
+      <div class="stat-card green">
+        <div class="stat-label">Announcements</div>
+        <div class="stat-value" id="announcementCount">—</div>
+        <div class="stat-sub">Policy & updates</div>
+      </div>
+    </div>
+
+    <div id="agencySections"></div>
+  </main>
+
+  <!-- Right panel -->
+  <aside class="right-panel">
+    <div class="panel-card">
+      <div class="panel-header">📊 Activity</div>
+      <div class="panel-body" id="activityPanel"></div>
+    </div>
+    <div class="panel-card">
+      <div class="panel-header">⭐ Top Stories</div>
+      <div class="panel-body" id="highlightsPanel"></div>
+    </div>
+  </aside>
+
+</div>
+
+<script>
+async function loadData() {
+  const res = await fetch('news_data.json?t=' + Date.now());
+  return res.json();
+}
+
+function tagClass(tag) {
+  const map = { policy: 'tag-policy', alert: 'tag-alert', update: 'tag-update', announcement: 'tag-announcement' };
+  return map[tag] || 'tag-update';
+}
+
+function renderNav(agencies, counts) {
+  const nav = document.getElementById('agencyNav');
+  nav.innerHTML = agencies.map(a => `
+    <a class="nav-item" href="#agency-${a.id}" onclick="setActive(this)">
+      <span class="nav-icon">${a.icon}</span>
+      <span class="nav-label">${a.name}</span>
+      <span class="nav-count">${counts[a.id] || 0}</span>
+    </a>
+  `).join('');
+}
+
+function setActive(el) {
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  el.classList.add('active');
+}
+
+function renderSections(agencies) {
+  const container = document.getElementById('agencySections');
+  container.innerHTML = agencies.map(a => {
+    const hasStories = a.stories && a.stories.length > 0;
+    const storiesHtml = hasStories
+      ? a.stories.map((s, i) => `
+        <div class="story-item">
+          <div class="story-num">${i + 1}</div>
+          <div class="story-body">
+            <div class="story-headline">
+              ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.headline}</a>` : s.headline}
+            </div>
+            <div class="story-meta">
+              <span class="story-source">📰 ${s.source || 'News'}</span>
+              ${s.time ? `<span class="story-time">${s.time}</span>` : ''}
+              ${s.tag ? `<span class="story-tag ${tagClass(s.tag)}">${s.tag}</span>` : ''}
+            </div>
+          </div>
+        </div>
+      `).join('')
+      : `<div class="no-stories"><span>🔍</span>No stories in the last 24 hours</div>`;
+
+    return `
+      <div class="agency-section" id="agency-${a.id}">
+        <div class="agency-header">
+          <span class="agency-header-icon">${a.icon}</span>
+          <div class="agency-header-info">
+            <div class="agency-header-name">${a.fullName}</div>
+            <div class="agency-header-desc">${a.description}</div>
+          </div>
+          <span class="agency-badge ${hasStories ? 'badge-active' : 'badge-quiet'}">
+            ${hasStories ? `${a.stories.length} stories` : 'Quiet'}
+          </span>
+        </div>
+        <div class="stories-list">${storiesHtml}</div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderStats(agencies) {
+  const total = agencies.reduce((s, a) => s + (a.stories?.length || 0), 0);
+  const active = agencies.filter(a => a.stories?.length > 0).length;
+  const alerts = agencies.reduce((s, a) => s + (a.stories?.filter(st => st.tag === 'alert').length || 0), 0);
+  const announcements = agencies.reduce((s, a) => s + (a.stories?.filter(st => st.tag === 'announcement' || st.tag === 'policy').length || 0), 0);
+  document.getElementById('totalStories').textContent = total;
+  document.getElementById('activeAgencies').textContent = active;
+  document.getElementById('alertCount').textContent = alerts;
+  document.getElementById('announcementCount').textContent = announcements;
+  return { total };
+}
+
+function renderActivity(agencies, total) {
+  const panel = document.getElementById('activityPanel');
+  const sorted = [...agencies].sort((a, b) => (b.stories?.length || 0) - (a.stories?.length || 0));
+  panel.innerHTML = sorted.map(a => {
+    const count = a.stories?.length || 0;
+    const pct = total > 0 ? Math.round((count / Math.max(...sorted.map(x => x.stories?.length || 0))) * 100) : 0;
+    return `
+      <div class="activity-row">
+        <span class="activity-icon">${a.icon}</span>
+        <span class="activity-label">${a.name}</span>
+        <div class="activity-bar-wrap"><div class="activity-bar-fill" style="width:${pct}%"></div></div>
+        <span class="activity-num">${count}</span>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderHighlights(agencies) {
+  const panel = document.getElementById('highlightsPanel');
+  const all = [];
+  agencies.forEach(a => (a.stories || []).forEach(s => all.push({ ...s, agencyName: a.name, agencyIcon: a.icon })));
+  const top = all.filter(s => s.tag === 'alert').concat(all.filter(s => s.tag !== 'alert')).slice(0, 5);
+  if (!top.length) {
+    panel.innerHTML = '<div style="font-size:0.8rem;color:#9ca3af;text-align:center;padding:1rem">No stories yet</div>';
+    return;
+  }
+  panel.innerHTML = top.map(s => `
+    <div class="highlight-item">
+      <div class="highlight-agency">${s.agencyIcon} ${s.agencyName}</div>
+      ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${s.headline}</a>` : s.headline}
+    </div>
+  `).join('');
+}
+
+async function init() {
+  document.getElementById('loadingOverlay').classList.add('active');
+  try {
+    const data = await loadData();
+    document.getElementById('lastUpdated').textContent = data.lastUpdated || '—';
+    const counts = {};
+    data.agencies.forEach(a => { counts[a.id] = a.stories?.length || 0; });
+    renderNav(data.agencies, counts);
+    renderSections(data.agencies);
+    const { total } = renderStats(data.agencies);
+    renderActivity(data.agencies, total);
+    renderHighlights(data.agencies);
+    // activate first nav item
+    const first = document.querySelector('.nav-item');
+    if (first) first.classList.add('active');
+  } catch(e) {
+    console.error(e);
+  } finally {
+    document.getElementById('loadingOverlay').classList.remove('active');
+  }
+}
+
+init();
+</script>
+</body>
+</html>
