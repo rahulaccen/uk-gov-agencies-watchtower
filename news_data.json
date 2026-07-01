@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T21:19:00+10:00",
+  "lastUpdated": "2026-07-01T16:04:00+10:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -7,18 +7,11 @@
       "description": "Tax collection",
       "stories": [
         {
-          "title": "Firm Named After Russia Sanctions Breach Settlement",
-          "summary": "Petrofac Facilities Management Limited has paid HMRC a compound settlement of £569,157.07 for offences under The Russia (Sanctions) regulations, with HMRC publicly naming the firm as part of its enforcement action.",
+          "title": "Monthly Property Transactions Statistics Released",
+          "summary": "HMRC published its monthly property transaction statistics for the UK. The next release covering June 2026 data is due 31 July 2026.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/notice-to-exporters-202615-firm-named-after-russia-sanctions-breach-settlement/notice-to-exporters-202615-firm-named-after-russia-sanctions-breach-settlement",
-          "publishedAt": "2026-06-30"
-        },
-        {
-          "title": "Government Steps Up Drive to Reconnect Young People with £1.6 Billion in Unclaimed Child Trust Fund Savings",
-          "summary": "A new taskforce has been set up by the government to encourage young people to claim their Child Trust Funds, with an estimated £1.6 billion remaining unclaimed across millions of accounts.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/government-steps-up-drive-to-reconnect-young-people-with-16-billion-in-unclaimed-savings",
-          "publishedAt": "2026-06-30"
+          "url": "https://www.gov.uk/government/statistics/monthly-property-transactions-completed-in-the-uk-with-value-40000-or-above",
+          "publishedAt": "2026-07-01"
         }
       ]
     },
@@ -28,24 +21,17 @@
       "description": "Immigration, visas, policing, security",
       "stories": [
         {
-          "title": "Asylum Seekers to Pay £10,000 Towards Living Costs Under New UK Law",
-          "summary": "Home Secretary Shabana Mahmood has announced a new means-tested scheme requiring asylum seekers to repay around £10,000 for their state-funded accommodation and support once they begin earning, or risk being denied settled status.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/jun/29/asylum-seekers-pay-towards-living-costs-new-uk-law",
-          "publishedAt": "2026-06-29"
+          "title": "Asylum Seekers Will Pay Towards Costs of Accommodation",
+          "summary": "The government announced plans requiring migrants to contribute around £10,000 towards the cost of their asylum support. The measure aims to reduce the burden on the public purse.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/asylum-seekers-will-pay-towards-costs-of-accommodation",
+          "publishedAt": "2026-07-01"
         },
         {
-          "title": "Inside Shabana Mahmood's New UK Asylum Reforms",
-          "summary": "The Home Secretary set out further planned reforms to the UK asylum system, including the £10,000 repayment scheme and other structural changes aimed at reducing costs and tightening the immigration and asylum bill.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jun/30/tuesday-briefing-inside-shabana-mahmoods-new-uk-asylum-reforms",
-          "publishedAt": "2026-06-30"
-        },
-        {
-          "title": "Residents 'Shocked' at MoD Bicester Asylum Seeker Plan",
-          "summary": "Residents living near a site proposed to house more than 1,000 asylum seekers at MoD Bicester say they are shocked by the Home Office announcement, raising concerns about safety and lack of community consultation.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ce8mg6r9186o",
+          "title": "New UK-France Deal on Small Boat Crossings Signed",
+          "summary": "The Home Secretary signed a landmark deal with France to boost enforcement action on beaches and put people smugglers behind bars, strengthening bilateral cooperation on illegal Channel crossings.",
+          "source": "Home Office Media Blog",
+          "url": "https://homeofficemedia.blog.gov.uk/2026/06/30/latest-statement-in-response-to-small-boat-crossings/",
           "publishedAt": "2026-06-30"
         }
       ]
@@ -53,97 +39,90 @@
     {
       "id": "fcdo",
       "name": "FCDO",
-      "description": "Foreign, Commonwealth & Development Office",
+      "description": "Diplomacy, international relations",
       "stories": [
         {
-          "title": "New UK Envoy to Champion LGBT+ Rights Globally",
-          "summary": "The UK government has appointed Lord Collins as a new special envoy to champion LGBT+ rights globally, with a mandate to strengthen international partnerships to tackle discrimination, violence and persecution.",
+          "title": "New UK Ambassador to Turkey Appointed",
+          "summary": "Jennifer Elizabeth Anderson CMG has been appointed His Majesty's Ambassador to the Republic of Turkey, succeeding Jill Morris CMG.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/new-uk-envoy-to-champion-lgbt-rights-globally",
-          "publishedAt": "2026-06-30"
-        },
-        {
-          "title": "FCDO Updates Venezuela Travel Advice",
-          "summary": "The Foreign, Commonwealth & Development Office has updated its travel advice for Venezuela, advising against all travel to parts of the country due to ongoing safety and security risks.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/foreign-travel-advice/venezuela",
-          "publishedAt": "2026-06-30"
+          "url": "https://www.gov.uk/government/news/change-of-ambassador-to-turkey-jennifer-anderson",
+          "publishedAt": "2026-07-01"
         }
       ]
     },
     {
       "id": "dwp",
       "name": "DWP",
-      "description": "Department for Work and Pensions",
+      "description": "Benefits, pensions",
       "stories": [
         {
-          "title": "Youth Jobs Grant Guidance Published",
-          "summary": "The Department for Work and Pensions published new guidance for employers on applying for grant funding to deliver the Youth Jobs Grant, aimed at supporting young people into employment.",
+          "title": "Youth Jobs Grant Launches Across Great Britain",
+          "summary": "The Youth Jobs Grant launched on 30 June 2026, offering a £3,000 grant to eligible employers who hire young people. Applications are open via the Find a Grant service.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/government/publications/youth-jobs-grant",
           "publishedAt": "2026-06-30"
         },
         {
-          "title": "Child Maintenance Service Statistics: Data to March 2026",
-          "summary": "DWP released the latest Child Maintenance Service statistics showing a 5 percentage point increase in paying parents making some maintenance payments between the quarters ending March 2025 and September 2025.",
+          "title": "DWP Complaints Statistics to March 2026 Published",
+          "summary": "Official statistics covering DWP complaints received, closed, and upheld up to 31 March 2026 have been released, broken down by business area.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/statistics/child-maintenance-service-statistics-data-to-march-2026/child-maintenance-service-statistics-data-to-march-2026",
-          "publishedAt": "2026-06-30"
+          "url": "https://www.gov.uk/government/statistics/dwp-complaints-statistics-to-march-2026",
+          "publishedAt": "2026-07-01"
         }
       ]
     },
     {
       "id": "defra",
       "name": "DEFRA",
-      "description": "Department for Environment, Food & Rural Affairs",
+      "description": "Environment, food, rural affairs",
       "stories": [
         {
-          "title": "Industrial Emissions and Waste Transfer Data Published",
-          "summary": "DEFRA published the latest annual datasets for industrial emissions and waste transfer (UK PRTR data), providing updated environmental reporting figures for public access.",
+          "title": "Agriculture and Water Environment 2026 Report Published",
+          "summary": "DEFRA's 2026 report reveals 48% of non-permitted farms inspected between April 2021 and March 2026 were non-compliant with at least one environmental regulation, out of 19,018 inspections.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/download-industrial-emissions-and-waste-transfer-uk-prtr-data",
-          "publishedAt": "2026-06-30"
+          "url": "https://www.gov.uk/government/publications/agriculture-and-the-water-environment-2026-report/agriculture-and-the-water-environment-2026-report",
+          "publishedAt": "2026-07-01"
         },
         {
-          "title": "Rolls-Royce PLC Environmental Permitting Direction Issued",
-          "summary": "DEFRA issued an exercise of functions direction to Rolls-Royce PLC under the Environmental Permitting (England and Wales) Regulations, setting out regulatory requirements for the company.",
+          "title": "£225m Capital Grants for Farmers and Land Managers",
+          "summary": "The Rural Payments Agency confirmed £225 million will be invested through Capital Grants this year to help farmers carry out environmental improvements across England.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/rolls-royce-plc-exercise-of-functions-direction",
-          "publishedAt": "2026-06-29"
+          "url": "https://www.gov.uk/government/organisations/rural-payments-agency",
+          "publishedAt": "2026-07-01"
         },
         {
-          "title": "Introducing Sustainability into Service Assessments",
-          "summary": "DEFRA Digital published learnings from introducing sustainability criteria into service assessments, as part of its 'Delivery Groups' initiative coordinating services around areas such as farming and circular economy.",
-          "source": "DEFRA Digital Blog",
-          "url": "https://defradigital.blog.gov.uk/2026/06/29/services-week-what-we-are-learning-about-introducing-sustainability-into-service-assessments/",
-          "publishedAt": "2026-06-29"
+          "title": "Sustainable Farming Incentive 2026 (SFI26) Guidance Published",
+          "summary": "New guidance released for farmers and land managers to prepare to apply for the Sustainable Farming Incentive 2026, which pays for sustainable land management activities that protect the environment.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/sustainable-farming-incentive-2026-sfi26/get-ready-to-apply-for-sfi26",
+          "publishedAt": "2026-07-01"
         }
       ]
     },
     {
       "id": "mod",
-      "name": "Ministry of Defence",
-      "description": "Defence and armed forces",
+      "name": "MoD",
+      "description": "Ministry of Defence",
       "stories": [
         {
-          "title": "Starmer Unveils 'Hybrid Navy' and £5bn for Drones in Long-Delayed Defence Plan",
-          "summary": "Prime Minister Sir Keir Starmer set out a long-delayed defence investment plan committing billions of pounds to the armed forces, including transforming the Royal Navy into a 'Hybrid Navy' combining autonomous vessels and AI with traditional warships, and a £5bn investment in drones.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwy0rw5dx1ko",
+          "title": "Defence Investment Plan: £298bn Over Four Years Announced",
+          "summary": "The government unveiled the Defence Investment Plan, backed by £298bn of investment over four years, raising annual defence spending from £54bn to nearly £80bn by 2029. It includes £3bn for space and £2.5bn for cyber capabilities.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/the-defence-investment-plan",
           "publishedAt": "2026-06-30"
         },
         {
-          "title": "Army Recruitment Fell by 40% in 2025, MoD Confirms",
-          "summary": "The Ministry of Defence confirmed that the number of people applying to enlist in the regular army fell by around 40% in 2025, raising concerns about the future size and readiness of UK armed forces.",
+          "title": "Red Arrows to Get New Jets as Part of £15bn Military Spending Boost",
+          "summary": "The RAF Red Arrows will receive new jets replacing their ageing Hawk aircraft as part of the £15bn increase in military spending announced in the Defence Investment Plan.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cn94e1l8wp2o",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "title": "Defence Secretary on 'Difficult but Necessary' Choices",
+          "summary": "Defence Secretary Dan Jarvis said the government made 'difficult but necessary' choices to fund the armed forces, with defence expenditure set to reach £80bn a year by 2029.",
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/live/c3ry1zpyz0et",
-          "publishedAt": "2026-06-30"
-        },
-        {
-          "title": "Navy Plans Reflect Sea Change in How Wars Are Fought",
-          "summary": "BBC Security Correspondent Frank Gardner analyses the new defence investment plan, noting it reflects rapid and fundamental changes in drone warfare and the evolving nature of modern conflict.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cz9lv0xkz42o",
           "publishedAt": "2026-06-30"
         }
       ]
@@ -154,11 +133,18 @@
       "description": "Department for Business and Trade",
       "stories": [
         {
-          "title": "UK's New Steel Trade Measure Takes Effect from 1 July 2026",
-          "summary": "From 1 July 2026, the government is limiting tariff-free steel imports, reducing overall quota volumes by 51% compared with the previous steel safeguard measure, following an announcement on 19 March 2026.",
+          "title": "New UK Steel Trade Measure Takes Effect from 1 July 2026",
+          "summary": "From today, the government is limiting tariff-free steel imports, reducing overall quota volumes by 51% compared with the previous steel safeguard measure. The policy was announced on 19 March 2026.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/government/publications/uks-steel-trade-measure-from-1-july-2026/uks-steel-trade-measure-from-1-july-2026",
-          "publishedAt": "2026-06-30"
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "Review of Post Office Unevidenced Shortfalls Process Published",
+          "summary": "An independent senior lawyers' review of the unevidenced shortfalls process under the Post Office Horizon compensation scheme has been published. The scheme, funded by DBT, closed for new applications on 31 January 2026.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/independent-senior-lawyers-review-of-unevidenced-shortfalls-process/review-of-unevidenced-shortfalls-process-accessible-version",
+          "publishedAt": "2026-07-01"
         }
       ]
     },
@@ -168,11 +154,11 @@
       "description": "Department for Science, Innovation and Technology",
       "stories": [
         {
-          "title": "DSIT Publishes Equality Objectives for 2026 to 2030",
-          "summary": "The Department for Science, Innovation and Technology published its equality, diversity and inclusion objectives for 2026–2030, focusing on tackling digital exclusion, empowering people to thrive, and designing user-centred services.",
+          "title": "UK-Germany Joint Statement on Advanced AI Safety and Security",
+          "summary": "The UK and Germany issued a joint statement committing to collaborate on ensuring advanced AI is developed safely, with risks rigorously understood and managed.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/dsits-equalities-objectives-2026-to-2030/dsits-equality-objectives-from-2026-to-2030",
-          "publishedAt": "2026-06-30"
+          "url": "https://www.gov.uk/government/publications/uk-germany-joint-statement-on-advanced-ai-safety-and-security",
+          "publishedAt": "2026-07-01"
         }
       ]
     },
@@ -182,15 +168,22 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "England to Get Powerful Maternity Commissioner After 'Shocking Failings'",
-          "summary": "The Health Secretary has announced a new independent maternity commissioner for England following the Amos Review, which found childbirth and neonatal care to be in urgent need of reform after shocking failings across NHS trusts.",
+          "title": "Damning Amos Review into Maternity and Neonatal Care Published",
+          "summary": "The Amos review confirmed patients received unacceptable care in England's maternity and neonatal services, resulting in stillbirths, serious injuries, and maternal deaths. It calls for sweeping improvements.",
           "source": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/jun/30/england-maternity-commissioner-shocking-failings-amos-review",
+          "url": "https://www.theguardian.com/society/2026/jun/30/valerie-amos-report-maternity-neonatal-care-england",
           "publishedAt": "2026-06-30"
         },
         {
-          "title": "Resident Doctors in England Accept Government Offer on Pay and Jobs",
-          "summary": "Resident doctors (formerly known as junior doctors) in England have accepted a government offer on pay and job conditions, marking a significant resolution to an ongoing dispute that had impacted NHS services.",
+          "title": "NHS Issues New PMOS Guidance for Women with Irregular Periods",
+          "summary": "NICE issued guidance recommending that women with irregular periods should be checked for polyendocrine metabolic ovarian syndrome (PMOS), a condition described as underdiagnosed and inconsistently managed.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/society/2026/jul/01/women-with-irregular-periods-should-be-checked-for-pmos-nhs-says",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "Resident Doctors in England Accept Government Offer",
+          "summary": "Resident doctors in England accepted a government pay and conditions offer, resolving a long-running dispute that had led to repeated strike action across the NHS.",
           "source": "The Guardian",
           "url": "https://www.theguardian.com/society/nhs",
           "publishedAt": "2026-06-29"
@@ -201,7 +194,15 @@
       "id": "royal-mail",
       "name": "Royal Mail / Post Office",
       "description": "Postal services",
-      "stories": []
+      "stories": [
+        {
+          "title": "Fairfax Avenue Post Office in Hull to Close",
+          "summary": "The Fairfax Avenue Post Office in Hull is set to close, described as a 'big loss' by local residents including those with mobility issues. Local MP Dame Diana Johnson has raised concerns about the impact on the community.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c20yz24297go",
+          "publishedAt": "2026-07-01"
+        }
+      ]
     }
   ]
 }
