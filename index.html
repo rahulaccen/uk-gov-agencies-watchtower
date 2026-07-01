@@ -505,6 +505,16 @@
 </div>
 
 <script>
+const AGENCY_ICONS = {
+  'hmrc': '💷', 'home-office': '🏠', 'fcdo': '🌍', 'dwp': '👷',
+  'defra': '🌿', 'mod': '🛡️', 'dbt': '📦', 'dsit': '🔬',
+  'nhs': '🏥', 'royal-mail': '📮'
+};
+
+function agencyIcon(a) {
+  return AGENCY_ICONS[a.id] || '🏛️';
+}
+
 async function loadData() {
   const res = await fetch('news_data.json?t=' + Date.now());
   return res.json();
@@ -519,7 +529,7 @@ function renderNav(agencies, counts) {
   const nav = document.getElementById('agencyNav');
   nav.innerHTML = agencies.map(a => `
     <a class="nav-item" href="#agency-${a.id}" onclick="setActive(this)">
-      <span class="nav-icon">${a.icon}</span>
+      <span class="nav-icon">${agencyIcon(a)}</span>
       <span class="nav-label">${a.name}</span>
       <span class="nav-count">${counts[a.id] || 0}</span>
     </a>
@@ -541,7 +551,7 @@ function renderSections(agencies) {
           <div class="story-num">${i + 1}</div>
           <div class="story-body">
             <div class="story-headline">
-              ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.headline}</a>` : s.headline}
+              ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.title || s.headline}</a>` : (s.title || s.headline)}
             </div>
             <div class="story-meta">
               <span class="story-source">📰 ${s.source || 'News'}</span>
@@ -556,9 +566,9 @@ function renderSections(agencies) {
     return `
       <div class="agency-section" id="agency-${a.id}">
         <div class="agency-header">
-          <span class="agency-header-icon">${a.icon}</span>
+          <span class="agency-header-icon">${agencyIcon(a)}</span>
           <div class="agency-header-info">
-            <div class="agency-header-name">${a.fullName}</div>
+            <div class="agency-header-name">${a.fullName || a.name}</div>
             <div class="agency-header-desc">${a.description}</div>
           </div>
           <span class="agency-badge ${hasStories ? 'badge-active' : 'badge-quiet'}">
@@ -603,7 +613,7 @@ function renderActivity(agencies, total) {
 function renderHighlights(agencies) {
   const panel = document.getElementById('highlightsPanel');
   const all = [];
-  agencies.forEach(a => (a.stories || []).forEach(s => all.push({ ...s, agencyName: a.name, agencyIcon: a.icon })));
+  agencies.forEach(a => (a.stories || []).forEach(s => all.push({ ...s, agencyName: a.name, agencyIcon: agencyIcon(a) })));
   const top = all.filter(s => s.tag === 'alert').concat(all.filter(s => s.tag !== 'alert')).slice(0, 5);
   if (!top.length) {
     panel.innerHTML = '<div style="font-size:0.8rem;color:#9ca3af;text-align:center;padding:1rem">No stories yet</div>';
@@ -612,7 +622,7 @@ function renderHighlights(agencies) {
   panel.innerHTML = top.map(s => `
     <div class="highlight-item">
       <div class="highlight-agency">${s.agencyIcon} ${s.agencyName}</div>
-      ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${s.headline}</a>` : s.headline}
+      ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${s.title || s.headline}</a>` : (s.title || s.headline)}
     </div>
   `).join('');
 }
