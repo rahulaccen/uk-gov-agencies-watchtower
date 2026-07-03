@@ -1,11 +1,26 @@
 {
-  "lastUpdated": "2026-07-02T16:05:00+10:00",
+  "lastUpdated": "2026-07-03T06:04:00+10:00",
   "agencies": [
     {
       "id": "hmrc",
       "name": "HMRC",
       "description": "Tax collection",
-      "stories": []
+      "stories": [
+        {
+          "title": "5.6 million taxpayers check their pay in the HMRC app an average of 18 times a year",
+          "summary": "HMRC reports that 5.6 million taxpayers use the HMRC app regularly, averaging 18 checks per year. The announcement accompanies the publication of the HMRC Transformation Roadmap update.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/56-million-taxpayers-check-their-pay-in-the-hmrc-app-an-average-of-18-times-a-year",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "HMRC Transformation Roadmap: update 2026",
+          "summary": "HMRC published its 2026 Transformation Roadmap update, highlighting that over 7.6 million people used the HMRC app in 2025/26 (up from 5.9 million the year before) and £818.8 million in Self Assessment payments were made digitally. Plans include 4,000+ GOV.UK guidance updates and expanded fraud detection.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/hmrc-transformation-roadmap-progress-update-2026/hmrc-transformation-roadmap-update-2026",
+          "publishedAt": "2026-07-02"
+        }
+      ]
     },
     {
       "id": "home-office",
@@ -13,17 +28,24 @@
       "description": "Immigration, visas, policing, security",
       "stories": [
         {
-          "title": "New-build homes should not house migrants, says Home Office",
-          "summary": "The Home Office stated that new-build homes 'should never house asylum seekers' after reports emerged that up to 83 migrants would be placed at a new development.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/clyx0p2z9w3o",
+          "title": "No 10 shares 'public's shock' at reports of convicted people smuggler living in UK",
+          "summary": "Downing Street is urgently investigating a BBC report that the 'godfather' of Calais people smuggling networks — a convicted people smuggler — is living in the UK and has not been deported. The Home Office faces pressure to explain the situation.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/jul/02/convicted-people-smuggler-uk-should-deported-tories",
           "publishedAt": "2026-07-02"
         },
         {
-          "title": "More than 300 arrests in organised immigration crime crackdown",
-          "summary": "A total of 362 arrests were made as part of a major crackdown on organised immigration crime, following the launch of a new £30m High Street organised crime unit announced in May.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cgev8ey9wrwo",
+          "title": "Police recorded knife-enabled robbery offences, year ending June 2026",
+          "summary": "The Home Office announced forthcoming management information on knife-enabled robberies recorded by police for the year ending June 2026, continuing its series of crime statistics publications.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/statistics/announcements/police-recorded-knife-enabled-robbery-offences-year-ending-june-2026",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "Police use of firearms statistics, England and Wales: April 2025 to March 2026",
+          "summary": "The Home Office released its annual firearms statistics for English and Welsh police forces, covering the full 2025/26 financial year with pre-release access now published.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/statistics/police-use-of-firearms-statistics-april-2025-to-march-2026/pre-release-access-list-for-police-use-of-firearms-statistics-england-and-wales-april-2025-to-march-2026",
           "publishedAt": "2026-07-02"
         }
       ]
@@ -34,24 +56,24 @@
       "description": "Foreign, Commonwealth & Development Office",
       "stories": [
         {
-          "title": "Venezuela earthquakes: what you can do to help",
-          "summary": "The FCDO published guidance on how members of the public can support people affected by the earthquakes in Venezuela.",
+          "title": "UK steps up support for Venezuela following devastating earthquakes",
+          "summary": "The UK is scaling up its humanitarian response to Venezuela following devastating earthquakes on 24 June, mobilising an additional £3.8 million in emergency aid. This brings total UK support to a significant level as the FCDO coordinates the international response.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/venezuela-earthquakes-what-you-can-do-to-help",
-          "publishedAt": "2026-07-01"
+          "url": "https://www.gov.uk/government/news/uk-steps-up-support-for-venezuela-following-devastating-earthquakes",
+          "publishedAt": "2026-07-02"
         },
         {
-          "title": "Nigeria travel advice updated: FCDO advises against travel to Kwara and Benue States",
-          "summary": "The FCDO updated its Nigeria travel advice, now advising against all but essential travel to Kwara State and Benue State due to security concerns.",
+          "title": "FCDO updates Nigeria travel advice: new warnings for Kwara and Benue States",
+          "summary": "The FCDO has updated its Nigeria travel advice, now advising against all but essential travel to Kwara State and Benue State in addition to existing advisories. Travellers are urged to review the latest guidance before visiting.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/foreign-travel-advice/nigeria",
           "publishedAt": "2026-07-02"
         },
         {
-          "title": "English-language training programme – Central Asia: invitation to tender",
-          "summary": "The FCDO invited proposals by 17 July 2026 to provide an English-language training programme across Kazakhstan, Kyrgyzstan and Tajikistan.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/english-language-training-programme-central-asia-invitation-to-tender",
+          "title": "UK-Mauritius Chagos Treaty: Pen for Rights seeks clarification from UK Foreign Secretary",
+          "summary": "Civil society group Pen for Rights has written to the UK Foreign Secretary seeking clarification on the diplomatic process behind the proposed UK-Mauritius Folhlhavai (Chagos) Treaty, raising questions about transparency and consultation.",
+          "source": "Maldivians for Chagos",
+          "url": "https://maldivians4chagos.com/pen-for-rights-seeks-clarification-from-uk-foreign-secretary-on-the-diplomatic-process-behind-the-proposed-uk-mauritius-folhlhavai-chagos-treaty/",
           "publishedAt": "2026-07-02"
         }
       ]
@@ -62,10 +84,17 @@
       "description": "Department for Work and Pensions",
       "stories": [
         {
-          "title": "Brighton's first Youth Guarantee Jobs Fair sees hundreds of young people connect with local employers",
-          "summary": "Over 650 young people attended Brighton's first ever Youth Guarantee Jobs Fair at the Brighton Centre, part of the government's nationwide Youth Guarantee initiative.",
+          "title": "Get Britain Working: an update on the Jobs and Careers Service",
+          "summary": "DWP published an update on the new Jobs and Careers Service, outlining how specialised Jobcentre Plus support will focus on groups facing specific barriers to work, including disabled people and long-term sick individuals.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/brightons-first-youth-guarantee-jobs-fair-sees-hundreds-of-young-people-connect-with-local-employers",
+          "url": "https://www.gov.uk/government/publications/get-britain-working-an-update-on-the-jobs-and-careers-service/get-britain-working-an-update-on-the-jobs-and-careers-service",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "Keep Britain Working review update: June 2026",
+          "summary": "DWP released the June 2026 update on implementing the independent Keep Britain Working review, which examines employers' role in tackling health-based economic inactivity. The update addresses the urgent crisis of people leaving the workforce due to ill-health.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-june-2026",
           "publishedAt": "2026-07-02"
         }
       ]
@@ -76,25 +105,18 @@
       "description": "Department for Environment, Food & Rural Affairs",
       "stories": [
         {
-          "title": "How SFI is helping a small farm improve profitability and resilience",
-          "summary": "DEFRA's Farming Blog shared a case study on how the Sustainable Farming Incentive (SFI) scheme is helping smaller farms improve their financial resilience and sustainability.",
-          "source": "DEFRA Farming Blog",
-          "url": "https://defrafarming.blog.gov.uk/2026/07/01/how-sfi-is-helping-a-small-farm-improve-profitability-and-resilience/",
-          "publishedAt": "2026-07-01"
-        },
-        {
-          "title": "PM2.5 air quality targets updated",
-          "summary": "DEFRA published updated official statistics on PM2.5 air quality targets (PERT and AMCT), tracking progress against environmental targets.",
+          "title": "Almost 20,000 new homes unlocked after breakthrough by Government Water Delivery Taskforce",
+          "summary": "DEFRA and Housing Minister Emma Reynolds announced that over 18,000 new homes have been unlocked following a breakthrough by the Government's Water Delivery Taskforce, resolving water infrastructure constraints that had blocked major housing developments.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/statistics/air-quality-statistics/pm25-targets-pert-and-amct",
-          "publishedAt": "2026-06-30"
+          "url": "https://www.gov.uk/government/news/almost-20000-new-homes-unlocked-after-breakthrough-by-government-water-delivery-taskforce",
+          "publishedAt": "2026-07-02"
         },
         {
-          "title": "South West of England highest risk for tick bites and Lyme disease",
-          "summary": "A BBC report citing DEFRA data found the South West has the highest rate of laboratory-confirmed Lyme disease cases in England, with 281 recorded in 2025.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ce8kwpwxr92o",
-          "publishedAt": "2026-07-02"
+          "title": "Annual UK air pollutant concentration data published",
+          "summary": "DEFRA published its annual update of data on concentrations of major air pollutants across the UK, providing the latest environmental monitoring figures for public and policy use.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/statistical-data-sets",
+          "publishedAt": "2026-06-30"
         }
       ]
     },
@@ -104,24 +126,24 @@
       "description": "Ministry of Defence",
       "stories": [
         {
-          "title": "HSE authorises Crown Censure of MoD over fatal Challenger 2 tank explosion",
-          "summary": "The Health and Safety Executive authorised a Crown Censure of the Ministry of Defence and a prosecution of a defence contractor following the deaths of Corporal Darren Neilson and Corporal Matthew Hatfield when an L30 gun exploded on a Challenger 2 tank at Castlemartin Range in Pembrokeshire.",
-          "source": "HSE Press Office",
-          "url": "https://press.hse.gov.uk/2026/07/01/hse-authorises-crown-censure-of-mod-and-prosecution-of-defence-contractor-over-fatal-tank-explosion/",
-          "publishedAt": "2026-07-01"
-        },
-        {
-          "title": "Badenoch accuses Starmer of leaving defence spending gap",
-          "summary": "Conservative leader Kemi Badenoch criticised the government over what she called a missing £5bn in the defence investment plan.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cy9rgg9ddw2o",
+          "title": "Kent opens first VALOUR-recognised centre in new UK-wide veteran support system",
+          "summary": "Thousands of veterans in Kent can now access increased support following the opening of a new VALOUR-recognised support centre in Aylesford on 2 July. The centre is part of a new UK-wide framework for veteran welfare.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/kent-opens-first-valour-recognised-centre-in-new-uk-wide-veteran-support-system",
           "publishedAt": "2026-07-02"
         },
         {
-          "title": "Windsor horse show death investigation could take months",
-          "summary": "An investigation into the death of Lance Bombardier Ciara Sullivan, 24, who fell from her horse at the 15 May Windsor Castle show, is expected to take several months to conclude.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckg8l8d8z02o",
+          "title": "UK armed forces mental health 2025/26: annual report published",
+          "summary": "The MoD's annual mental health report for UK armed forces shows that 11.8% of personnel were seen by military healthcare services for a mental health-related reason in 2025/26 — a statistically significant rate, underscoring ongoing investment in mental health support.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/statistics/uk-armed-forces-mental-health-annual-statistics-financial-year-202526/uk-armed-forces-mental-health-202526-annual-report",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "War Pensions Scheme Statistics: 2026",
+          "summary": "The Ministry of Defence published its 2026 War Pensions Scheme statistics, covering recipients of war pensions, new claims, awards, and appeals under the scheme.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/statistics/war-pensions-scheme-statistics-2026",
           "publishedAt": "2026-07-02"
         }
       ]
@@ -132,17 +154,10 @@
       "description": "Department for Business and Trade",
       "stories": [
         {
-          "title": "UK's new steel trade measure takes effect from 1 July 2026",
-          "summary": "From 1 July 2026, the government began limiting tariff-free steel imports, reducing overall quota volumes by 51% compared to the previous steel safeguard measure, following an announcement in March 2026.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/uks-steel-trade-measure-from-1-july-2026/uks-steel-trade-measure-from-1-july-2026",
-          "publishedAt": "2026-07-01"
-        },
-        {
-          "title": "Critical Minerals Programme: Magnet Hub — up to £20m available",
-          "summary": "The Department for Business and Trade announced it will provide up to £20 million to fund a dedicated Magnet Hub as part of the Critical Minerals Programme, aimed at strengthening UK supply chain resilience.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/critical-minerals-programme-magnet-hub",
+          "title": "Trump warns UK against deepening business ties with China",
+          "summary": "President Trump warned that it is 'very dangerous' for the UK to deepen business ties with China, just as Prime Minister Keir Starmer completed talks with Chinese counterparts. The statement puts DBT's trade strategy in the international spotlight.",
+          "source": "UK Business and Trade (Instagram/media reports)",
+          "url": "https://www.instagram.com/reel/DaTB_m3iMdN/",
           "publishedAt": "2026-07-02"
         }
       ]
@@ -153,17 +168,17 @@
       "description": "Department for Science, Innovation and Technology",
       "stories": [
         {
-          "title": "Women in Research Charter published",
-          "summary": "DSIT published the Women in Research Charter, complementing the Women in Tech Taskforce's work to ensure more talented women can enter, stay in, and lead the UK's science and technology sectors.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/women-in-research-charter/women-in-research-charter",
+          "title": "Responsible AI Through Cloud Technology: first joint government-academia event held",
+          "summary": "DSIT hosted the first joint Cloud, FinOps, and AI community event bringing together professionals from across government and academia to discuss responsible AI implementation in cloud technology environments.",
+          "source": "GOV.UK Technology Blog",
+          "url": "https://technology.blog.gov.uk/2026/07/02/connecting-government-and-academia-responsible-ai-through-cloud-technology-event/",
           "publishedAt": "2026-07-02"
         },
         {
-          "title": "Engineering biology for critical minerals — policy briefing",
-          "summary": "DSIT published a policy briefing on using biology-based approaches to recover critical minerals from secondary resources, highlighting opportunities to improve UK supply chain resilience.",
+          "title": "Women in Research Charter published",
+          "summary": "DSIT published the Women in Research Charter, a voluntary commitment designed to improve outcomes for women across the UK research system, addressing gender imbalances in academia and R&D.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/engineering-biology-for-critical-minerals/engineering-biology-for-critical-minerals",
+          "url": "https://www.gov.uk/government/publications/women-in-research-charter/women-in-research-charter",
           "publishedAt": "2026-07-02"
         }
       ]
@@ -174,17 +189,24 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "Thousands more vulnerable adults to be offered RSV vaccine",
-          "summary": "NHS England announced that thousands more vulnerable adults will be offered the RSV vaccine to prevent serious lung infections, as part of expanded winter vaccination planning from 1 July 2026.",
-          "source": "NHS England",
-          "url": "https://www.england.nhs.uk/",
-          "publishedAt": "2026-07-01"
+          "title": "NHS maternity review published: new standards and commissioner proposed",
+          "summary": "A major NHS maternity review has been published, proposing new transparency standards, a new maternity commissioner, and greater accountability. The Guardian noted debate over whether the review goes far enough following high-profile maternity scandals.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/society/nhs",
+          "publishedAt": "2026-06-29"
         },
         {
-          "title": "NHS to take over troubled mental health hospital",
-          "summary": "An NHS trust will take over the care of hundreds of patients from a private mental health provider that is under investigation by police and the Charity Commission.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c78yxqp5ylpo",
+          "title": "NHS England orders trust boards to enforce joint maternity accountability",
+          "summary": "The CEO of NHS England has ordered trust boards to enforce joint accountability for maternity services between medical directors and chief nursing officers, following ongoing scrutiny of maternity care standards across English NHS trusts.",
+          "source": "Health Service Journal / NHS",
+          "url": "https://www.library.wmuh.nhs.uk/wp/other-updates/health-management/latest-news-fromhealth-service-journal/",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "Former NHS assistant found guilty of £279k fraud",
+          "summary": "An NHS Counter Fraud Authority investigation led to the conviction of a former NHS employee who caused a £279,000 loss to Worcestershire NHS by stealing and misusing funds. The case highlights ongoing anti-fraud efforts within the NHS.",
+          "source": "NHS Counter Fraud Authority",
+          "url": "https://cfa.nhs.uk/about-nhscfa/latest-news/former-NHS-assistant-found-guilty",
           "publishedAt": "2026-07-02"
         }
       ]
@@ -195,10 +217,17 @@
       "description": "Postal services",
       "stories": [
         {
-          "title": "Urgent Question in Parliament over Royal Mail's failure to meet universal service obligation",
-          "summary": "MPs raised an urgent question in the House of Commons regarding Royal Mail's failure to meet its universal service obligation, reflecting ongoing concerns about delivery standards across the UK.",
-          "source": "BBC / Parliament",
-          "url": "https://www.bbc.co.uk/iplayer/episode/m002ylyb/house-of-commons-science-innovation-and-technology-questions",
+          "title": "Royal Mail confirms major changes to UK letter delivery targets",
+          "summary": "Royal Mail has confirmed significant changes to its delivery service: first-class next-day delivery targets drop from 93% to 90%, and second-class delivery standards are also revised. The changes represent the most significant restructuring of Royal Mail's service targets in years.",
+          "source": "Multiple UK regional outlets",
+          "url": "https://www.rhyljournal.co.uk/news/26248164.royal-mail-major-uk-wide-change-letter-delivery-system/",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "Post Office Horizon quashed convictions update: 2 July 2026",
+          "summary": "The Government published the latest management information on progress in quashing convictions under the Post Office Horizon System Offences Act 2024, updating figures on how many wrongful convictions in England and Wales have been overturned.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/post-office-horizon-system-offences-act-2024-quashed-convictions-management-information/quashed-convictions-management-information-2-july-2026",
           "publishedAt": "2026-07-02"
         }
       ]
