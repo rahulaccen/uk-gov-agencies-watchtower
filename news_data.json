@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T06:04:00+10:00",
+  "lastUpdated": "2026-07-04T07:05:00+01:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -7,18 +7,25 @@
       "description": "Tax collection",
       "stories": [
         {
-          "title": "5.6 million taxpayers check their pay in the HMRC app an average of 18 times a year",
-          "summary": "HMRC reports that 5.6 million taxpayers use the HMRC app regularly, averaging 18 checks per year. The announcement accompanies the publication of the HMRC Transformation Roadmap update.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/56-million-taxpayers-check-their-pay-in-the-hmrc-app-an-average-of-18-times-a-year",
+          "title": "HMRC Stakeholder Digest: 2 July 2026",
+          "summary": "HMRC published its latest stakeholder digest including a call for evidence on the design, operation and future direction of voluntary National Insurance Contributions (NICs). The digest also covers key Corporation Tax updates.",
+          "source": "LexisNexis / Tolley Tax News",
+          "url": "https://www.lexisnexis.co.uk/tolley/tax/news/hmrc-stakeholder-digest-2-july-2026",
           "publishedAt": "2026-07-02"
         },
         {
-          "title": "HMRC Transformation Roadmap: update 2026",
-          "summary": "HMRC published its 2026 Transformation Roadmap update, highlighting that over 7.6 million people used the HMRC app in 2025/26 (up from 5.9 million the year before) and £818.8 million in Self Assessment payments were made digitally. Plans include 4,000+ GOV.UK guidance updates and expanded fraud detection.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/hmrc-transformation-roadmap-progress-update-2026/hmrc-transformation-roadmap-update-2026",
-          "publishedAt": "2026-07-02"
+          "title": "Nantwich Man First to Be Fined for Sending Art to Russia",
+          "summary": "Jonathan Hornby from Nantwich, Cheshire, became the first person fined by HMRC for attempting to send artwork to Russia in breach of UK sanctions, receiving a total fine of £30,085. The case marks an enforcement milestone for HMRC's sanctions compliance work.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cx263828pv3o",
+          "publishedAt": "2026-07-04"
+        },
+        {
+          "title": "Business Tax Briefing – 3 July 2026: Electricity Generator Levy Rate Rise",
+          "summary": "The Electricity Generator Levy (EGL) rate has been increased from 45% to 55% with effect from 1 July 2026, as covered in Deloitte's latest Business Tax Briefing. This affects generators of electricity from low-carbon and renewable sources.",
+          "source": "Deloitte TaxScape",
+          "url": "https://taxscape.deloitte.com/updates/business-tax-briefing/business-tax-briefing---3-july-2026.aspx",
+          "publishedAt": "2026-07-03"
         }
       ]
     },
@@ -28,95 +35,88 @@
       "description": "Immigration, visas, policing, security",
       "stories": [
         {
-          "title": "No 10 shares 'public's shock' at reports of convicted people smuggler living in UK",
-          "summary": "Downing Street is urgently investigating a BBC report that the 'godfather' of Calais people smuggling networks — a convicted people smuggler — is living in the UK and has not been deported. The Home Office faces pressure to explain the situation.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/jul/02/convicted-people-smuggler-uk-should-deported-tories",
-          "publishedAt": "2026-07-02"
+          "title": "Government Response to Phase 1 of the Southport Inquiry Published",
+          "summary": "The Home Office has published the government's formal response to Phase 1 of the Southport Inquiry, announcing work with policing to develop a new model as outlined in the 'From local to national' White Paper. The response also covers recommendations relating to online safety legislation.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/southport-inquiry-phase-1-government-response/government-response-to-phase-1-of-the-southport-inquiry",
+          "publishedAt": "2026-07-04"
         },
         {
-          "title": "Police recorded knife-enabled robbery offences, year ending June 2026",
-          "summary": "The Home Office announced forthcoming management information on knife-enabled robberies recorded by police for the year ending June 2026, continuing its series of crime statistics publications.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/statistics/announcements/police-recorded-knife-enabled-robbery-offences-year-ending-june-2026",
-          "publishedAt": "2026-07-02"
-        },
-        {
-          "title": "Police use of firearms statistics, England and Wales: April 2025 to March 2026",
-          "summary": "The Home Office released its annual firearms statistics for English and Welsh police forces, covering the full 2025/26 financial year with pre-release access now published.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/statistics/police-use-of-firearms-statistics-april-2025-to-march-2026/pre-release-access-list-for-police-use-of-firearms-statistics-england-and-wales-april-2025-to-march-2026",
-          "publishedAt": "2026-07-02"
+          "title": "Government Extends Pub Licensing Hours for England World Cup Match",
+          "summary": "The Home Office and MHCLG extended licensing hours until 5am to allow football fans across England to watch the World Cup match, drawing widespread national and regional coverage. The decision reflects government flexibility on licensing for major sporting events.",
+          "source": "GOV.UK / MHCLG Media Blog",
+          "url": "https://mhclgmedia.blog.gov.uk/2026/07/03/coverage-of-pubs-staying-open-to-show-englands-next-world-cup-match/",
+          "publishedAt": "2026-07-03"
         }
       ]
     },
     {
       "id": "fcdo",
       "name": "FCDO",
-      "description": "Foreign, Commonwealth & Development Office",
+      "description": "Diplomacy and international relations",
       "stories": [
         {
-          "title": "UK steps up support for Venezuela following devastating earthquakes",
-          "summary": "The UK is scaling up its humanitarian response to Venezuela following devastating earthquakes on 24 June, mobilising an additional £3.8 million in emergency aid. This brings total UK support to a significant level as the FCDO coordinates the international response.",
+          "title": "FCDO Services Annual Report and Accounts 2025–2026 Published",
+          "summary": "FCDO Services, the executive agency and trading fund owned by the Foreign, Commonwealth and Development Office, has published its Annual Report and Accounts for 2025 to 2026. The report sets out financial performance and operational delivery for the year.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/uk-steps-up-support-for-venezuela-following-devastating-earthquakes",
-          "publishedAt": "2026-07-02"
+          "url": "https://www.gov.uk/government/publications/fcdo-services-annual-report-and-accounts-2025-to-2026/fcdo-services-annual-report-and-accounts-2025-to-2026",
+          "publishedAt": "2026-07-04"
         },
         {
-          "title": "FCDO updates Nigeria travel advice: new warnings for Kwara and Benue States",
-          "summary": "The FCDO has updated its Nigeria travel advice, now advising against all but essential travel to Kwara State and Benue State in addition to existing advisories. Travellers are urged to review the latest guidance before visiting.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/foreign-travel-advice/nigeria",
-          "publishedAt": "2026-07-02"
-        },
-        {
-          "title": "UK-Mauritius Chagos Treaty: Pen for Rights seeks clarification from UK Foreign Secretary",
-          "summary": "Civil society group Pen for Rights has written to the UK Foreign Secretary seeking clarification on the diplomatic process behind the proposed UK-Mauritius Folhlhavai (Chagos) Treaty, raising questions about transparency and consultation.",
-          "source": "Maldivians for Chagos",
-          "url": "https://maldivians4chagos.com/pen-for-rights-seeks-clarification-from-uk-foreign-secretary-on-the-diplomatic-process-behind-the-proposed-uk-mauritius-folhlhavai-chagos-treaty/",
-          "publishedAt": "2026-07-02"
+          "title": "UK ISAR Team Continues Venezuela Earthquake Response",
+          "summary": "Scottish firefighters remain deployed in Venezuela as part of the UK's International Search and Rescue (ISAR) response, supporting ongoing operations following a major earthquake. The FCDO is coordinating the UK's disaster relief effort.",
+          "source": "Scottish Fire and Rescue Service",
+          "url": "https://www.firescotland.gov.uk/news/scottish-firefighters-remain-deployed-in-venezuela-supporting-uk-isar-response/",
+          "publishedAt": "2026-07-04"
         }
       ]
     },
     {
       "id": "dwp",
       "name": "DWP",
-      "description": "Department for Work and Pensions",
+      "description": "Benefits and pensions",
       "stories": [
         {
-          "title": "Get Britain Working: an update on the Jobs and Careers Service",
-          "summary": "DWP published an update on the new Jobs and Careers Service, outlining how specialised Jobcentre Plus support will focus on groups facing specific barriers to work, including disabled people and long-term sick individuals.",
+          "title": "Keep Britain Working: Six-Month Progress Update Published",
+          "summary": "DWP has published the June 2026 progress update for 'Keep Britain Working', the initiative driving a fundamental rebalancing in how health and disability are supported in the workplace. The update outlines progress and sets the direction for the forthcoming Vanguard Phase.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/get-britain-working-an-update-on-the-jobs-and-careers-service/get-britain-working-an-update-on-the-jobs-and-careers-service",
-          "publishedAt": "2026-07-02"
+          "url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-june-2026/keep-britain-working-the-story-so-far-june-2026",
+          "publishedAt": "2026-07-04"
         },
         {
-          "title": "Keep Britain Working review update: June 2026",
-          "summary": "DWP released the June 2026 update on implementing the independent Keep Britain Working review, which examines employers' role in tackling health-based economic inactivity. The update addresses the urgent crisis of people leaving the workforce due to ill-health.",
+          "title": "BAE Systems Tops DWP's 2026 Apprenticeships Employer Rankings",
+          "summary": "BAE Systems has topped the DWP's newly published apprenticeship employer leaderboard for 2026, which ranks leading employers by the quality and scale of their apprenticeship programmes. The rankings are designed to promote best practice across UK businesses.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-june-2026",
-          "publishedAt": "2026-07-02"
+          "url": "https://www.gov.uk/government/news/bae-systems-tops-the-dwps-latest-apprenticeships-rankings-as-leading-employers-named",
+          "publishedAt": "2026-07-04"
+        },
+        {
+          "title": "New Digital Government Information Sharing Regulations Laid Before Parliament",
+          "summary": "DWP and DSIT have jointly laid new Digital Government (Disclosure of Information) Regulations 2026 before Parliament, expanding data sharing powers under the Digital Economy Act 2017 to support passported benefits and reduce fuel poverty.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/consultations/expanding-the-information-sharing-powers-in-part-5-chapter-one-of-the-digital-economy-act-2017-to-support-passported-benefits-and-reduce-fuel-poverty/outcome/explanatory-memorandum-to-the-digital-government-disclosure-of-information-regulations-2026",
+          "publishedAt": "2026-07-04"
         }
       ]
     },
     {
       "id": "defra",
       "name": "DEFRA",
-      "description": "Department for Environment, Food & Rural Affairs",
+      "description": "Environment, food and rural affairs",
       "stories": [
         {
-          "title": "Almost 20,000 new homes unlocked after breakthrough by Government Water Delivery Taskforce",
-          "summary": "DEFRA and Housing Minister Emma Reynolds announced that over 18,000 new homes have been unlocked following a breakthrough by the Government's Water Delivery Taskforce, resolving water infrastructure constraints that had blocked major housing developments.",
+          "title": "Air Pollution Awareness Coalition (APAC) Launched",
+          "summary": "DEFRA has published the terms of reference for a new cross-sector Air Pollution Awareness Coalition (APAC), aimed at improving public understanding of air pollution and supporting action to reduce harm. DEFRA will provide overall co-ordination and secretariat support.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/almost-20000-new-homes-unlocked-after-breakthrough-by-government-water-delivery-taskforce",
-          "publishedAt": "2026-07-02"
+          "url": "https://www.gov.uk/government/publications/air-pollution-awareness-coalition-apac/terms-of-reference-air-pollution-awareness-coalition-apac",
+          "publishedAt": "2026-07-04"
         },
         {
-          "title": "Annual UK air pollutant concentration data published",
-          "summary": "DEFRA published its annual update of data on concentrations of major air pollutants across the UK, providing the latest environmental monitoring figures for public and policy use.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/statistical-data-sets",
-          "publishedAt": "2026-06-30"
+          "title": "DEFRA Chewing Gum Task Force Grants New Council Funding",
+          "summary": "A local council has received new funding through DEFRA's Chewing Gum Task Force grant scheme, run in partnership with environmental charity Keep Britain Tidy. The scheme tackles the environmental and financial burden of chewing gum litter on public spaces.",
+          "source": "Cheshire West and Chester Council",
+          "url": "https://www.cheshirewestandchester.gov.uk/news/new-funding-will-help-council-tackle-the-sticky-issue-of-chewing-gum",
+          "publishedAt": "2026-07-04"
         }
       ]
     },
@@ -126,25 +126,25 @@
       "description": "Ministry of Defence",
       "stories": [
         {
-          "title": "Kent opens first VALOUR-recognised centre in new UK-wide veteran support system",
-          "summary": "Thousands of veterans in Kent can now access increased support following the opening of a new VALOUR-recognised support centre in Aylesford on 2 July. The centre is part of a new UK-wide framework for veteran welfare.",
+          "title": "£4.6 Billion Contract Secured for Next-Generation Fighter Jet with Italy and Japan",
+          "summary": "The UK Ministry of Defence has secured a £4.6 billion trilateral contract with Italy and Japan to deliver the Global Combat Air Programme (GCAP) next-generation combat aircraft. This is a major milestone in the programme to field a cutting-edge stealth fighter by the mid-2030s.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/kent-opens-first-valour-recognised-centre-in-new-uk-wide-veteran-support-system",
-          "publishedAt": "2026-07-02"
+          "url": "https://www.gov.uk/government/news/over-4-billion-invested-in-next-generation-fighter-jet-with-new-international-contract",
+          "publishedAt": "2026-07-04"
         },
         {
-          "title": "UK armed forces mental health 2025/26: annual report published",
-          "summary": "The MoD's annual mental health report for UK armed forces shows that 11.8% of personnel were seen by military healthcare services for a mental health-related reason in 2025/26 — a statistically significant rate, underscoring ongoing investment in mental health support.",
+          "title": "WWI Durham Light Infantry Soldier Laid to Rest on 110th Anniversary of the Somme",
+          "summary": "The Ministry of Defence and Veterans UK oversaw a ceremony on the Somme (30 June 2026) to lay to rest a World War One soldier from the Durham Light Infantry, on the eve of the 110th anniversary of the Battle of the Somme. The service honoured one of many soldiers killed during that historic campaign.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/statistics/uk-armed-forces-mental-health-annual-statistics-financial-year-202526/uk-armed-forces-mental-health-202526-annual-report",
-          "publishedAt": "2026-07-02"
+          "url": "https://www.gov.uk/government/news/world-war-one-soldier-laid-to-rest-on-the-eve-of-the-110th-anniversary-of-the-battle-of-the-somme",
+          "publishedAt": "2026-06-30"
         },
         {
-          "title": "War Pensions Scheme Statistics: 2026",
-          "summary": "The Ministry of Defence published its 2026 War Pensions Scheme statistics, covering recipients of war pensions, new claims, awards, and appeals under the scheme.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/statistics/war-pensions-scheme-statistics-2026",
-          "publishedAt": "2026-07-02"
+          "title": "Salisbury Plain Wildfire Must Burn Out Naturally Due to Unexploded Ordnance",
+          "summary": "A wildfire on Salisbury Plain military training ground is being allowed to burn out on its own, as unexploded shells in the area make it too dangerous for firefighters to tackle directly. Military training has sparked hundreds of wildfires across UK countryside since 2023.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqx1lnyq388o",
+          "publishedAt": "2026-07-04"
         }
       ]
     },
@@ -154,11 +154,18 @@
       "description": "Department for Business and Trade",
       "stories": [
         {
-          "title": "Trump warns UK against deepening business ties with China",
-          "summary": "President Trump warned that it is 'very dangerous' for the UK to deepen business ties with China, just as Prime Minister Keir Starmer completed talks with Chinese counterparts. The statement puts DBT's trade strategy in the international spotlight.",
-          "source": "UK Business and Trade (Instagram/media reports)",
-          "url": "https://www.instagram.com/reel/DaTB_m3iMdN/",
+          "title": "UK-India Free Trade Deal to Enter Into Force on 15 July 2026",
+          "summary": "The landmark UK-India Free Trade Agreement, agreed in June 2026, is set to enter into force on 15 July 2026. DBT-led trade negotiations concluded a deal that could significantly boost UK GDP, lowering tariffs on British goods including whisky and automobiles.",
+          "source": "Hansard / UK Parliament",
+          "url": "https://hansard.parliament.uk/Commons/2026-07-02/debates/6F975411-1D56-4642-8F2F-85AA224AC129/details",
           "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "Visa Fees Reimbursement Scheme for Scale-Up Companies Launched",
+          "summary": "DBT has published the privacy notice for the new Visa Fees Reimbursement Scheme for Scale-Ups (VFRS4SU), designed to improve the UK's international competitiveness by helping fast-growing companies attract global talent. The scheme reimburses visa costs for eligible scale-up businesses.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/visa-fees-reimbursement-scheme-for-scale-ups-privacy-notice",
+          "publishedAt": "2026-07-04"
         }
       ]
     },
@@ -168,18 +175,25 @@
       "description": "Department for Science, Innovation and Technology",
       "stories": [
         {
-          "title": "Responsible AI Through Cloud Technology: first joint government-academia event held",
-          "summary": "DSIT hosted the first joint Cloud, FinOps, and AI community event bringing together professionals from across government and academia to discuss responsible AI implementation in cloud technology environments.",
-          "source": "GOV.UK Technology Blog",
-          "url": "https://technology.blog.gov.uk/2026/07/02/connecting-government-and-academia-responsible-ai-through-cloud-technology-event/",
-          "publishedAt": "2026-07-02"
+          "title": "UK Government Plans to Ban Under-16s from Social Media",
+          "summary": "The UK government, led by DSIT, has announced plans to ban under-16s from social media platforms as part of a wider digital safety push. The government has also launched an AI Growth Lab for the legal sector and published a major AI standards strategy.",
+          "source": "TLT LLP",
+          "url": "https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-july-2026",
+          "publishedAt": "2026-07-01"
         },
         {
-          "title": "Women in Research Charter published",
-          "summary": "DSIT published the Women in Research Charter, a voluntary commitment designed to improve outcomes for women across the UK research system, addressing gender imbalances in academia and R&D.",
+          "title": "New Digital Government Information Sharing Regulations Laid Before Parliament",
+          "summary": "DSIT has laid the Digital Government (Disclosure of Information) Regulations 2026 before Parliament, expanding powers under the Digital Economy Act 2017. The regulations expand data sharing to support passported benefits and reduce fuel poverty across the UK.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/women-in-research-charter/women-in-research-charter",
-          "publishedAt": "2026-07-02"
+          "url": "https://www.gov.uk/government/consultations/expanding-the-information-sharing-powers-in-part-5-chapter-one-of-the-digital-economy-act-2017-to-support-passported-benefits-and-reduce-fuel-poverty/outcome/explanatory-memorandum-to-the-digital-government-disclosure-of-information-regulations-2026",
+          "publishedAt": "2026-07-04"
+        },
+        {
+          "title": "Government Office for Technology Transfer (GOTT) Theory of Change Review Published",
+          "summary": "DSIT has published a progress evaluation and theory of change review for the Government Office for Technology Transfer (GOTT), established in 2022 to improve commercialisation of publicly funded research. The review assesses GOTT's impact and future direction.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/government-office-for-technology-transfer-progress-evaluation-report/government-office-for-technology-transfer-gott-theory-of-change-review",
+          "publishedAt": "2026-07-04"
         }
       ]
     },
@@ -189,25 +203,18 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "NHS maternity review published: new standards and commissioner proposed",
-          "summary": "A major NHS maternity review has been published, proposing new transparency standards, a new maternity commissioner, and greater accountability. The Guardian noted debate over whether the review goes far enough following high-profile maternity scandals.",
+          "title": "NHS to Overhaul Patient Communications and End 'Farce' of Late Appointment Letters",
+          "summary": "NHS England announced a major overhaul of patient communications, aiming to end the situation where appointment invitations arrive after the appointment itself. The reforms will modernise how patients are contacted about their care.",
+          "source": "NHS England",
+          "url": "https://www.england.nhs.uk/",
+          "publishedAt": "2026-07-03"
+        },
+        {
+          "title": "Patients Awaiting Hospital Treatment to Get Three Weeks' Notice",
+          "summary": "Under new NHS England plans, patients on waiting lists will receive at least three weeks' notice before their hospital appointment, giving them sufficient time to prepare. The Guardian reports this as a key reform to improve patient experience.",
           "source": "The Guardian",
-          "url": "https://www.theguardian.com/society/nhs",
-          "publishedAt": "2026-06-29"
-        },
-        {
-          "title": "NHS England orders trust boards to enforce joint maternity accountability",
-          "summary": "The CEO of NHS England has ordered trust boards to enforce joint accountability for maternity services between medical directors and chief nursing officers, following ongoing scrutiny of maternity care standards across English NHS trusts.",
-          "source": "Health Service Journal / NHS",
-          "url": "https://www.library.wmuh.nhs.uk/wp/other-updates/health-management/latest-news-fromhealth-service-journal/",
-          "publishedAt": "2026-07-02"
-        },
-        {
-          "title": "Former NHS assistant found guilty of £279k fraud",
-          "summary": "An NHS Counter Fraud Authority investigation led to the conviction of a former NHS employee who caused a £279,000 loss to Worcestershire NHS by stealing and misusing funds. The case highlights ongoing anti-fraud efforts within the NHS.",
-          "source": "NHS Counter Fraud Authority",
-          "url": "https://cfa.nhs.uk/about-nhscfa/latest-news/former-NHS-assistant-found-guilty",
-          "publishedAt": "2026-07-02"
+          "url": "https://www.theguardian.com/society/health",
+          "publishedAt": "2026-07-04"
         }
       ]
     },
@@ -217,18 +224,18 @@
       "description": "Postal services",
       "stories": [
         {
-          "title": "Royal Mail confirms major changes to UK letter delivery targets",
-          "summary": "Royal Mail has confirmed significant changes to its delivery service: first-class next-day delivery targets drop from 93% to 90%, and second-class delivery standards are also revised. The changes represent the most significant restructuring of Royal Mail's service targets in years.",
-          "source": "Multiple UK regional outlets",
-          "url": "https://www.rhyljournal.co.uk/news/26248164.royal-mail-major-uk-wide-change-letter-delivery-system/",
-          "publishedAt": "2026-07-02"
+          "title": "Royal Mail Scraps Saturday Second-Class Letter Delivery Nationwide",
+          "summary": "Royal Mail has begun rolling out its new delivery model across the UK in 2026, scrapping Saturday second-class letter deliveries while maintaining parcel deliveries up to seven days a week. Leaflets have been sent to households explaining the changes.",
+          "source": "Daily Express",
+          "url": "https://www.express.co.uk/news/uk/2224976/royal-mail-scraps-delivery-service-people-receive-leaflets-explaining-reason",
+          "publishedAt": "2026-07-04"
         },
         {
-          "title": "Post Office Horizon quashed convictions update: 2 July 2026",
-          "summary": "The Government published the latest management information on progress in quashing convictions under the Post Office Horizon System Offences Act 2024, updating figures on how many wrongful convictions in England and Wales have been overturned.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/post-office-horizon-system-offences-act-2024-quashed-convictions-management-information/quashed-convictions-management-information-2-july-2026",
-          "publishedAt": "2026-07-02"
+          "title": "Royal Mail Warns It May Suspend Deliveries to Addresses with Dogs",
+          "summary": "Royal Mail has issued a warning to customers that deliveries may be suspended to properties where dogs pose a risk to postal workers, urging homeowners to put up signs. The policy is part of ongoing efforts to protect delivery staff safety.",
+          "source": "Daily Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/anyone-dogs-urged-put-royal-37382463",
+          "publishedAt": "2026-07-04"
         }
       ]
     }
