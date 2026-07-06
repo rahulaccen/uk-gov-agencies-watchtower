@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T16:05:00+10:00",
+  "lastUpdated": "2026-07-06T16:06:00+10:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -7,18 +7,11 @@
       "description": "Tax collection",
       "stories": [
         {
-          "title": "HMRC Confirms Personal Allowance Boost and Winter Fuel Payment Tax Recovery",
-          "summary": "HMRC has confirmed arrangements around the tax-free Personal Allowance and how Winter Fuel Payments received by higher earners (over £35,000 income) will be recovered through tax. Households can benefit from up to £14,064 tax-free under current provisions.",
-          "source": "Express.co.uk",
-          "url": "https://www.express.co.uk/finance/personalfinance/2225353/hmrc-tax-free-personal-allowance-increase",
-          "publishedAt": "2026-07-05"
-        },
-        {
-          "title": "BlueCrest's Michael Platt Loses UK Supreme Court Tax Battle Against HMRC",
-          "summary": "The UK Supreme Court dismissed an appeal by hedge fund manager Michael Platt's family office in a high-stakes tax dispute with HMRC, marking a significant victory for the tax authority in a major avoidance case.",
-          "source": "Financial Times",
-          "url": "https://www.ft.com/content/dbd16db5-56c0-4bbd-9d1b-435375d1e3af",
-          "publishedAt": "2026-07-05"
+          "title": "HMRC Issues Warning to Taxpayers Over Looming 31 July Deadline",
+          "summary": "HMRC has shared a reminder that the second Payments on Account deadline for the 2025 to 2026 tax year falls on Friday, 31 July 2026. Taxpayers who miss the deadline may face penalties and interest charges.",
+          "source": "Express",
+          "url": "https://www.express.co.uk/finance/personalfinance/2223098/hmrc-taxpayers-deadline-july-31",
+          "publishedAt": "2026-07-06"
         }
       ]
     },
@@ -28,137 +21,151 @@
       "description": "Immigration, visas, policing, security",
       "stories": [
         {
-          "title": "Home Office Blocks Study Visas for Women from Afghanistan, Sudan, Myanmar and Cameroon",
-          "summary": "The Home Office has blocked new study visas for applicants from Afghanistan, Sudan, Myanmar, and Cameroon, meaning many women who had opportunities to study in the UK through an overseas education project have had those opportunities removed after the project was axed following just two years.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/global-development/2026/jul/04/overseas-education-project-for-women-and-girls-axed-by-uk-after-two-years",
-          "publishedAt": "2026-07-04"
+          "title": "Immigration and Asylum Bill Introduces 'Earned Settlement' to Replace 5-Year ILR Route",
+          "summary": "The Home Office's Immigration and Asylum Bill, introduced in the House of Commons on 30 June, proposes ending the traditional 5-year route to Indefinite Leave to Remain (ILR), replacing it with an 'earned settlement' model. The changes would significantly overhaul how migrants qualify for long-term residency.",
+          "source": "EIN / Ropes Gray",
+          "url": "https://www.ein.org.uk/node/804034",
+          "publishedAt": "2026-07-06"
         },
         {
-          "title": "New Immigration and Asylum Bill Introduced — Described as 'Broken Time Machine'",
-          "summary": "The new Immigration and Asylum Bill, introduced on 30 June 2026, has drawn criticism from legal experts who argue that it displaces the Home Office backlog to the First-tier Tribunal and fails to address the root causes of the asylum system's delays.",
-          "source": "EIN (European Immigration Network)",
-          "url": "https://www.ein.org.uk/blog/new-immigration-and-asylum-bill-broken-time-machine",
-          "publishedAt": "2026-07-04"
+          "title": "Home Affairs Committee Examines Border Security and Irregular Migration in Northern Ireland",
+          "summary": "Parliament's Home Affairs Committee is scrutinising public disorder and irregular migration in Northern Ireland this week, as part of ongoing oversight of the Immigration and Asylum Bill. The session includes focus on border security and asylum procedures.",
+          "source": "Hansard Society",
+          "url": "https://www.hansardsociety.org.uk/news/parliament-matters-bulletin-6-july-2026",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "UK Visitor Visas Now Issued Electronically as eVisas",
+          "summary": "UK visitor visas are now issued electronically as a secure online record, marking a significant shift in the Home Office's visa processing. The change affects all applicants for UK visitor visas going forward.",
+          "source": "Fragomen",
+          "url": "https://www.fragomen.com/insights/united-kingdom-evisa-process-or-mobilityminute.html",
+          "publishedAt": "2026-07-05"
         }
       ]
     },
     {
       "id": "fcdo",
       "name": "FCDO",
-      "description": "Foreign, Commonwealth & Development Office",
+      "description": "Diplomacy, international relations",
       "stories": [
         {
-          "title": "FCDO Updates Nigeria Travel Advisory — Against All But Essential Travel to Kwara and Benue States",
-          "summary": "The FCDO has updated its travel advisory for Nigeria, now advising British nationals against all but essential travel to Kwara State and Benue State due to ongoing security concerns in the region.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/foreign-travel-advice/nigeria",
-          "publishedAt": "2026-07-04"
+          "title": "Russia-UK Diplomatic Rift Deepens Amid Ukraine War",
+          "summary": "Moscow has intensified its war of words with Britain as the Russia-UK confrontation deepens amid the war in Ukraine, sanctions, and military support for Kyiv. Diplomatic tensions are at their highest levels in years.",
+          "source": "Fin Channel",
+          "url": "https://finchannel.com/russia-uk-confrontation-moscow-intensifies-war-of-words-with-britain-as-diplomatic-rift-deepens/132231/uk-politics/2026/07/",
+          "publishedAt": "2026-07-06"
         },
         {
-          "title": "FCDO Issues Updated Travel Advisories for Spain, Cyprus, Uganda and Portugal",
-          "summary": "The FCDO has refreshed travel advice pages for multiple countries including Spain, Cyprus, Uganda and Portugal, covering the latest safety, security and entry requirement information for British travellers.",
+          "title": "FCDO Updates Travel Advice for Multiple Countries Including Colombia and Indonesia",
+          "summary": "The FCDO has updated travel advice for several countries, including maintaining its advisory against all travel to Venezuela's border regions with Colombia, and advising against travel to several active volcanoes in Indonesia. Travellers to France, Spain, and Cyprus are also advised to check the latest guidance.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/foreign-travel-advice/spain",
-          "publishedAt": "2026-07-05"
+          "url": "https://www.gov.uk/foreign-travel-advice/colombia",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "UK Parliamentarians Question Ministers on International Law and Military Conflicts",
+          "summary": "Peers in the House of Lords are questioning Foreign Office ministers on international law and military conflicts as the Foreign Affairs Committee meets this week. The session reflects ongoing scrutiny of the UK's international commitments.",
+          "source": "Hansard Society",
+          "url": "https://www.hansardsociety.org.uk/news/parliament-matters-bulletin-6-july-2026",
+          "publishedAt": "2026-07-06"
         }
       ]
     },
     {
       "id": "dwp",
       "name": "DWP",
-      "description": "Department for Work and Pensions",
+      "description": "Benefits, pensions",
       "stories": [
         {
-          "title": "Government Issues Major Warning to Nearly One Million Young People on Benefits",
-          "summary": "The government has issued a significant warning to approximately one million young benefit claimants as part of a major shake-up to the UK welfare system. The announcement signals tighter conditionality and new work requirements under the DWP's reform agenda.",
-          "source": "Instagram / UK Prime Minister",
-          "url": "https://www.instagram.com/reel/DaXeYDYivrD/",
-          "publishedAt": "2026-07-04"
+          "title": "DWP Confirms End of ESA and Housing Benefit as Final UC Migration Phase Completes",
+          "summary": "The Department for Work and Pensions has confirmed the end of income-related Employment and Support Allowance (ESA) and Housing Benefit as the final phase of migration to Universal Credit completes. Claimants on these legacy benefits have now been moved across to UC.",
+          "source": "AOL",
+          "url": "https://www.aol.com/articles/dwp-confirms-end-two-major-110138000.html",
+          "publishedAt": "2026-07-06"
         },
         {
-          "title": "Petition Calls on Government to Increase State Pension to £610 Per Week",
-          "summary": "A new public petition is calling on the UK government to increase the State Pension to £610 per week for all citizens over 60, including those living abroad in retirement, well above the current level managed by DWP.",
-          "source": "The Mirror",
-          "url": "https://www.mirror.co.uk/money/government-urged-increase-state-pension-37384339",
-          "publishedAt": "2026-07-05"
+          "title": "Supported Housing Residents to Keep More of Their Earnings Under New Rules",
+          "summary": "New Housing Benefit (Earned Income Disregards) Regulations 2026, laid before parliament on 6 July 2026, will allow supported housing residents to keep more of what they earn. Five new earned income disregards come into force on 5 October 2026.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/supported-housing-residents-to-keep-more-of-what-they-earn-under-new-rules",
+          "publishedAt": "2026-07-06"
         }
       ]
     },
     {
       "id": "defra",
       "name": "DEFRA",
-      "description": "Department for Environment, Food & Rural Affairs",
+      "description": "Environment, food, rural affairs",
       "stories": [
         {
-          "title": "DEFRA Breached Law by Allowing Farmers to Use Bee-Killing Pesticide, Watchdog Rules",
-          "summary": "An environmental watchdog has ruled that DEFRA breached the law when it permitted farmers to use a neonicotinoid pesticide linked to killing bees, reigniting debate over the government's approach to agricultural chemicals and environmental protection.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/environment/farming",
-          "publishedAt": "2026-07-04"
+          "title": "DEFRA Confirms 50% of Sustainable Farming Incentive 2026 Budget Already Allocated",
+          "summary": "DEFRA has confirmed that around 50% of the Window 1 Sustainable Farming Incentive (SFI) 2026 budget has now been allocated based on applications received so far. Farmers are encouraged to apply before funds run out.",
+          "source": "Farmers Guardian",
+          "url": "https://www.facebook.com/FarmersGuardian/posts/defra-has-confirmed-around-50-of-the-window-1-sustainable-farming-incentive-sfi-/1473517698147849/",
+          "publishedAt": "2026-07-06"
         },
         {
-          "title": "Farmers Criticise DEFRA's Agriculture Command Paper on UK Food Security",
-          "summary": "Farmers have criticised DEFRA's 60-page agriculture command paper, saying it falls short of addressing threats to UK food security. The department has invited feedback on the paper, which outlines the future of English agriculture.",
-          "source": "The Scottish Farmer / Facebook",
-          "url": "https://www.facebook.com/scottishfarmer/posts/english-agriculture-farming-route-map-appears-to-fall-short/1580586164078093/",
-          "publishedAt": "2026-07-04"
+          "title": "England's Farming Roadmap 2050 Proposes Shift From Animal Farming to Sustainable Crops",
+          "summary": "England's Farming Roadmap 2050 proposes supporting UK farmers to transition from high-emitting animal agriculture to sustainable crops such as lentils. The roadmap is generating significant discussion among farming communities about the future of English agriculture.",
+          "source": "Plant Based News / 8.9ha",
+          "url": "https://plantbasednews.org/culture/politics/uk-farming-roadmap-farmers-animals-lentils/",
+          "publishedAt": "2026-07-06"
         }
       ]
     },
     {
       "id": "mod",
-      "name": "MoD",
-      "description": "Ministry of Defence",
+      "name": "Ministry of Defence",
+      "description": "UK defence and armed forces",
       "stories": [
         {
-          "title": "UK Unveils £298 Billion Defence Investment Plan",
-          "summary": "The UK government has published a major Defence Investment Plan committing £298 billion over the coming years. The plan includes £11 billion for munitions stockpiles, significant investment in Royal Navy capabilities, and spending on drones and uncrewed systems.",
-          "source": "The Aviationist",
-          "url": "https://theaviationist.com/2026/07/04/uk-defence-investment-plan-at-a-glance/",
-          "publishedAt": "2026-07-04"
-        },
-        {
-          "title": "Parliament to Question Defence Ministers on £298B Spending Plan This Week",
-          "summary": "The Treasury Committee is scheduled to question Defence Ministers this week (6–9 July 2026) on the newly published Defence Investment Plan, examining how the government plans to fund the £298 billion commitment alongside existing fiscal pressures.",
-          "source": "Hansard Society",
-          "url": "https://www.hansardsociety.org.uk/news/parliament-matters-bulletin-6-july-2026",
-          "publishedAt": "2026-07-05"
+          "title": "Sanction Authorised for MoD After Two Soldiers Died in Challenger 2 Tank Explosion",
+          "summary": "A sanction has been authorised for the Ministry of Defence following the deaths of Cpl Darren Neilson and Cpl Matthew Hatfield, who died during an explosion on a Challenger 2 tank at Castlemartin Range. The MoD faces accountability measures following the incident.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm2rppdlke1o",
+          "publishedAt": "2026-07-06"
         }
       ]
     },
     {
       "id": "dbt",
       "name": "DBT",
-      "description": "Department for Business and Trade",
+      "description": "Business and trade",
       "stories": [
         {
-          "title": "UK–India Free Trade Deal Expected to Reduce Export Duties and Boost Profit Margins",
-          "summary": "Progress on the UK–India Free Trade Agreement continues, with the deal expected to reduce export duties and increase profit margins for businesses in both countries. The DBT is central to negotiations on this landmark bilateral agreement.",
-          "source": "Instagram / Trade Commentary",
-          "url": "https://www.instagram.com/reel/DaXXp6LOcVt/",
-          "publishedAt": "2026-07-05"
+          "title": "Government Launches Call for Evidence on AI-Enabled Toy Safety",
+          "summary": "The government has stepped up action to protect children as AI-enabled toys emerge, launching a Call for Evidence to ensure toy safety rules are fit for the modern age. The review will examine emerging risks including chemical safety, AI interactions, and data privacy for children.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/government-steps-up-action-to-protect-children-as-ai-enabled-toys-emerge",
+          "publishedAt": "2026-07-06"
         },
         {
-          "title": "Visa Fees Reimbursement Scheme for Scale-Ups in Priority Sectors Continues",
-          "summary": "The DBT's Visa Fees Reimbursement Scheme for Scale-Ups (VFRS4SU) provides funding to UK-based scale-ups in priority sectors including Clean Energy and Life Sciences, helping them attract international talent by offsetting visa costs.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/visa-fees-reimbursement-scheme-for-scale-ups-privacy-notice/visa-fees-reimbursement-scheme-for-scale-ups-vfrs4su-privacy-notice",
-          "publishedAt": "2026-07-05"
+          "title": "UK Inflation Holds Steady at 2.8% in May 2026",
+          "summary": "UK inflation remained at 2.8% in the year to May 2026, according to the Office for National Statistics — unchanged from the previous month. The figure reflects ongoing cost pressures in key sectors including food and services.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c17rgd8e9gjo",
+          "publishedAt": "2026-07-06"
         }
       ]
     },
     {
       "id": "dsit",
       "name": "DSIT",
-      "description": "Department for Science, Innovation and Technology",
+      "description": "Science, innovation and technology",
       "stories": [
         {
-          "title": "OpenAI Reportedly Never Visited Its Flagship Stargate UK AI Site",
-          "summary": "An investigation by The Guardian found that OpenAI apparently never visited the site of its flagship Stargate UK AI project, raising questions about the government's AI investment announcements. The UK government continued to announce large AI investment figures at London Tech Week in June 2026, including pledges from AMD and Nebius.",
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/openai-apparently-never-visited-the-site-of-its-flagship-uk-ai-project",
-          "publishedAt": "2026-07-04"
+          "title": "DSIT Publishes Findings from 'Future Tech Sector That Works for Everyone' Call for Evidence",
+          "summary": "DSIT has released findings from its call for evidence on building a future tech sector that works for everyone, launched in March 2026. The report examines barriers faced by under-represented groups in the UK technology industry.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/calls-for-evidence/building-a-future-tech-sector-that-works-for-everyone/outcome/building-a-future-tech-sector-that-works-for-everyone-call-for-evidence-findings",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "New Research Quantifies Economic Cost of Digital Economy Inequality",
+          "summary": "DSIT-commissioned research by Alma Economics has quantified the economic costs of under-representation of certain groups in the UK digital economy. The findings support the Women in Tech Taskforce launched in December 2025 by Secretary of State Liz Kendall.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/the-economic-impact-of-equal-opportunities-in-the-digital-economy",
+          "publishedAt": "2026-07-06"
         }
       ]
     },
@@ -168,18 +175,25 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "NHS App to Use AI to Triage and Direct Patients to Appropriate Services",
-          "summary": "The NHS has announced it will integrate AI into its app to triage patients and direct them to the most appropriate healthcare service. The tool will assess patient needs and recommend whether they should see a GP, pharmacist, or other provider, aiming to ease pressure on primary care.",
-          "source": "BBC News / The Guardian",
-          "url": "https://www.bbc.co.uk/news/articles/c0my2kjjnp2o",
-          "publishedAt": "2026-07-04"
+          "title": "NHS to Rate Trusts on How Well They Tackle Racism, Violence and Sexual Misconduct Against Staff",
+          "summary": "From July 2026, all NHS trusts in England will be rated according to how well they tackle racism, violence, and sexual misconduct towards staff. The government-backed initiative aims to improve staff wellbeing and reduce workplace harm across the health service.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/society/2026/jul/06/nhs-trusts-england-ratings-staff-wellbeing-violence-racism",
+          "publishedAt": "2026-07-06"
         },
         {
-          "title": "British Medical Association to Cut Up to a Third of Staff Amid Financial Crisis",
-          "summary": "The British Medical Association (BMA) is facing severe financial pressures and is considering cutting up to a third of its workforce. The crisis comes amid ongoing tensions with the NHS over pay and working conditions.",
+          "title": "Health Secretary Seeks Advice Over Maternity Inquiry Staff Who Refused to Participate",
+          "summary": "Health Secretary James Murray has described it as 'totally unacceptable' that some senior staff refused to take part in the inquiry into maternity services at Nottingham University Hospitals. He is seeking legal advice on potential consequences for those who declined to cooperate.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ce8kkd3jwdzo",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "NHS England Plans to Give Patients Three Weeks' Notice Before Hospital Treatment",
+          "summary": "NHS England is planning to give people awaiting hospital treatment at least three weeks' notice of their appointment, to improve efficiency and reduce no-shows. The change is intended to help hospitals better manage their waiting lists.",
           "source": "The Guardian",
           "url": "https://www.theguardian.com/society/nhs",
-          "publishedAt": "2026-07-04"
+          "publishedAt": "2026-07-03"
         }
       ]
     },
@@ -189,17 +203,17 @@
       "description": "Postal services",
       "stories": [
         {
-          "title": "Royal Mail Introduces Permanent Overhaul to Second Class Delivery Service",
-          "summary": "Royal Mail has permanently overhauled its Second Class letter and card delivery service following approval from industry regulator Ofcom. The changes represent a significant restructuring of how second class mail is handled across the UK.",
-          "source": "MyLondon / Express.co.uk",
-          "url": "https://www.mylondon.news/news/uk-world-news/brits-speak-out-royal-mail-34236546",
-          "publishedAt": "2026-07-04"
+          "title": "Boss of Royal Mail Owner IDS Sees Pay More Than Triple to Nearly £7m",
+          "summary": "The chief executive of International Distributions Services (IDS), owner of Royal Mail, has seen their pay more than triple to nearly £7 million. However, Royal Mail's UK postal arm saw annual operating profits more than halve after labour costs soared following minimum wage hikes and additional costs of £133 million.",
+          "source": "AOL",
+          "url": "https://www.aol.com/articles/boss-royal-mail-owner-sees-144525000.html",
+          "publishedAt": "2026-07-06"
         },
         {
-          "title": "Royal Mail Ending Saturday Delivery Service in Major Postal Shake-Up",
-          "summary": "Royal Mail is ending its Saturday delivery service as part of a major shake-up to UK postal operations. The change is part of broader restructuring efforts following the company's acquisition by Czech billionaire Daniel Kretinsky's EP Group.",
-          "source": "Express.co.uk",
-          "url": "https://www.express.co.uk/latest/post-office",
+          "title": "CWU Union Tensions Over Royal Mail Restructuring Under Kretinsky Ownership",
+          "summary": "The Communication Workers Union (CWU) is facing criticism over its approach to Royal Mail's restructuring under owner Daniel Kretinsky, with claims the union lacks a mandate for its stance. The dispute centres on plans described as 'full optimisation' that workers say aim to eliminate jobs and intensify workloads.",
+          "source": "WSWS",
+          "url": "https://www.wsws.org/en/articles/2026/07/05/ckzt-j05.html",
           "publishedAt": "2026-07-05"
         }
       ]
