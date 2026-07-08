@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T16:05:00+10:00",
+  "lastUpdated": "2026-07-08T16:05:00+10:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -7,25 +7,18 @@
       "description": "Tax collection",
       "stories": [
         {
-          "title": "HMRC Manuals Weekly Roundup: 6 July 2026",
-          "summary": "HMRC published its weekly roundup of manual updates covering corporation tax and other tax matters, providing the latest guidance for practitioners and taxpayers.",
-          "source": "Tolley / LexisNexis",
-          "url": "https://www.lexisnexis.co.uk/tolley/tax/news/weekly-roundup-hmrc-manuals-6-july-2026",
-          "publishedAt": "2026-07-06"
+          "title": "Making Tax Digital for Income Tax: First Quarterly Update Due 7 August 2026",
+          "summary": "HMRC has reminded agents that clients' first quarterly update under Making Tax Digital for Income Tax must be submitted by 7 August 2026. Agents can use their compatible software to send updates directly to HMRC.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/agent-update-making-tax-digital-for-income-tax/agent-update-making-tax-digital-for-income-tax--2",
+          "publishedAt": "2026-07-08"
         },
         {
-          "title": "VAT Changes Under HMRC's 2026 Transformation Roadmap",
-          "summary": "HMRC is introducing an improved VAT repayments tracker as part of its 2026 Transformation Roadmap, with initial functionality expected to be available to customers during 2026–2027.",
-          "source": "Xeinadin",
-          "url": "https://www.xeinadin.com/blog/vat-changes-coming-under-hmrcs-2026-transformation-roadmap/",
-          "publishedAt": "2026-07-06"
-        },
-        {
-          "title": "HMRC Collected £865.2 Billion in 2024/25 Tax Year",
-          "summary": "HMRC collected £865.2 billion during the 2024/25 tax year, representing 93.6% of all tax due. Small businesses account for 62% of the total tax gap.",
-          "source": "Business News England",
-          "url": "https://www.naseems.co.uk/news/business-news-england-6-july-2026/",
-          "publishedAt": "2026-07-06"
+          "title": "HMRC Making Slow Progress on Agents' 'Pain Points'",
+          "summary": "ICAEW reports that HMRC's updated transformation roadmap suggests digital services for tax agents may continue to lag behind those for taxpayers for some time, raising concerns about efficiency for professionals.",
+          "source": "ICAEW",
+          "url": "https://www.icaew.com/insights/tax-news/2026/jul-2026/hmrc-making-slow-progress-in-tackling-agents-pain-points",
+          "publishedAt": "2026-07-08"
         }
       ]
     },
@@ -35,11 +28,11 @@
       "description": "Immigration, visas, policing, security",
       "stories": [
         {
-          "title": "Jamaican Man Who Lived in UK for 26 Years Facing Deportation Under New Immigration Bill",
-          "summary": "A Jamaican national who has lived more than half his life in the UK is facing deportation in one of the first cases under the new anti-immigration legislation, highlighting the real-world impact of the government's stricter immigration policies.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/jul/06/jamaican-man-deportation-uk-immigration-bill",
-          "publishedAt": "2026-07-06"
+          "title": "Sir Andy Marsh Named as Preferred Candidate for HM Chief Inspector of Constabulary",
+          "summary": "The Home Secretary confirmed Sir Andy Marsh QPM as the government's preferred candidate for the role of HM Chief Inspector of Constabulary and Fire & Rescue Services, announced on 7 July 2026.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/sir-andy-marsh-announced-as-preferred-candidate-for-hm-chief-inspector",
+          "publishedAt": "2026-07-07"
         }
       ]
     },
@@ -49,11 +42,18 @@
       "description": "Foreign, Commonwealth & Development Office",
       "stories": [
         {
-          "title": "Foreign Secretary Chatham House Essay: Britain's Place in the New World Order",
-          "summary": "Foreign Secretary Yvette Cooper published an essay outlining how Britain can build global alliances amid geopolitical instability, economic coercion, AI challenges, and climate change to secure the future of its people.",
+          "title": "FCDO Summons Iranian Chargé d'Affaires Over Attack on Iranian Journalist",
+          "summary": "The FCDO summoned Iran's Chargé d'Affaires in London following the sentencing of two individuals in connection with an attack on an Iranian international journalist, signalling the UK's strong condemnation of the incident.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/foreign-secretary-chatham-house-essay-britains-place-in-the-new-world-order",
-          "publishedAt": "2026-07-06"
+          "url": "https://www.gov.uk/government/news/fcdo-summons-iranian-charge-daffaires-over-attack-on-iran-international-journalist",
+          "publishedAt": "2026-07-07"
+        },
+        {
+          "title": "New HM Ambassador Appointed to the United Arab Emirates",
+          "summary": "Mrs Geraldine McCafferty has been appointed as His Majesty's Ambassador to the United Arab Emirates, succeeding Mr Edward Hobart in the role.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/change-of-his-majestys-ambassador-to-the-united-arab-emirates-geraldine-mccafferty",
+          "publishedAt": "2026-07-07"
         }
       ]
     },
@@ -63,18 +63,18 @@
       "description": "Department for Work and Pensions",
       "stories": [
         {
-          "title": "Views Sought to Transform Benefit Paid to Carers",
-          "summary": "The DWP is consulting on reforms to the carer's benefit, having already launched a reassessment exercise reviewing 200,000 cases — with around 25,000 set to see debts reduced, cancelled, or refunded.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/views-sought-to-transform-benefit-paid-to-carers",
-          "publishedAt": "2026-07-07"
+          "title": "Family Calls for Public Inquiry into DWP Failings After Disabled Woman's Death",
+          "summary": "The mother of a disabled woman who died by suicide after her benefits were incorrectly stopped has called for a full public inquiry into DWP failings. The case has reignited debate about the safety of the UK benefits system.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwydlez06g5o",
+          "publishedAt": "2026-07-08"
         },
         {
-          "title": "Skills England Annual Skills Report 2026 Links Training to Employment",
-          "summary": "The 2026 Skills England report highlights the integration of skills, apprenticeships, and adult further education into DWP, aiming to better link training with employment opportunities.",
+          "title": "Carer's Allowance: Government Call for Evidence",
+          "summary": "The DWP has issued a call for evidence on Carer's Allowance, gathering views on how to improve the system. Recent steps include linking the weekly earnings limit to 16 times the National Living Wage hourly rate.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/skills-england-annual-skills-report-and-sectoral-skills-needs-assessments-2026/skills-england-annual-skills-report-2026",
-          "publishedAt": "2026-07-07"
+          "url": "https://www.gov.uk/government/calls-for-evidence/carers-allowance-call-for-evidence",
+          "publishedAt": "2026-07-08"
         }
       ]
     },
@@ -84,25 +84,18 @@
       "description": "Department for Environment, Food & Rural Affairs",
       "stories": [
         {
-          "title": "Marine Recovery Fund: Terms and Conditions for Offshore Wind Developers Published",
-          "summary": "DEFRA published the Marine Recovery Fund (MRF) terms and conditions for offshore wind developers, setting out requirements for marine environmental mitigation and recovery.",
+          "title": "Over 350 Threatened Species to Benefit from Record £90m Investment",
+          "summary": "DEFRA announced a £60 million three-year investment plus £30 million for species recovery on the national forest estate, benefiting over 350 threatened species across England.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/marine-recovery-fund-terms-and-conditions-for-offshore-wind-developers",
-          "publishedAt": "2026-07-06"
+          "url": "https://www.gov.uk/government/news/over-350-threatened-species-to-benefit-from-record-investment",
+          "publishedAt": "2026-07-07"
         },
         {
-          "title": "Shropshire Researchers Track Slug Damage to Help Arable Farmers",
-          "summary": "Arable farmers may soon be able to better manage slug infestations thanks to new research by a Shropshire-based university working with volunteer 'slug sleuth' farmers to monitor crop damage.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm200kxg3zlo",
-          "publishedAt": "2026-07-06"
-        },
-        {
-          "title": "Government Responds to Consultation on Stronger Penalties for Water Company Offences",
-          "summary": "DEFRA published its summary of responses to the consultation on new penalties for water company offences, signalling the government's intent to strengthen enforcement against polluters.",
+          "title": "International Climate Finance Nature Spend Disclosure Published",
+          "summary": "DEFRA and Minister Emma Hardy MP published an Environmental Information Request (EIR) disclosure on International Climate Finance nature spending, providing transparency on the UK's climate commitments.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/consultations/new-penalties-for-water-company-offences/outcome/summary-of-responses-and-government-response",
-          "publishedAt": "2026-07-06"
+          "url": "https://www.gov.uk/government/publications/international-climate-finance-icf-nature-spend-eir202613381",
+          "publishedAt": "2026-07-07"
         }
       ]
     },
@@ -112,18 +105,18 @@
       "description": "Ministry of Defence",
       "stories": [
         {
-          "title": "UK Fighter Jets Intercept Russian Plane Over Norwegian Sea",
-          "summary": "Royal Air Force fighter jets intercepted a Russian maritime patrol aircraft after it 'repeatedly approached' a UK carrier strike group in the Norwegian Sea, in a significant operational deployment.",
+          "title": "Fire in Military Training Zone Spreads to Farmland",
+          "summary": "The Ministry of Defence confirmed a fire broke out on military training land and spread to adjacent farmland. The MoD stated fire services could not attend the original fire on military land, which initially 'burned itself out'.",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c0jyy5w4q2no",
-          "publishedAt": "2026-07-06"
+          "url": "http://news.bbc.co.uk/news/articles/ce3e4n1y9r3o",
+          "publishedAt": "2026-07-08"
         },
         {
-          "title": "RAF Museum Framework Document Published",
-          "summary": "The Ministry of Defence published the updated RAF Museum Framework Document, setting out the operating framework for the RAF Museum going forward.",
+          "title": "Defence Medical Research Strategy 2026–31 Published",
+          "summary": "The MoD published its Defence Medical Research Strategy 2026–31, setting out the demand signal for UK military medical research conducted within Defence Medical Services over the next five years.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/raf-museum-framework-document",
-          "publishedAt": "2026-07-06"
+          "url": "https://assets.publishing.service.gov.uk/media/6a4ce55dd200ca05e289e698/Defence_Medical_Research_Strategy_2026-31.pdf",
+          "publishedAt": "2026-07-07"
         }
       ]
     },
@@ -133,17 +126,17 @@
       "description": "Department for Business and Trade",
       "stories": [
         {
-          "title": "UK and Gulf Strike Historic Multi-Billion-Pound Trade Deal",
-          "summary": "The UK and Gulf Cooperation Council (GCC) have struck a landmark trade deal, with the Department for Business and Trade promising significant boosts to wages and GDP through the agreement.",
+          "title": "Post Office Capture Financial Redress: 262 Complete Applications as of 26 June 2026",
+          "summary": "DBT has received 262 complete applications under the Post Office Capture financial redress scheme as of 26 June 2026, reflecting the ongoing work to compensate victims of the Post Office Horizon scandal.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/organisations/department-for-business-and-trade",
+          "url": "https://www.gov.uk/government/publications/post-office-capture-financial-redress-data-for-2026/post-office-capture-financial-redress-data-as-of-26-june-2026",
           "publishedAt": "2026-07-07"
         },
         {
-          "title": "Research Published on Behavioural Insights into Digital Services Trade",
-          "summary": "DBT commissioned and published research with UK businesses to understand how they trade services internationally, aimed at unlocking digital trade barriers.",
+          "title": "DSIT and DBT Sign MoU on Digital Markets Unit Governance",
+          "summary": "DSIT and DBT have formalised their working relationship through a Memorandum of Understanding on the governance of the Digital Markets Unit, clarifying roles in sponsoring the Competition and Markets Authority.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/unlocking-digital-trade-behavioural-insights-into-services-trade",
+          "url": "https://www.gov.uk/government/publications/memorandum-of-understanding-governance-of-the-digital-markets-unit-between-dsit-and-dbt",
           "publishedAt": "2026-07-07"
         }
       ]
@@ -154,17 +147,17 @@
       "description": "Department for Science, Innovation and Technology",
       "stories": [
         {
-          "title": "Businesses Across Britain Sign Up to Cyber Resilience Pledge",
-          "summary": "Major firms including M&S, Nationwide, and ITV have signed up to DSIT's Cyber Resilience Pledge, as ministers urge businesses to strengthen their cyber defences amid rising threats.",
+          "title": "DSIT Publishes Cloud Challenge Book 2026",
+          "summary": "DSIT launched its first Cloud Challenge Book 2026, setting out challenges across UK cloud infrastructure and inviting industry partners to innovate at national scale. The publication aims to drive ambition in UK cloud technology.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/businesses-across-britain-sign-up-to-cyber-resilience-pledge-as-ministers-urge-firms-to-strengthen-cyber-defences",
-          "publishedAt": "2026-07-06"
+          "url": "https://www.gov.uk/government/publications/cloud-challenge-book-2026",
+          "publishedAt": "2026-07-07"
         },
         {
-          "title": "Women in Tech Taskforce Consults on Building Inclusive Future Tech Sector",
-          "summary": "DSIT's Women in Tech Taskforce, launched in December 2025, is consulting on building a future tech sector that works for everyone, seeking views on inclusion and diversity in the technology industry.",
+          "title": "DSIT and DBT Formalise Digital Markets Unit Governance",
+          "summary": "A new Memorandum of Understanding between DSIT and DBT clarifies respective departmental roles in overseeing the Digital Markets Unit under the CMA, as part of the government's wider competition and consumer policy framework.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/calls-for-evidence/building-a-future-tech-sector-that-works-for-everyone/building-a-future-tech-sector-that-works-for-everyone",
+          "url": "https://www.gov.uk/government/publications/memorandum-of-understanding-governance-of-the-digital-markets-unit-between-dsit-and-dbt",
           "publishedAt": "2026-07-07"
         }
       ]
@@ -175,25 +168,25 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "Consultant Doctors in England Vote for NHS Strikes Over Pay and Working Week",
-          "summary": "Consultant doctors in England have voted for strikes over the next 12 months in pursuit of higher pay and a shorter working week, prompting fears of renewed disruption to NHS services.",
+          "title": "Burnham Urged to Ditch 'Dangerous' UK–US NHS Drug Deal",
+          "summary": "Health groups are calling on Andy Burnham, the expected next Prime Minister, to abandon the UK-US NHS drug deal. Analysis suggests the agreement could lead to 229,000 excess deaths by 2036 if not renegotiated.",
           "source": "The Guardian",
-          "url": "https://www.theguardian.com/society/2026/jul/06/consultant-doctors-england-vote-nhs-strikes-pay-working-week",
-          "publishedAt": "2026-07-06"
-        },
-        {
-          "title": "NHS to Use AI on Its App to Direct Patients to Appropriate Services",
-          "summary": "The NHS is introducing AI on the NHS App to help direct patients to the most appropriate services, aiming to reduce waiting times and improve access to care.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/society/nhs",
+          "url": "https://www.theguardian.com/society/2026/jul/07/burnham-urged-to-ditch-dangerous-uk-us-nhs-drug-deal",
           "publishedAt": "2026-07-07"
         },
         {
-          "title": "NHS to Rate English Trusts on Tackling Violence and Racism Towards Staff",
-          "summary": "NHS England is introducing a new rating system for English trusts to measure their performance in tackling violence and racism towards healthcare staff.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/society/health",
-          "publishedAt": "2026-07-07"
+          "title": "New Technology 'Transforming' NHS Care on 78th Anniversary",
+          "summary": "On the NHS's 78th anniversary, clinical directors highlight how new technology is fundamentally changing emergency and urgent care delivery, with comparisons drawn to dramatic improvements in patient outcomes.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c4gyyy08143o",
+          "publishedAt": "2026-07-08"
+        },
+        {
+          "title": "Public to Be Asked Who Should Pay for Social Care",
+          "summary": "Baroness Louise Casey, leading the government's social care review, has described the current funding system as 'impossible' and announced that the public will be consulted on who should bear the cost of social care.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvg49lq1jw6o",
+          "publishedAt": "2026-07-08"
         }
       ]
     },
@@ -203,17 +196,17 @@
       "description": "Postal services",
       "stories": [
         {
-          "title": "July 2026 Postal Reforms: Universal Service Changes Now Underway",
-          "summary": "Royal Mail and the Communication Workers Union (CWU) reached agreement in April 2026 on deploying Universal Service Obligation (USO) changes, with revised service arrangements now rolling out across the UK from July 2026.",
-          "source": "CFH Docmail",
-          "url": "https://www.cfh.com/insights/blogs/communications/july-2026-uso-reform-update/",
-          "publishedAt": "2026-07-07"
+          "title": "Royal Mail Confirms Changes to Delivery Service",
+          "summary": "Royal Mail has announced a series of changes to its delivery service. First-class post will continue to be delivered Monday to Saturday, while parcels remain unaffected by the service changes.",
+          "source": "My London News",
+          "url": "https://www.facebook.com/mylondonnews/posts/royal-mail-has-confirmed-a-series-of-changes-to-its-delivery-service/1343241107957254/",
+          "publishedAt": "2026-07-08"
         },
         {
-          "title": "Dog Attacks on Postal Workers Fall 8% to 2,019 Incidents",
-          "summary": "Royal Mail announced that dog attacks on its staff fell 8% to 2,019 incidents over the past year, down from 2,197 in 2024/25, though the number remains significant.",
-          "source": "Royal Mail / Leicester Media",
-          "url": "https://x.com/leicestermedia/status/2074020292159058427",
+          "title": "Government Sets Out Future of Post Office as 'Hub of the High Street'",
+          "summary": "The government's response to its Post Office green paper consultation confirmed that the Post Office will trial a 'Hub of the High Street' model in 2026, positioning it as a visible economic stimulant in communities.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/consultations/green-paper-future-of-post-office/outcome/government-response-future-of-the-post-office",
           "publishedAt": "2026-07-07"
         }
       ]
