@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T16:05:00+10:00",
+  "lastUpdated": "2026-07-09T16:05:00+10:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -7,18 +7,25 @@
       "description": "Tax collection",
       "stories": [
         {
-          "title": "Making Tax Digital for Income Tax: First Quarterly Update Due 7 August 2026",
-          "summary": "HMRC has reminded agents that clients' first quarterly update under Making Tax Digital for Income Tax must be submitted by 7 August 2026. Agents can use their compatible software to send updates directly to HMRC.",
+          "title": "Simplification of the Capital Goods Scheme — VAT changes from 29 July 2026",
+          "summary": "HMRC is introducing significant simplifications to the VAT Capital Goods Scheme from 29 July 2026, removing computers and certain other items from the scheme's scope to reduce compliance burdens for businesses.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/agent-update-making-tax-digital-for-income-tax/agent-update-making-tax-digital-for-income-tax--2",
+          "url": "https://www.gov.uk/government/publications/capital-goods-scheme-simplification/simplification-of-the-capital-goods-scheme",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "Income and Corporation Taxes (Electronic Communications) Direction Updated",
+          "summary": "HMRC has updated its Electronic Communications Direction for Company Tax Returns, reflecting changes to the rules governing digital filing requirements under the Income and Corporation Taxes regulations.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/directions-under-regulations-3-and-10-of-the-income-and-corporation-taxes-electronic-communications-regulations-2003-si-2003282/income-and-corporation-taxes-electronic-communications-direction",
           "publishedAt": "2026-07-08"
         },
         {
-          "title": "HMRC Making Slow Progress on Agents' 'Pain Points'",
-          "summary": "ICAEW reports that HMRC's updated transformation roadmap suggests digital services for tax agents may continue to lag behind those for taxpayers for some time, raising concerns about efficiency for professionals.",
-          "source": "ICAEW",
-          "url": "https://www.icaew.com/insights/tax-news/2026/jul-2026/hmrc-making-slow-progress-in-tackling-agents-pain-points",
-          "publishedAt": "2026-07-08"
+          "title": "UK and India New Social Security Agreement — NI Changes from 15 July 2026",
+          "summary": "A new UK-India social security agreement will take effect on 15 July 2026, meaning employees covered by the deal will move onto Indian social security legislation and cease paying UK Class 1 National Insurance contributions.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/social-security-agreement-between-the-uk-and-india/uk-and-india-new-social-security-agreement",
+          "publishedAt": "2026-07-09"
         }
       ]
     },
@@ -28,11 +35,18 @@
       "description": "Immigration, visas, policing, security",
       "stories": [
         {
-          "title": "Sir Andy Marsh Named as Preferred Candidate for HM Chief Inspector of Constabulary",
-          "summary": "The Home Secretary confirmed Sir Andy Marsh QPM as the government's preferred candidate for the role of HM Chief Inspector of Constabulary and Fire & Rescue Services, announced on 7 July 2026.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/sir-andy-marsh-announced-as-preferred-candidate-for-hm-chief-inspector",
-          "publishedAt": "2026-07-07"
+          "title": "Government to Change Law to Allow Deportation of Rochdale Grooming Gang Ringleader",
+          "summary": "Home Secretary Shabana Mahmood has announced plans to amend the 1971 Immigration Act to close a legal loophole that has prevented the deportation of Shabir Ahmed, the ringleader of the Rochdale grooming gang. The legal change is intended to enable his removal from the UK.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cly0ly30384o",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "Mahmood to Close Loophole Blocking Deportation of Rochdale Grooming Gang Ringleader",
+          "summary": "The Guardian reports that the Home Secretary is expected to amend immigration law to enable the deportation of the convicted Rochdale grooming gang ringleader, who has so far been protected from removal by a gap in existing legislation.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/jul/08/mahmood-to-close-loophole-blocking-deportation-of-rochdale-grooming-gang-ringleader",
+          "publishedAt": "2026-07-08"
         }
       ]
     },
@@ -42,18 +56,18 @@
       "description": "Foreign, Commonwealth & Development Office",
       "stories": [
         {
-          "title": "FCDO Summons Iranian Chargé d'Affaires Over Attack on Iranian Journalist",
-          "summary": "The FCDO summoned Iran's Chargé d'Affaires in London following the sentencing of two individuals in connection with an attack on an Iranian international journalist, signalling the UK's strong condemnation of the incident.",
+          "title": "New UK Ambassador to the Czech Republic Appointed",
+          "summary": "Alastair King-Smith has been appointed as His Majesty's Ambassador to the Czech Republic, succeeding Matthew Field OBE in the diplomatic post.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/fcdo-summons-iranian-charge-daffaires-over-attack-on-iran-international-journalist",
-          "publishedAt": "2026-07-07"
+          "url": "https://www.gov.uk/government/news/change-of-his-majestys-ambassador-to-the-czech-republic-alastair-king-smith",
+          "publishedAt": "2026-07-09"
         },
         {
-          "title": "New HM Ambassador Appointed to the United Arab Emirates",
-          "summary": "Mrs Geraldine McCafferty has been appointed as His Majesty's Ambassador to the United Arab Emirates, succeeding Mr Edward Hobart in the role.",
+          "title": "FCDO Updates Nigeria Travel Advice — Against All But Essential Travel to Kwara and Benue States",
+          "summary": "The FCDO has updated its Nigeria travel guidance to advise against all but essential travel to Kwara State and Benue State, citing security concerns. The FCDO continues to advise against all travel to certain other areas.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/change-of-his-majestys-ambassador-to-the-united-arab-emirates-geraldine-mccafferty",
-          "publishedAt": "2026-07-07"
+          "url": "https://www.gov.uk/foreign-travel-advice/nigeria",
+          "publishedAt": "2026-07-09"
         }
       ]
     },
@@ -63,18 +77,18 @@
       "description": "Department for Work and Pensions",
       "stories": [
         {
-          "title": "Family Calls for Public Inquiry into DWP Failings After Disabled Woman's Death",
-          "summary": "The mother of a disabled woman who died by suicide after her benefits were incorrectly stopped has called for a full public inquiry into DWP failings. The case has reignited debate about the safety of the UK benefits system.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwydlez06g5o",
-          "publishedAt": "2026-07-08"
+          "title": "First Comprehensive Review into PIP Finds It Is 'Not Fit for Purpose'",
+          "summary": "A major government-commissioned review of Personal Independence Payment (PIP) has concluded that the benefit is no longer fit for purpose and has failed to keep pace with changes in disability, health and work over the past decade. The findings are expected to drive significant welfare reform.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/first-comprehensive-review-into-pip-finds-it-is-not-fit-for-purpose",
+          "publishedAt": "2026-07-09"
         },
         {
-          "title": "Carer's Allowance: Government Call for Evidence",
-          "summary": "The DWP has issued a call for evidence on Carer's Allowance, gathering views on how to improve the system. Recent steps include linking the weekly earnings limit to 16 times the National Living Wage hourly rate.",
+          "title": "Universal Credit Two-Child Limit Policy Statistics Published — April 2026",
+          "summary": "DWP has published new statistical data on Universal Credit claimants affected by the two-child limit policy, including updated figures on the number of families and children affected by the benefit cap.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/calls-for-evidence/carers-allowance-call-for-evidence",
-          "publishedAt": "2026-07-08"
+          "url": "https://www.gov.uk/government/statistics/universal-credit-claimants-statistics-on-the-two-child-limit-policy-april-2026/background-information-and-methodology",
+          "publishedAt": "2026-07-09"
         }
       ]
     },
@@ -84,18 +98,11 @@
       "description": "Department for Environment, Food & Rural Affairs",
       "stories": [
         {
-          "title": "Over 350 Threatened Species to Benefit from Record £90m Investment",
-          "summary": "DEFRA announced a £60 million three-year investment plus £30 million for species recovery on the national forest estate, benefiting over 350 threatened species across England.",
+          "title": "Cheaper Vet Fees and New Ombudsman in Biggest Reforms to Vet Sector in Half a Century",
+          "summary": "DEFRA has announced a sweeping overhaul of the veterinary sector — the most significant in 50 years — including measures to reduce vet fees for pet owners and the creation of a new veterinary ombudsman to handle complaints. The reforms follow a Competition and Markets Authority review.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/over-350-threatened-species-to-benefit-from-record-investment",
-          "publishedAt": "2026-07-07"
-        },
-        {
-          "title": "International Climate Finance Nature Spend Disclosure Published",
-          "summary": "DEFRA and Minister Emma Hardy MP published an Environmental Information Request (EIR) disclosure on International Climate Finance nature spending, providing transparency on the UK's climate commitments.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/international-climate-finance-icf-nature-spend-eir202613381",
-          "publishedAt": "2026-07-07"
+          "url": "https://www.gov.uk/government/news/cheaper-vet-fees-and-new-ombudsman-in-biggest-reforms-to-vet-sector-in-half-a-century",
+          "publishedAt": "2026-07-09"
         }
       ]
     },
@@ -105,18 +112,25 @@
       "description": "Ministry of Defence",
       "stories": [
         {
-          "title": "Fire in Military Training Zone Spreads to Farmland",
-          "summary": "The Ministry of Defence confirmed a fire broke out on military training land and spread to adjacent farmland. The MoD stated fire services could not attend the original fire on military land, which initially 'burned itself out'.",
-          "source": "BBC News",
-          "url": "http://news.bbc.co.uk/news/articles/ce3e4n1y9r3o",
-          "publishedAt": "2026-07-08"
+          "title": "£180 Million Overhaul Underway at RAF Brize Norton",
+          "summary": "A major £180 million infrastructure revamp has begun at RAF Brize Norton, the UK's busiest military air base. Works include replacing the 3km runway, refurbishing taxiways and upgrading airfield lighting to maintain the base's critical air mobility role.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/overhaul-underway-at-raf-brize-norton-180-million-revamp-to-keep-uk-air-mobility-moving",
+          "publishedAt": "2026-07-09"
         },
         {
-          "title": "Defence Medical Research Strategy 2026–31 Published",
-          "summary": "The MoD published its Defence Medical Research Strategy 2026–31, setting out the demand signal for UK military medical research conducted within Defence Medical Services over the next five years.",
+          "title": "RAF Brize Norton: £180m Revamp of UK's Largest RAF Base Begins",
+          "summary": "BBC News reports that a £180m renovation project is underway at RAF Brize Norton, covering the main runway, taxiways and lighting systems essential to the RAF's transport and air-to-air refuelling operations.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c4gyxxl4v1po",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "Defence Investment Plan — Jobs Impact Estimates Published",
+          "summary": "The Ministry of Defence has published estimates of future UK jobs supported by the Defence Investment Plan (released 30 June 2026), highlighting significant indirect employment supported in UK industry through defence spending.",
           "source": "GOV.UK",
-          "url": "https://assets.publishing.service.gov.uk/media/6a4ce55dd200ca05e289e698/Defence_Medical_Research_Strategy_2026-31.pdf",
-          "publishedAt": "2026-07-07"
+          "url": "https://www.gov.uk/government/publications/estimates-of-future-jobs-supported-by-the-defence-investment-plan/estimates-of-future-jobs-supported-by-the-defence-investment-plan",
+          "publishedAt": "2026-07-09"
         }
       ]
     },
@@ -126,18 +140,18 @@
       "description": "Department for Business and Trade",
       "stories": [
         {
-          "title": "Post Office Capture Financial Redress: 262 Complete Applications as of 26 June 2026",
-          "summary": "DBT has received 262 complete applications under the Post Office Capture financial redress scheme as of 26 June 2026, reflecting the ongoing work to compensate victims of the Post Office Horizon scandal.",
+          "title": "DBT Launches Skills and Capability Review of Ofgem",
+          "summary": "The Department for Business and Trade has launched a formal skills and capability review of Ofgem, the energy regulator, examining whether the regulator has the right expertise to deliver its remit in a rapidly evolving energy market.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/post-office-capture-financial-redress-data-for-2026/post-office-capture-financial-redress-data-as-of-26-june-2026",
-          "publishedAt": "2026-07-07"
+          "url": "https://www.gov.uk/government/publications/ofgem-skills-and-capability-review",
+          "publishedAt": "2026-07-08"
         },
         {
-          "title": "DSIT and DBT Sign MoU on Digital Markets Unit Governance",
-          "summary": "DSIT and DBT have formalised their working relationship through a Memorandum of Understanding on the governance of the Digital Markets Unit, clarifying roles in sponsoring the Competition and Markets Authority.",
+          "title": "Industrial Strategy Quarterly Update — Economic Indicators April to June 2026",
+          "summary": "DBT has published its Industrial Strategy quarterly economic update covering April to June 2026, including performance indicators across the eight key industrial sectors and notable revisions to major investment data.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/memorandum-of-understanding-governance-of-the-digital-markets-unit-between-dsit-and-dbt",
-          "publishedAt": "2026-07-07"
+          "url": "https://www.gov.uk/government/publications/industrial-strategy-quarterly-update-april-to-june-2026/industrial-strategy-economic-indicators-methodology-note-april-to-june-2026",
+          "publishedAt": "2026-07-09"
         }
       ]
     },
@@ -147,18 +161,25 @@
       "description": "Department for Science, Innovation and Technology",
       "stories": [
         {
-          "title": "DSIT Publishes Cloud Challenge Book 2026",
-          "summary": "DSIT launched its first Cloud Challenge Book 2026, setting out challenges across UK cloud infrastructure and inviting industry partners to innovate at national scale. The publication aims to drive ambition in UK cloud technology.",
+          "title": "Digital Identity Sectoral Analysis Report 2026 Published",
+          "summary": "DSIT and the Office for Digital Identities and Attributes have published their 2026 research report on the UK's digital identity sector, providing an analysis of market growth, adoption trends and regulatory developments.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/cloud-challenge-book-2026",
-          "publishedAt": "2026-07-07"
+          "url": "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026",
+          "publishedAt": "2026-07-09"
         },
         {
-          "title": "DSIT and DBT Formalise Digital Markets Unit Governance",
-          "summary": "A new Memorandum of Understanding between DSIT and DBT clarifies respective departmental roles in overseeing the Digital Markets Unit under the CMA, as part of the government's wider competition and consumer policy framework.",
+          "title": "50th UK Government-Funded 4G Mast Goes Live in Rural Scotland",
+          "summary": "DSIT has announced that the 50th 4G mast funded by the UK Government has been switched on in rural Scotland, boosting mobile connectivity in some of the country's most hard-to-reach communities as part of the Shared Rural Network programme.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/memorandum-of-understanding-governance-of-the-digital-markets-unit-between-dsit-and-dbt",
-          "publishedAt": "2026-07-07"
+          "url": "https://www.gov.uk/government/news/ring-it-on-rural-scots-get-mobile-signal-boost-as-50th-uk-government-funded-mast-goes-live",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "Life Sciences Sector Plan: One Year On — Progress Report Published",
+          "summary": "DSIT has released a one-year-on progress report for the Life Sciences Sector Plan (launched July 2025), detailing actions taken and investments made across the life sciences industry in the UK over the past year.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/life-sciences-sector-plan-one-year-on",
+          "publishedAt": "2026-07-09"
         }
       ]
     },
@@ -168,24 +189,17 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "Burnham Urged to Ditch 'Dangerous' UK–US NHS Drug Deal",
-          "summary": "Health groups are calling on Andy Burnham, the expected next Prime Minister, to abandon the UK-US NHS drug deal. Analysis suggests the agreement could lead to 229,000 excess deaths by 2036 if not renegotiated.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/society/2026/jul/07/burnham-urged-to-ditch-dangerous-uk-us-nhs-drug-deal",
-          "publishedAt": "2026-07-07"
+          "title": "NHS England Chief Warns Staff Face Sack or Prison for Accessing Patient Records Without Cause",
+          "summary": "The head of NHS England has issued a stark warning to all NHS staff that accessing patient records without a legitimate clinical reason could result in dismissal or criminal prosecution, amid growing concerns about data misuse across the health service.",
+          "source": "NHS England",
+          "url": "https://www.england.nhs.uk/",
+          "publishedAt": "2026-07-09"
         },
         {
-          "title": "New Technology 'Transforming' NHS Care on 78th Anniversary",
-          "summary": "On the NHS's 78th anniversary, clinical directors highlight how new technology is fundamentally changing emergency and urgent care delivery, with comparisons drawn to dramatic improvements in patient outcomes.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c4gyyy08143o",
-          "publishedAt": "2026-07-08"
-        },
-        {
-          "title": "Public to Be Asked Who Should Pay for Social Care",
-          "summary": "Baroness Louise Casey, leading the government's social care review, has described the current funding system as 'impossible' and announced that the public will be consulted on who should bear the cost of social care.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cvg49lq1jw6o",
+          "title": "10-Year Capital Plan Boosts Access to Modern GP Services in North East and Yorkshire",
+          "summary": "The Government's 10-Year Capital Plan, announced today, will enable GP practices across England — including in the North East and Yorkshire — to convert unused rooms into consulting and treatment spaces, improving access to primary care services.",
+          "source": "NHS England",
+          "url": "https://www.england.nhs.uk/north-east-yorkshire/2026/07/08/10-year-capital-plan-delivers-boost-for-access-to-modern-gp-services-in-north-east-and-yorkshire/",
           "publishedAt": "2026-07-08"
         }
       ]
@@ -196,18 +210,18 @@
       "description": "Postal services",
       "stories": [
         {
-          "title": "Royal Mail Confirms Changes to Delivery Service",
-          "summary": "Royal Mail has announced a series of changes to its delivery service. First-class post will continue to be delivered Monday to Saturday, while parcels remain unaffected by the service changes.",
-          "source": "My London News",
-          "url": "https://www.facebook.com/mylondonnews/posts/royal-mail-has-confirmed-a-series-of-changes-to-its-delivery-service/1343241107957254/",
-          "publishedAt": "2026-07-08"
+          "title": "Urgent Parliamentary Question on Royal Mail's Failure to Meet Universal Service Obligation",
+          "summary": "An urgent question was raised in the House of Commons regarding Royal Mail's ongoing failure to meet its universal service obligation, which requires delivery of letters to all UK addresses on a specified schedule. The issue has been highlighted by widespread complaints of severe postal delays.",
+          "source": "BBC / Parliament",
+          "url": "https://www.bbc.co.uk/iplayer/episode/m002yvh1/house-of-commons-northern-ireland-office-questions?seriesId=unsliced&page=7",
+          "publishedAt": "2026-07-09"
         },
         {
-          "title": "Government Sets Out Future of Post Office as 'Hub of the High Street'",
-          "summary": "The government's response to its Post Office green paper consultation confirmed that the Post Office will trial a 'Hub of the High Street' model in 2026, positioning it as a visible economic stimulant in communities.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/consultations/green-paper-future-of-post-office/outcome/government-response-future-of-the-post-office",
-          "publishedAt": "2026-07-07"
+          "title": "Residents Report Severe Postal Delays as Royal Mail Prioritises Parcels Over Letters",
+          "summary": "Communities including Milton Keynes have reported significant delays in letter deliveries, with residents noting that parcels are being prioritised while letter services deteriorate — despite rising stamp prices and Royal Mail's legal universal service obligations.",
+          "source": "MK Citizen",
+          "url": "https://www.facebook.com/mkcitizen/posts/residents-complain-of-severe-postal-delays-in-milton-keynes-town-with-some-lette/1632373468894652/",
+          "publishedAt": "2026-07-09"
         }
       ]
     }
