@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T16:06:00+10:00",
+  "lastUpdated": "2026-07-13T16:06:00+10:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -7,18 +7,25 @@
       "description": "Tax collection",
       "stories": [
         {
-          "title": "HMRC Annual Report and Accounts 2025 to 2026 Published",
-          "summary": "HMRC has published its annual report and accounts for 2025–2026. Highlights include a 64% rise in Self Assessment payments via the HMRC app in January 2026, and Budget 2025 measures expected to raise an additional £845 million in tax revenue by 2030–31 through improved data use.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/hmrc-annual-report-and-accounts-2025-to-2026/hmrcs-annual-report-and-accounts-2025-to-2026-executive-summary",
-          "publishedAt": "2026-07-10"
+          "title": "HMRC Accounts Show Record £966 Billion in U.K. Taxes Collected",
+          "summary": "HMRC's annual accounts reveal a record £966 billion in UK taxes collected, marking the highest total in the organisation's history.",
+          "source": "Tax Notes",
+          "url": "https://www.taxnotes.com/lr/resolve/7wd40",
+          "publishedAt": "2026-07-13"
         },
         {
-          "title": "HMRC External Commitments: Supplementary Note Released",
-          "summary": "HMRC has released a supplementary note on its external commitments alongside the annual report, detailing Budget 2025 measures that will raise £845 million in additional tax revenues through improved data analytics by 2030–31.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/hmrc-annual-report-and-accounts-2025-to-2026/hmrcs-external-commitments-supplementary-note",
-          "publishedAt": "2026-07-10"
+          "title": "HMRC Sends Letters to 580,000 Ahead of New August 2026 Deadline",
+          "summary": "HMRC is contacting over 580,000 workers who should have enrolled in Making Tax Digital (MTD) but have not yet done so, ahead of the August 2026 submission deadline.",
+          "source": "Birmingham Mail",
+          "url": "https://www.birminghammail.co.uk/news/cost-of-living/hmrc-sends-letters-580000-ahead-34261426",
+          "publishedAt": "2026-07-13"
+        },
+        {
+          "title": "1 in 2 Small Businesses Unprepared for New Digital Tax Deadline",
+          "summary": "A Lloyds Banking Group survey finds that around half of small businesses affected by HMRC's Making Tax Digital requirements have still not completed sign-up, with an estimated 475,000 firms yet to comply.",
+          "source": "Lloyds Banking Group",
+          "url": "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds/1-in-2-small-businesses-unprepared-for-digital-tax-deadline.html",
+          "publishedAt": "2026-07-13"
         }
       ]
     },
@@ -28,88 +35,88 @@
       "description": "Immigration, visas, policing, security",
       "stories": [
         {
-          "title": "Statement of Changes to Immigration Rules Published (HC 259, 9 July 2026)",
-          "summary": "The Home Secretary has laid new changes to the Immigration Rules before Parliament (HC 259), updating the practice to be followed in the administration of immigration and visas. This is one of several statements of changes issued throughout the year.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-259-9-july-2026/statement-of-changes-to-the-immigration-rules-hc-259-9-july-2026-accessible",
-          "publishedAt": "2026-07-09"
+          "title": "Home Office to Spend £250m on Protecting Jewish Communities",
+          "summary": "The government has announced more than £250m to increase policing in Jewish communities in England and Wales following a spate of violent antisemitic attacks, including deployment of an extra 500 officers.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/jul/13/home-office-to-spend-250m-on-protecting-jewish-communities-in-england-and-wales",
+          "publishedAt": "2026-07-13"
         },
         {
-          "title": "Annual Statistics on Scientific Procedures on Living Animals 2025 Published",
-          "summary": "The Home Office has published its annual statistical report on regulated scientific procedures involving living animals in Great Britain for 2025, covering the number of procedures and types of research conducted.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/statistics/scientific-procedures-on-living-animals-great-britain-2025/annual-statistics-of-scientific-procedures-on-living-animals-great-britain-2025",
-          "publishedAt": "2026-07-10"
+          "title": "Extra £251m Funding Boost to Protect Jewish Communities Across England",
+          "summary": "Police forces across England are to receive a £251m funding boost to help protect Jewish communities, announced by the Home Office following a rise in antisemitic incidents.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c78y2xg0090o",
+          "publishedAt": "2026-07-13"
+        },
+        {
+          "title": "Protests Held Over Home Office Asylum Plan for MoD Base Near Bicester",
+          "summary": "Two groups of protesters have gathered to oppose Home Office plans to house 1,250 single adult male asylum seekers at a former Ministry of Defence site near Bicester, Oxfordshire.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/czde627npepo",
+          "publishedAt": "2026-07-13"
         }
       ]
     },
     {
       "id": "fcdo",
       "name": "FCDO",
-      "description": "Diplomacy, international relations",
+      "description": "Diplomacy and international relations",
       "stories": [
         {
-          "title": "FCDO Updates Nigeria Travel Advice — Against Travel to Kwara and Benue States",
-          "summary": "The FCDO has updated its Nigeria travel advice, now advising against all but essential travel to Kwara State and Benue State, reflecting escalating security concerns in those regions.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/foreign-travel-advice/nigeria",
-          "publishedAt": "2026-07-01"
+          "title": "India-UK Free Trade Agreement Set to Take Effect on 15 July 2026",
+          "summary": "The landmark India-UK Free Trade Agreement signed under Prime Minister Starmer is scheduled to enter into force on 15 July 2026, representing a major milestone in post-Brexit trade policy.",
+          "source": "Outlook Business (via Instagram)",
+          "url": "https://www.instagram.com/p/DauCp9PAVK-/",
+          "publishedAt": "2026-07-13"
         },
         {
-          "title": "Saudi Arabia: Gulf Strategy Fund Call for Concept Notes 2026–2027",
-          "summary": "The British Embassy in Riyadh has issued a call for concept notes under the Gulf Strategy Fund, with projects funded in the range of £60,000–£80,000 to be delivered by 30 November 2026. Deadline for concept notes is 17 July 2026.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/saudi-arabia-gulf-strategy-fund-call-for-concept-notes-2026-to-2027",
-          "publishedAt": "2026-07-10"
+          "title": "UK High Commissioner Meets Pakistan Foreign Minister to Discuss Bilateral Relations",
+          "summary": "British High Commissioner Jane Marriott met Pakistan's Deputy Prime Minister and Foreign Minister Ishaq Dar to discuss UK-Pakistan relations and the evolving regional landscape.",
+          "source": "Pakistan Foreign Ministry",
+          "url": "https://www.instagram.com/p/DasnLYGDWqJ/",
+          "publishedAt": "2026-07-13"
         }
       ]
     },
     {
       "id": "dwp",
       "name": "DWP",
-      "description": "Benefits, pensions",
+      "description": "Benefits and pensions",
       "stories": [
         {
-          "title": "DWP Annual Report and Accounts 2025 to 2026 Published",
-          "summary": "The Department for Work and Pensions has published its annual report covering performance and expenditure from 1 April 2025 to 31 March 2026, providing a comprehensive overview of its benefits and pensions activities.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/dwp-annual-report-and-accounts-2025-to-2026",
-          "publishedAt": "2026-07-10"
+          "title": "DWP PIP Reforms: Thousands of UK Seniors Face Payment Changes",
+          "summary": "Labour's latest changes to Personal Independence Payment (PIP) are set to affect thousands of UK seniors, with new eligibility criteria and adjusted payment rates.",
+          "source": "YouTube / DWP Help Community",
+          "url": "https://www.youtube.com/watch?v=ar7Fwa9LbrU",
+          "publishedAt": "2026-07-13"
         },
         {
-          "title": "Timms Review of Personal Independence Payment (PIP): Interim Report Published",
-          "summary": "An interim report from the Timms Review into PIP has been published, revealing DWP forecasts that the number of PIP/DLA recipients may more than double to over 4.4 million people by 2031, up from levels seen in 2020. The report examines eligibility, assessment processes, and future costs.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/timms-review-of-personal-independence-payment-interim-report/the-timms-review-of-personal-independence-payment-interim-report",
-          "publishedAt": "2026-07-09"
+          "title": "DWP Weekly News Round-Up: Benefits System Consultation Open Until 18 August",
+          "summary": "A DWP consultation on the UK welfare benefits system is open on GOV.UK until 11:59pm on 18 August 2026, as reported in the community weekly news round-up.",
+          "source": "Reddit r/DWPhelp",
+          "url": "https://www.reddit.com/r/DWPhelp/comments/1uu7sn1/weekly_news_round_up_120726/",
+          "publishedAt": "2026-07-12"
         }
       ]
     },
     {
       "id": "defra",
       "name": "DEFRA",
-      "description": "Environment, food, rural affairs",
+      "description": "Environment, food and rural affairs",
       "stories": [
         {
-          "title": "Air Quality Alert Bulletin Issued — 9 July 2026",
-          "summary": "DEFRA's UK AIR service has issued an Air Quality Information and Alert Bulletin for 9 July 2026, flagging elevated pollution levels across parts of England.",
-          "source": "UK AIR (DEFRA)",
-          "url": "https://uk-air.defra.gov.uk/news?view=304",
-          "publishedAt": "2026-07-09"
+          "title": "DEFRA Publishes 30by30 Land Delivery Plan for England",
+          "summary": "DEFRA has published its official delivery plan setting out how the government will achieve the UK's commitment to protect 30% of land in England by 2030, including criteria for land assessment.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/30by30-on-land-in-england-delivery-plan",
+          "publishedAt": "2026-07-13"
         },
         {
-          "title": "Capital Grant Scheme Reopened with £150 Million to Support Nature-Friendly Farming",
-          "summary": "The Secretary of State for DEFRA announced the reopening of the Capital Grant scheme with £150 million in funding at the Groundswell Show on 3 July, aimed at incentivising nature-friendly farming practices across England.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/statistics/agriculture-in-the-united-kingdom-2025/chapter-1-key-events",
-          "publishedAt": "2026-07-10"
-        },
-        {
-          "title": "Rural Payments Agency Annual Report and Accounts 2025 to 2026 Published",
-          "summary": "The Rural Payments Agency (RPA), an executive agency of DEFRA, has published its annual report and accounts for 2025–2026, covering direct aid and rural development payments to English farmers.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/rural-payments-agency-annual-report-and-accounts-2025-to-2026",
-          "publishedAt": "2026-07-10"
+          "title": "Heatwave Reducing Milk Production, Says Warwickshire Farmer",
+          "summary": "A Warwickshire dairy farmer reports that this summer's extreme heat has significantly reduced milk production, adding to existing financial pressures on the UK farming industry.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c5yznxde6zxo",
+          "publishedAt": "2026-07-13"
         }
       ]
     },
@@ -119,25 +126,18 @@
       "description": "Ministry of Defence",
       "stories": [
         {
-          "title": "US Plans to Spend $500m on RAF Fairford Raise Concerns in Parliament",
-          "summary": "An MP has raised questions with the UK government about reported US plans to invest $500 million (£373 million) in expansion and military infrastructure at RAF Fairford in Gloucestershire, seeking clarity on the nature and implications of these plans.",
+          "title": "UK Leads Europe with £3.16m Contracts for Low-Cost Air Defence Systems",
+          "summary": "The Ministry of Defence has awarded £3.16 million to three suppliers to develop low-cost interceptors designed to shoot down drones, making the UK the first European partner to act under a joint defence programme.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/uk-leads-europe-with-contracts-for-low-cost-air-defence-systems",
+          "publishedAt": "2026-07-13"
+        },
+        {
+          "title": "Protests Held at Former MoD Base Earmarked for Asylum Seekers",
+          "summary": "Two groups of protesters assembled to oppose Home Office plans to house 1,250 single adult male asylum seekers at the former MoD site near Bicester, Oxfordshire.",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqx17e4n2rwo",
-          "publishedAt": "2026-07-10"
-        },
-        {
-          "title": "New Science-Led Training Guide Launched to Improve Servicewomen's Health",
-          "summary": "The MoD has launched a new science-led performance guide for Servicewomen to transform how they train, fuel and recover for demanding military roles, marking a significant step toward inclusive fitness standards.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/new-training-guide-launched-to-revolutionise-health-of-servicewomen",
-          "publishedAt": "2026-07-10"
-        },
-        {
-          "title": "Location Statistics for UK Regular Armed Forces and Civilians 2026 Published",
-          "summary": "The MoD has published its 2026 location statistics covering the national and international postings of all UK regular armed forces personnel and MoD civilian staff.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/statistics/location-statistics-for-uk-regular-armed-forces-and-civilians-2026",
-          "publishedAt": "2026-07-10"
+          "url": "https://www.bbc.co.uk/news/articles/czde627npepo",
+          "publishedAt": "2026-07-13"
         }
       ]
     },
@@ -147,46 +147,32 @@
       "description": "Department for Business and Trade",
       "stories": [
         {
-          "title": "UK Life Sciences Sector Attracts £3 Billion Investment",
-          "summary": "The Department for Business and Trade announced on 9 July 2026 that the UK life sciences sector has secured £3 billion in new investment, expected to create jobs and deliver faster patient treatments across the country.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/organisations/department-for-business-and-trade",
-          "publishedAt": "2026-07-09"
+          "title": "India-UK Free Trade Agreement Enters Into Force on 15 July 2026",
+          "summary": "The India-UK FTA, signed under Prime Minister Starmer, is set to take effect on 15 July 2026, opening significant new trade opportunities for British businesses.",
+          "source": "Outlook Business",
+          "url": "https://www.instagram.com/p/DauCp9PAVK-/",
+          "publishedAt": "2026-07-13"
         },
         {
-          "title": "Fair Work Agency Framework Agreement Published",
-          "summary": "DBT and the Fair Work Agency have published their framework agreement, approved by HM Treasury, setting out the operational and governance arrangements between the two bodies.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/fair-work-agency-framework-agreement",
-          "publishedAt": "2026-07-10"
-        },
-        {
-          "title": "Report: £multi-billion Economic Opportunity in UK Climate Adaptation Products and Services",
-          "summary": "DBT has published a report identifying a significant economic opportunity for UK businesses in climate adaptation, estimating a large global market for British products and services that help people and organisations manage climate risks.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/economic-opportunities-of-climate-adaptation-for-the-uk/economic-opportunities-of-climate-adaptation-for-the-uk",
-          "publishedAt": "2026-07-10"
+          "title": "British Business Bank Allocates £17.5m to SWIG Finance for South West SMEs",
+          "summary": "SWIG Finance has been allocated £17.5m by the British Business Bank to support smaller businesses across the South West of England, boosting access to finance for local SMEs.",
+          "source": "British Business Bank",
+          "url": "https://www.british-business-bank.co.uk/news-and-events/news/swig-finance-allocated-ps175m-british-business-bank-support-smaller-business-community-across-south",
+          "publishedAt": "2026-07-12"
         }
       ]
     },
     {
       "id": "dsit",
       "name": "DSIT",
-      "description": "Department for Science, Innovation and Technology",
+      "description": "Science, innovation and technology",
       "stories": [
         {
-          "title": "Intellectual Property Office Innovation and Growth Report 2025/26 Published",
-          "summary": "The IPO, an executive agency of DSIT, has published its Innovation and Growth Report for 2025/26, highlighting the role of IP rights in supporting UK innovation and economic growth.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/the-patent-office-innovation-and-growth-report-2025-to-2026/the-patent-office-innovation-and-growth-report-202526",
-          "publishedAt": "2026-07-10"
-        },
-        {
-          "title": "IPO Annual Report and Accounts 2025 to 2026 Published",
-          "summary": "The Intellectual Property Office, sponsored by DSIT, has published its annual report and accounts for 2025–2026, providing a full picture of its performance, operations, and financials.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/the-patent-office-annual-report-and-accounts-2025-to-2026/the-patent-office-annual-report-and-accounts-2025-to-2026",
-          "publishedAt": "2026-07-10"
+          "title": "Analysis: Making Sense of the UK's AI Security Institute",
+          "summary": "The Ada Lovelace Institute has published a detailed explainer on the UK's AI Security Institute (AISI) and how it fits into the broader UK AI governance landscape, as DSIT continues shaping the country's approach to AI regulation.",
+          "source": "Ada Lovelace Institute",
+          "url": "https://www.adalovelaceinstitute.org/feature/aisi/",
+          "publishedAt": "2026-07-13"
         }
       ]
     },
@@ -196,25 +182,25 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "NHS A&Es Face 'Summer Onslaught' with Busiest June on Record",
-          "summary": "NHS England has warned that A&E departments are experiencing their busiest month on record in June, driven by record heatwaves and increased footfall linked to the World Cup. The NHS is urging the public to use 111 and pharmacies to relieve pressure on emergency services.",
-          "source": "NHS England",
-          "url": "https://www.england.nhs.uk/news/?filter-category=gp",
-          "publishedAt": "2026-07-10"
+          "title": "Just One in Five GPs Now Works Full-Time",
+          "summary": "Official NHS data reveals that only one in five GPs is now working full-time, as younger doctors increasingly shun the traditional full-time working week, raising concerns about GP capacity.",
+          "source": "The Telegraph",
+          "url": "https://www.telegraph.co.uk/business/2026/07/12/one-in-five-gps-work-full-time/",
+          "publishedAt": "2026-07-12"
         },
         {
-          "title": "South East Patients Report Higher Satisfaction with GP Access",
-          "summary": "NHS England (South East) reports that patients in the region are happier with their experience of general practice, as access continues to improve following investments in GP appointments and NHS facilities announced earlier this week.",
-          "source": "NHS England",
-          "url": "https://www.england.nhs.uk/south-east/2026/07/09/south-east-patients-happier-with-their-experience-of-general-practice-as-access-continues-to-improve/",
-          "publishedAt": "2026-07-09"
+          "title": "NHS Modernisation Bill Represents Most Consequential Health Reshape in a Decade",
+          "summary": "The government's recently announced NHS Modernisation Bill is described as one of the most significant attempts to reshape the health service in over a decade, aiming to reform structures and improve patient outcomes.",
+          "source": "PharmaTimes",
+          "url": "https://magazine.pharmatimes.com/collections/pharmatimes-july-2026/",
+          "publishedAt": "2026-07-13"
         },
         {
-          "title": "Government's 10-Year Capital Plan to Boost GP Infrastructure",
-          "summary": "The Government's 10 Year Capital Plan announced this week will allow GP practices across England to convert unused rooms into consulting space and modernise facilities, improving patient care and access nationwide.",
-          "source": "NHS England",
-          "url": "https://www.england.nhs.uk/north-east-yorkshire/",
-          "publishedAt": "2026-07-10"
+          "title": "Some NHS Services May Be Affected by Industrial Action",
+          "summary": "NHS services may face disruption due to ongoing industrial action; patients are advised to continue attending appointments unless contacted directly by their provider.",
+          "source": "Instagram / NHS update",
+          "url": "https://www.instagram.com/p/DasJjuKFv6e/",
+          "publishedAt": "2026-07-13"
         }
       ]
     },
@@ -224,18 +210,18 @@
       "description": "Postal services",
       "stories": [
         {
-          "title": "Royal Mail's Failure to Meet Universal Service Obligation Raised in Parliament",
-          "summary": "An urgent question was raised in the House of Commons regarding Royal Mail's failure to meet its universal service obligation, putting pressure on the government to act on delivery reliability and network performance.",
-          "source": "BBC iPlayer / House of Commons",
-          "url": "https://www.bbc.co.uk/iplayer/episode/m002yvj8/house-of-commons-iran-urgent-question?seriesId=unsliced&page=7",
-          "publishedAt": "2026-07-10"
+          "title": "Ofcom Launches Fresh Investigation into Royal Mail Over Missed Delivery Targets",
+          "summary": "The UK postal regulator Ofcom has opened a new investigation into Royal Mail after the company again failed to meet its delivery targets, with MPs also raising concerns about prioritisation of parcels over letters.",
+          "source": "Instagram / James Naish MP",
+          "url": "https://www.instagram.com/reel/DasxYvooW0A/",
+          "publishedAt": "2026-07-13"
         },
         {
-          "title": "Surrey Town Set to Lose 'Crucial' Central Post Office",
-          "summary": "A town in Surrey is facing the closure of its central Post Office branch, which residents and local businesses have described as a crucial community resource. The closure is part of an ongoing pattern of Post Office branch reductions across the UK.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/topics/cwdnmkzrk5kt",
-          "publishedAt": "2026-07-09"
+          "title": "52 Post Office Branches Closing This Summer Due to Morrisons Exit",
+          "summary": "A decision by Morrisons supermarket to end its Post Office partnership will result in 52 Post Office branches closing this summer, affecting communities across the UK.",
+          "source": "The Express",
+          "url": "https://www.express.co.uk/news/uk/2228203/52-post-office-branches-closing",
+          "publishedAt": "2026-07-13"
         }
       ]
     }
