@@ -1,33 +1,11 @@
 {
-  "lastUpdated": "2026-07-13T16:06:00+10:00",
+  "lastUpdated": "2026-07-14T16:04:00+10:00",
   "agencies": [
     {
       "id": "hmrc",
       "name": "HMRC",
       "description": "Tax collection",
-      "stories": [
-        {
-          "title": "HMRC Accounts Show Record £966 Billion in U.K. Taxes Collected",
-          "summary": "HMRC's annual accounts reveal a record £966 billion in UK taxes collected, marking the highest total in the organisation's history.",
-          "source": "Tax Notes",
-          "url": "https://www.taxnotes.com/lr/resolve/7wd40",
-          "publishedAt": "2026-07-13"
-        },
-        {
-          "title": "HMRC Sends Letters to 580,000 Ahead of New August 2026 Deadline",
-          "summary": "HMRC is contacting over 580,000 workers who should have enrolled in Making Tax Digital (MTD) but have not yet done so, ahead of the August 2026 submission deadline.",
-          "source": "Birmingham Mail",
-          "url": "https://www.birminghammail.co.uk/news/cost-of-living/hmrc-sends-letters-580000-ahead-34261426",
-          "publishedAt": "2026-07-13"
-        },
-        {
-          "title": "1 in 2 Small Businesses Unprepared for New Digital Tax Deadline",
-          "summary": "A Lloyds Banking Group survey finds that around half of small businesses affected by HMRC's Making Tax Digital requirements have still not completed sign-up, with an estimated 475,000 firms yet to comply.",
-          "source": "Lloyds Banking Group",
-          "url": "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds/1-in-2-small-businesses-unprepared-for-digital-tax-deadline.html",
-          "publishedAt": "2026-07-13"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "home-office",
@@ -35,24 +13,24 @@
       "description": "Immigration, visas, policing, security",
       "stories": [
         {
-          "title": "Home Office to Spend £250m on Protecting Jewish Communities",
-          "summary": "The government has announced more than £250m to increase policing in Jewish communities in England and Wales following a spate of violent antisemitic attacks, including deployment of an extra 500 officers.",
+          "title": "Immigration and Asylum Bill: Second Reading Opening Speech",
+          "summary": "Home Secretary Shabana Mahmood delivered the opening speech for the second reading of the Immigration and Asylum Bill, setting out the government's case for major reform of the UK's asylum system.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/speeches/immigration-and-asylum-bill-second-reading-opening-speech",
+          "publishedAt": "2026-07-14"
+        },
+        {
+          "title": "UK Bans Support for Iran's Islamic Revolutionary Guard Corps (IRGC)",
+          "summary": "The UK government has designated the IRGC as a terrorist organisation under the National Security Act, making support for the group unlawful. The IRGC, Russia's GRU Volunteer Corps, and the Islamic Movement of Companions of the Right are among the first groups listed.",
           "source": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/jul/13/home-office-to-spend-250m-on-protecting-jewish-communities-in-england-and-wales",
+          "url": "https://www.theguardian.com/politics/2026/jul/13/uk-list-iran-islamic-revolutionary-guard-corps-irgc-terrorist-organisation",
           "publishedAt": "2026-07-13"
         },
         {
-          "title": "Extra £251m Funding Boost to Protect Jewish Communities Across England",
-          "summary": "Police forces across England are to receive a £251m funding boost to help protect Jewish communities, announced by the Home Office following a rise in antisemitic incidents.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c78y2xg0090o",
-          "publishedAt": "2026-07-13"
-        },
-        {
-          "title": "Protests Held Over Home Office Asylum Plan for MoD Base Near Bicester",
-          "summary": "Two groups of protesters have gathered to oppose Home Office plans to house 1,250 single adult male asylum seekers at a former Ministry of Defence site near Bicester, Oxfordshire.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/czde627npepo",
+          "title": "Immigration Bill Amendment to Allow Removal of Rochdale Abuse Convicted Citizens",
+          "summary": "Home Secretary Shabana Mahmood is tabling an amendment to the Immigration Bill that would make it possible to deport Commonwealth citizens convicted of serious criminality, including those involved in the Rochdale abuse scandal.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/jul/13/andy-burnham-expected-to-vote-shabana-mahmood-asylum-system-changes",
           "publishedAt": "2026-07-13"
         }
       ]
@@ -63,17 +41,10 @@
       "description": "Diplomacy and international relations",
       "stories": [
         {
-          "title": "India-UK Free Trade Agreement Set to Take Effect on 15 July 2026",
-          "summary": "The landmark India-UK Free Trade Agreement signed under Prime Minister Starmer is scheduled to enter into force on 15 July 2026, representing a major milestone in post-Brexit trade policy.",
-          "source": "Outlook Business (via Instagram)",
-          "url": "https://www.instagram.com/p/DauCp9PAVK-/",
-          "publishedAt": "2026-07-13"
-        },
-        {
-          "title": "UK High Commissioner Meets Pakistan Foreign Minister to Discuss Bilateral Relations",
-          "summary": "British High Commissioner Jane Marriott met Pakistan's Deputy Prime Minister and Foreign Minister Ishaq Dar to discuss UK-Pakistan relations and the evolving regional landscape.",
-          "source": "Pakistan Foreign Ministry",
-          "url": "https://www.instagram.com/p/DasnLYGDWqJ/",
+          "title": "UK Sanctions Iran-Linked Criminal Group Behind Attacks on Jewish Locations",
+          "summary": "The Foreign, Commonwealth & Development Office has announced UK sanctions against an Iran-linked criminal group that publicly claimed responsibility for recent attacks on Jewish locations in the UK.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/uk-sanctions-iran-linked-criminal-group-that-publicly-claimed-responsibility-for-recent-attacks-on-jewish-locations",
           "publishedAt": "2026-07-13"
         }
       ]
@@ -84,18 +55,18 @@
       "description": "Benefits and pensions",
       "stories": [
         {
-          "title": "DWP PIP Reforms: Thousands of UK Seniors Face Payment Changes",
-          "summary": "Labour's latest changes to Personal Independence Payment (PIP) are set to affect thousands of UK seniors, with new eligibility criteria and adjusted payment rates.",
-          "source": "YouTube / DWP Help Community",
-          "url": "https://www.youtube.com/watch?v=ar7Fwa9LbrU",
+          "title": "Biggest Pension Reforms: Value for Money Framework Timeline Laid Out",
+          "summary": "The DWP has set out the timeline for the biggest pension reforms in a generation, including a new Value for Money framework that will require pension schemes to measure and publish performance on investment outcomes and service quality — described as 'top of the league or in the relegation zone'.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/savers-to-see-if-their-pension-scheme-is-top-of-the-league-or-in-the-relegation-zone-as-government-lays-out-timeline-for-biggest-pension-reforms-in-a-",
           "publishedAt": "2026-07-13"
         },
         {
-          "title": "DWP Weekly News Round-Up: Benefits System Consultation Open Until 18 August",
-          "summary": "A DWP consultation on the UK welfare benefits system is open on GOV.UK until 11:59pm on 18 August 2026, as reported in the community weekly news round-up.",
-          "source": "Reddit r/DWPhelp",
-          "url": "https://www.reddit.com/r/DWPhelp/comments/1uu7sn1/weekly_news_round_up_120726/",
-          "publishedAt": "2026-07-12"
+          "title": "£60 Million Fund Launched to Transform Employment Support for Disabled People",
+          "summary": "DWP has launched a £60 million fund inviting businesses, charities and organisations to bid for funding to develop innovative ideas to support disabled people move closer to and into employment.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/60-million-fund-launched-to-transform-employment-support",
+          "publishedAt": "2026-07-13"
         }
       ]
     },
@@ -105,38 +76,45 @@
       "description": "Environment, food and rural affairs",
       "stories": [
         {
-          "title": "DEFRA Publishes 30by30 Land Delivery Plan for England",
-          "summary": "DEFRA has published its official delivery plan setting out how the government will achieve the UK's commitment to protect 30% of land in England by 2030, including criteria for land assessment.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/30by30-on-land-in-england-delivery-plan",
+          "title": "Government Publishes 30by30 Delivery Plan with £37 Million/Year Funding",
+          "summary": "DEFRA has published the UK's 30by30 Delivery Plan, backed by up to £37 million a year over the next three years to accelerate progress toward protecting 30% of land for nature by 2030. The plan also covers volunteer programmes to support biodiversity.",
+          "source": "DEFRA Environment Blog",
+          "url": "https://defraenvironment.blog.gov.uk/2026/07/13/powering-30by30-commitment-through-volunteering/",
           "publishedAt": "2026-07-13"
         },
         {
-          "title": "Heatwave Reducing Milk Production, Says Warwickshire Farmer",
-          "summary": "A Warwickshire dairy farmer reports that this summer's extreme heat has significantly reduced milk production, adding to existing financial pressures on the UK farming industry.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c5yznxde6zxo",
+          "title": "Land Use Framework Publications Released",
+          "summary": "DEFRA published a collection of products and publications developed through the Land Use Framework, outlining how land across England can be best used to balance food production, environmental goals and rural economic needs.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/collections/land-use-framework-publications",
           "publishedAt": "2026-07-13"
         }
       ]
     },
     {
       "id": "mod",
-      "name": "MoD",
-      "description": "Ministry of Defence",
+      "name": "Ministry of Defence",
+      "description": "UK armed forces and defence",
       "stories": [
         {
-          "title": "UK Leads Europe with £3.16m Contracts for Low-Cost Air Defence Systems",
-          "summary": "The Ministry of Defence has awarded £3.16 million to three suppliers to develop low-cost interceptors designed to shoot down drones, making the UK the first European partner to act under a joint defence programme.",
+          "title": "£15 Billion Funding Boost: At Least Six New Air Defence Warships Announced",
+          "summary": "The MoD has announced at least six new air defence warships to defend UK waters and boost domestic shipbuilding, as part of a £15 billion new funding package to transform the Armed Forces. The announcement also includes high-speed boats and new drones for elite Commando units.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/uk-leads-europe-with-contracts-for-low-cost-air-defence-systems",
+          "url": "https://www.gov.uk/government/organisations/ministry-of-defence",
+          "publishedAt": "2026-07-14"
+        },
+        {
+          "title": "35 Universities Partner in New Defence Universities Alliance",
+          "summary": "A new Defence Universities Alliance has been launched with 35 UK universities to strengthen defence research, build critical skills and support the UK's future defence capabilities.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/boost-for-skills-and-research-as-35-universities-across-the-uk-partner-in-new-defence-alliance",
           "publishedAt": "2026-07-13"
         },
         {
-          "title": "Protests Held at Former MoD Base Earmarked for Asylum Seekers",
-          "summary": "Two groups of protesters assembled to oppose Home Office plans to house 1,250 single adult male asylum seekers at the former MoD site near Bicester, Oxfordshire.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/czde627npepo",
+          "title": "MoD Requires All Industry Partners to Achieve Cyber Certification by December 2026",
+          "summary": "The Ministry of Defence has set a December 2026 deadline for all industry partners to achieve Level 0 of the Defence Cyber Certification (DCC), as part of its strategy to build cyber resilience across the UK's defence supply chain.",
+          "source": "Defence Digital Blog",
+          "url": "https://defencedigital.blog.gov.uk/2026/07/13/building-cyber-resilience-in-the-uk-one-step-at-a-time/",
           "publishedAt": "2026-07-13"
         }
       ]
@@ -144,21 +122,14 @@
     {
       "id": "dbt",
       "name": "DBT",
-      "description": "Department for Business and Trade",
+      "description": "Business and trade",
       "stories": [
         {
-          "title": "India-UK Free Trade Agreement Enters Into Force on 15 July 2026",
-          "summary": "The India-UK FTA, signed under Prime Minister Starmer, is set to take effect on 15 July 2026, opening significant new trade opportunities for British businesses.",
-          "source": "Outlook Business",
-          "url": "https://www.instagram.com/p/DauCp9PAVK-/",
-          "publishedAt": "2026-07-13"
-        },
-        {
-          "title": "British Business Bank Allocates £17.5m to SWIG Finance for South West SMEs",
-          "summary": "SWIG Finance has been allocated £17.5m by the British Business Bank to support smaller businesses across the South West of England, boosting access to finance for local SMEs.",
-          "source": "British Business Bank",
-          "url": "https://www.british-business-bank.co.uk/news-and-events/news/swig-finance-allocated-ps175m-british-business-bank-support-smaller-business-community-across-south",
-          "publishedAt": "2026-07-12"
+          "title": "Landmark UK-Switzerland Services Trade Deal Unveiled — £5.2 Billion Annually",
+          "summary": "The UK has sealed an unprecedented services trade agreement with Switzerland, estimated to increase UK exports to Switzerland by £5.2 billion annually. The deal also simplifies exporting processes through paperless trading and paves the way for easier travel for British citizens.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/unprecedented-services-trade-deal-unveiled-as-uk-seals-agreement-with-switzerland",
+          "publishedAt": "2026-07-14"
         }
       ]
     },
@@ -168,10 +139,17 @@
       "description": "Science, innovation and technology",
       "stories": [
         {
-          "title": "Analysis: Making Sense of the UK's AI Security Institute",
-          "summary": "The Ada Lovelace Institute has published a detailed explainer on the UK's AI Security Institute (AISI) and how it fits into the broader UK AI governance landscape, as DSIT continues shaping the country's approach to AI regulation.",
-          "source": "Ada Lovelace Institute",
-          "url": "https://www.adalovelaceinstitute.org/feature/aisi/",
+          "title": "Barnsley Tech Town's £800,000 AI Skills Fund Opens for Applications",
+          "summary": "DSIT has announced that applications are open for the AI Upskilling Challenge Fund in Barnsley, inviting organisations to deliver innovative AI training to help local workers, businesses and communities benefit from artificial intelligence.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/barnsley-tech-towns-800000-ai-skills-fund-opens-for-applications",
+          "publishedAt": "2026-07-13"
+        },
+        {
+          "title": "New Research on Children's Circumvention Behaviours Online Published",
+          "summary": "DSIT has published new research commissioned from BMG Research examining how children aged 11 to 17 experience and circumvent age verification and parental controls online, to inform online safety policy.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/childrens-circumvention-behaviours-online",
           "publishedAt": "2026-07-13"
         }
       ]
@@ -182,24 +160,10 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "Just One in Five GPs Now Works Full-Time",
-          "summary": "Official NHS data reveals that only one in five GPs is now working full-time, as younger doctors increasingly shun the traditional full-time working week, raising concerns about GP capacity.",
-          "source": "The Telegraph",
-          "url": "https://www.telegraph.co.uk/business/2026/07/12/one-in-five-gps-work-full-time/",
-          "publishedAt": "2026-07-12"
-        },
-        {
-          "title": "NHS Modernisation Bill Represents Most Consequential Health Reshape in a Decade",
-          "summary": "The government's recently announced NHS Modernisation Bill is described as one of the most significant attempts to reshape the health service in over a decade, aiming to reform structures and improve patient outcomes.",
-          "source": "PharmaTimes",
-          "url": "https://magazine.pharmatimes.com/collections/pharmatimes-july-2026/",
-          "publishedAt": "2026-07-13"
-        },
-        {
-          "title": "Some NHS Services May Be Affected by Industrial Action",
-          "summary": "NHS services may face disruption due to ongoing industrial action; patients are advised to continue attending appointments unless contacted directly by their provider.",
-          "source": "Instagram / NHS update",
-          "url": "https://www.instagram.com/p/DasJjuKFv6e/",
+          "title": "Oxford Researchers Develop Vaccine for New Ebolavirus Variant — Fast-Track Review Underway",
+          "summary": "Researchers at the University of Oxford announced on 13 July 2026 they have developed a vaccine for a new variant of Ebolavirus. The NHS Health Research Authority (HRA) has initiated a fast-track review of the vaccine.",
+          "source": "NHS HRA",
+          "url": "https://www.hra.nhs.uk/about-us/news-updates/ebola-vaccine-fast-track-review/",
           "publishedAt": "2026-07-13"
         }
       ]
@@ -208,22 +172,7 @@
       "id": "royal-mail",
       "name": "Royal Mail / Post Office",
       "description": "Postal services",
-      "stories": [
-        {
-          "title": "Ofcom Launches Fresh Investigation into Royal Mail Over Missed Delivery Targets",
-          "summary": "The UK postal regulator Ofcom has opened a new investigation into Royal Mail after the company again failed to meet its delivery targets, with MPs also raising concerns about prioritisation of parcels over letters.",
-          "source": "Instagram / James Naish MP",
-          "url": "https://www.instagram.com/reel/DasxYvooW0A/",
-          "publishedAt": "2026-07-13"
-        },
-        {
-          "title": "52 Post Office Branches Closing This Summer Due to Morrisons Exit",
-          "summary": "A decision by Morrisons supermarket to end its Post Office partnership will result in 52 Post Office branches closing this summer, affecting communities across the UK.",
-          "source": "The Express",
-          "url": "https://www.express.co.uk/news/uk/2228203/52-post-office-branches-closing",
-          "publishedAt": "2026-07-13"
-        }
-      ]
+      "stories": []
     }
   ]
 }
