@@ -394,6 +394,101 @@
     margin-bottom: 0.2rem;
   }
 
+  /* ── Archive picker ── */
+  .archive-select {
+    font-size: 0.78rem; color: var(--text);
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 0.3rem 0.6rem;
+    cursor: pointer; outline: none;
+  }
+  .archive-select:focus { border-color: var(--primary); }
+  .archive-label {
+    font-size: 0.75rem; color: var(--text-muted); white-space: nowrap;
+  }
+
+  /* ── Chatbot ── */
+  .chat-fab {
+    position: fixed; bottom: 1.75rem; right: 1.75rem; z-index: 600;
+    width: 54px; height: 54px; border-radius: 50%;
+    background: var(--primary); color: #fff;
+    border: none; cursor: pointer; font-size: 1.4rem;
+    box-shadow: 0 4px 16px rgba(26,86,219,0.4);
+    display: flex; align-items: center; justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .chat-fab:hover { transform: scale(1.07); box-shadow: 0 6px 20px rgba(26,86,219,0.5); }
+  .chat-panel {
+    position: fixed; bottom: 0; right: 0;
+    width: 390px; height: 580px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px 16px 0 0;
+    box-shadow: -4px 0 32px rgba(0,0,0,0.14);
+    z-index: 599; display: none; flex-direction: column; overflow: hidden;
+  }
+  .chat-panel.open { display: flex; }
+  .chat-head {
+    padding: 0.875rem 1rem;
+    background: var(--primary); color: #fff;
+    font-size: 0.9rem; font-weight: 700;
+    display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;
+  }
+  .chat-head-left { display: flex; align-items: center; gap: 0.5rem; }
+  .chat-close-btn {
+    background: none; border: none; color: rgba(255,255,255,0.8);
+    font-size: 1.1rem; cursor: pointer; padding: 0 0.2rem; line-height: 1;
+  }
+  .chat-close-btn:hover { color: #fff; }
+  .chat-messages {
+    flex: 1; overflow-y: auto; padding: 1rem;
+    display: flex; flex-direction: column; gap: 0.75rem;
+  }
+  .chat-bubble {
+    max-width: 88%; padding: 0.6rem 0.875rem;
+    border-radius: 12px; font-size: 0.82rem; line-height: 1.55;
+  }
+  .chat-bubble.user {
+    background: var(--primary); color: #fff;
+    align-self: flex-end; border-radius: 14px 14px 2px 14px;
+  }
+  .chat-bubble.bot {
+    background: var(--surface2); color: var(--text);
+    align-self: flex-start; border-radius: 14px 14px 14px 2px;
+    border: 1px solid var(--border);
+  }
+  .chat-bubble.thinking { color: var(--text-muted); font-style: italic; }
+  .chat-key-wrap {
+    padding: 1.25rem; display: flex; flex-direction: column; gap: 0.875rem;
+  }
+  .chat-key-wrap p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.55; }
+  .chat-key-inp {
+    font-size: 0.82rem; border: 1px solid var(--border); border-radius: 8px;
+    padding: 0.5rem 0.75rem; outline: none; width: 100%; color: var(--text); background: var(--surface);
+  }
+  .chat-key-inp:focus { border-color: var(--primary); }
+  .chat-key-go {
+    background: var(--primary); color: #fff; border: none;
+    border-radius: 8px; padding: 0.55rem 1rem;
+    font-size: 0.82rem; font-weight: 600; cursor: pointer;
+  }
+  .chat-key-go:hover { opacity: 0.9; }
+  .chat-input-row {
+    display: flex; gap: 0.5rem; padding: 0.75rem 1rem;
+    border-top: 1px solid var(--border);
+  }
+  .chat-text-inp {
+    flex: 1; font-size: 0.82rem; border: 1px solid var(--border);
+    border-radius: 8px; padding: 0.45rem 0.7rem; outline: none;
+    color: var(--text); background: var(--surface);
+  }
+  .chat-text-inp:focus { border-color: var(--primary); }
+  .chat-send-btn {
+    background: var(--primary); color: #fff; border: none;
+    border-radius: 8px; padding: 0.45rem 0.875rem;
+    font-size: 0.82rem; font-weight: 600; cursor: pointer;
+  }
+  .chat-send-btn:hover { opacity: 0.9; }
+
   /* ── Loading state ── */
   .loading-overlay {
     display: none;
@@ -446,6 +541,10 @@
       </div>
     </div>
     <div class="header-meta">
+      <span class="archive-label">📅 Edition:</span>
+      <select class="archive-select" id="archiveSelect" onchange="switchEdition(this.value)">
+        <option value="today">Today</option>
+      </select>
       <div class="last-updated">
         <span class="status-dot"></span>
         Updated: <span id="lastUpdated">—</span>
@@ -515,9 +614,45 @@ function agencyIcon(a) {
   return AGENCY_ICONS[a.id] || '🏛️';
 }
 
-async function loadData() {
-  const res = await fetch('news_data.json?t=' + Date.now());
+let currentNewsData = null;
+
+async function fetchData(date) {
+  const url = (!date || date === 'today')
+    ? 'news_data.json?t=' + Date.now()
+    : 'archive/' + date + '.json?t=' + Date.now();
+  const res = await fetch(url);
   return res.json();
+}
+
+async function loadArchiveIndex() {
+  try {
+    const res = await fetch('archive_index.json?t=' + Date.now());
+    if (!res.ok) return;
+    const data = await res.json();
+    const sel = document.getElementById('archiveSelect');
+    if (!sel) return;
+    const today = new Date().toISOString().slice(0, 10);
+    const dates = (data.dates || []).filter(d => d !== today);
+    dates.forEach(d => {
+      const opt = document.createElement('option');
+      opt.value = d;
+      opt.textContent = new Date(d + 'T12:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+      sel.appendChild(opt);
+    });
+  } catch(e) { /* no archive yet */ }
+}
+
+async function switchEdition(date) {
+  try {
+    document.getElementById('loadingOverlay').classList.add('active');
+    const data = await fetchData(date);
+    currentNewsData = data;
+    renderAll(data);
+  } catch(e) {
+    alert('Could not load edition for ' + date);
+  } finally {
+    document.getElementById('loadingOverlay').classList.remove('active');
+  }
 }
 
 function tagClass(tag) {
@@ -627,21 +762,26 @@ function renderHighlights(agencies) {
   `).join('');
 }
 
+function renderAll(data) {
+  document.getElementById('lastUpdated').textContent = data.lastUpdated || '—';
+  const counts = {};
+  data.agencies.forEach(a => { counts[a.id] = a.stories?.length || 0; });
+  renderNav(data.agencies, counts);
+  renderSections(data.agencies);
+  const { total } = renderStats(data.agencies);
+  renderActivity(data.agencies, total);
+  renderHighlights(data.agencies);
+  const first = document.querySelector('.nav-item');
+  if (first) first.classList.add('active');
+}
+
 async function init() {
   document.getElementById('loadingOverlay').classList.add('active');
   try {
-    const data = await loadData();
-    document.getElementById('lastUpdated').textContent = data.lastUpdated || '—';
-    const counts = {};
-    data.agencies.forEach(a => { counts[a.id] = a.stories?.length || 0; });
-    renderNav(data.agencies, counts);
-    renderSections(data.agencies);
-    const { total } = renderStats(data.agencies);
-    renderActivity(data.agencies, total);
-    renderHighlights(data.agencies);
-    // activate first nav item
-    const first = document.querySelector('.nav-item');
-    if (first) first.classList.add('active');
+    const data = await fetchData('today');
+    currentNewsData = data;
+    renderAll(data);
+    loadArchiveIndex();
   } catch(e) {
     console.error(e);
   } finally {
@@ -650,6 +790,149 @@ async function init() {
 }
 
 init();
+
+/* ── Chatbot ── */
+function toggleChat() {
+  const panel = document.getElementById('chatPanel');
+  panel.classList.toggle('open');
+  if (panel.classList.contains('open') && !document.getElementById('chatMessages').children.length) {
+    addBotMsg('👋 Hi! Ask me anything about today\'s UK agency news.\n\nTry: "Summarise HMRC news" · "Top NHS story" · "How many stories today?" · "Any news on Home Office?" · "What\'s happening with DVLA?"');
+  }
+}
+
+function addBotMsg(text) {
+  const msgs = document.getElementById('chatMessages');
+  const div = document.createElement('div');
+  div.className = 'chat-bubble bot';
+  div.innerHTML = text.replace(/\n/g, '<br>');
+  msgs.appendChild(div);
+  msgs.scrollTop = msgs.scrollHeight;
+  return div;
+}
+
+function addUserMsg(text) {
+  const msgs = document.getElementById('chatMessages');
+  const div = document.createElement('div');
+  div.className = 'chat-bubble user';
+  div.textContent = text;
+  msgs.appendChild(div);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function smartAnswer(q) {
+  if (!currentNewsData || !currentNewsData.agencies) return "News data isn't loaded yet — please wait for the next daily scan.";
+  const agencies = currentNewsData.agencies;
+  const lower = q.toLowerCase();
+
+  // Intent: total / how many
+  if (/how many|total|count/.test(lower)) {
+    const total = agencies.reduce((s,a)=>s+(a.stories||[]).length,0);
+    const active = agencies.filter(a=>(a.stories||[]).length>0).length;
+    return `📊 Today's totals:\n• ${total} stories across ${active} active agencies\n• ${agencies.length} agencies monitored in total`;
+  }
+
+  // Intent: top / headline / biggest / leading
+  if (/^top|headline|biggest|leading|main story|best story/.test(lower)) {
+    const all = [];
+    agencies.forEach(a => (a.stories||[]).forEach(s => all.push({agency:a.name, ...s})));
+    if (!all.length) return "No stories found for today yet.";
+    const top = all[0];
+    return `🔝 Top story today:\n\n**${top.agency}** — ${top.title}\n\n${top.summary || ''}\n\n📰 ${top.source}`;
+  }
+
+  // Intent: list all agencies / what agencies
+  if (/which agenc|list agenc|all agenc|what agenc/.test(lower)) {
+    return '🏛️ Agencies monitored:\n' + agencies.map(a=>`• ${a.name} (${(a.stories||[]).length} stories)`).join('\n');
+  }
+
+  // Intent: quiet / no news / nothing happening
+  if (/quiet|silent|nothing|no news|inactive/.test(lower)) {
+    const quiet = agencies.filter(a=>(a.stories||[]).length===0).map(a=>a.name);
+    if (!quiet.length) return '📡 All agencies have news today — a busy day!';
+    return `😴 Quiet agencies today (no stories):\n${quiet.map(n=>`• ${n}`).join('\n')}`;
+  }
+
+  // Intent: busiest / most active
+  if (/busiest|most active|most stories|most news/.test(lower)) {
+    const sorted = [...agencies].filter(a=>(a.stories||[]).length>0).sort((a,b)=>(b.stories||[]).length-(a.stories||[]).length);
+    if (!sorted.length) return 'No stories found today yet.';
+    const top3 = sorted.slice(0,3);
+    return '🔥 Most active agencies today:\n' + top3.map((a,i)=>`${i+1}. ${a.name} — ${a.stories.length} stories`).join('\n');
+  }
+
+  // Intent: summarise / tell me about / news on / what's happening with <agency>
+  // Match agency by name keywords
+  const agencyAliases = {
+    'hmrc': ['hmrc','tax','revenue','customs'],
+    'home-office': ['home office','immigration','visa','border'],
+    'nhs': ['nhs','health','hospital','medical'],
+    'dwp': ['dwp','benefit','welfare','pension','universal credit'],
+    'mod': ['mod','defence','defense','military','army','navy','RAF'],
+    'ofsted': ['ofsted','school inspection','education standards'],
+    'environment-agency': ['environment agency','environment','flood','pollution'],
+    'companies-house': ['companies house','company registration','company'],
+    'ofcom': ['ofcom','media regulator','broadcast','telecom'],
+    'cqc': ['cqc','care quality','care provider'],
+  };
+
+  let matched = null;
+  for (const agency of agencies) {
+    const nameWords = agency.name.toLowerCase().split(/\s+/);
+    const aliases = agencyAliases[agency.id] || nameWords;
+    if (aliases.some(alias => lower.includes(alias))) {
+      matched = agency;
+      break;
+    }
+  }
+
+  if (matched) {
+    const stories = matched.stories || [];
+    if (!stories.length) return `😴 No stories for **${matched.name}** today — all quiet on that front.`;
+    const lines = stories.map((s,i)=>`${i+1}. ${s.title}\n   ${s.summary || ''}\n   📰 ${s.source}`).join('\n\n');
+    return `📋 **${matched.name}** — ${stories.length} stor${stories.length===1?'y':'ies'} today:\n\n${lines}`;
+  }
+
+  // Intent: keyword search across all stories
+  const keywords = lower.replace(/[^a-z0-9 ]/g,'').split(/\s+/).filter(w=>w.length>3 && !['what','tell','about','news','today','with','from','have','some','this','that'].includes(w));
+  const hits = [];
+  agencies.forEach(a => (a.stories||[]).forEach(s => {
+    const text = (s.title+' '+(s.summary||'')).toLowerCase();
+    if (keywords.some(k => text.includes(k))) hits.push({agency:a.name, ...s});
+  }));
+  if (hits.length) {
+    return `🔍 Found ${hits.length} related stor${hits.length===1?'y':'ies'}:\n\n` +
+      hits.slice(0,4).map(h=>`• **${h.agency}** — ${h.title}`).join('\n');
+  }
+
+  return `🤔 I couldn't find anything specific for "${q}".\n\nTry asking about a specific agency (e.g. "HMRC news"), or use: "top story", "how many stories", "busiest agency", or "quiet agencies".`;
+}
+
+function sendChat() {
+  const inp = document.getElementById('chatTextInp');
+  const text = inp.value.trim();
+  if (!text) return;
+  inp.value = '';
+  addUserMsg(text);
+  setTimeout(() => {
+    const answer = smartAnswer(text);
+    addBotMsg(answer);
+  }, 180);
+}
 </script>
+
+<button class="chat-fab" onclick="toggleChat()" title="Ask AI about today's news">💬</button>
+
+<div class="chat-panel" id="chatPanel">
+  <div class="chat-head">
+    <div class="chat-head-left">🏛️ News Assistant</div>
+    <button class="chat-close-btn" onclick="toggleChat()">✕</button>
+  </div>
+  <div class="chat-messages" id="chatMessages"></div>
+  <div class="chat-input-row">
+    <input class="chat-text-inp" id="chatTextInp" placeholder="Ask about today's news…" onkeydown="if(event.key==='Enter')sendChat()" />
+    <button class="chat-send-btn" onclick="sendChat()">Send</button>
+  </div>
+</div>
+
 </body>
 </html>
