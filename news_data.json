@@ -1,11 +1,26 @@
 {
-  "lastUpdated": "2026-07-14T16:04:00+10:00",
+  "lastUpdated": "2026-07-15T16:05:00+10:00",
   "agencies": [
     {
       "id": "hmrc",
       "name": "HMRC",
       "description": "Tax collection",
-      "stories": []
+      "stories": [
+        {
+          "title": "New HMRC Guidance for People Affected by Making Tax Digital Changes",
+          "summary": "HMRC has issued new guidance for self-employed workers and landlords as the Making Tax Digital system officially began rolling out in April for those earning more than £50,000 annually.",
+          "source": "Yahoo Finance UK",
+          "url": "https://uk.style.yahoo.com/hmrc-guidance-people-affected-tax-115027080.html",
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "Businesses Urged to Apply by End of July for Vaping Products Duty Registration",
+          "summary": "HMRC is urging businesses to apply for approval before the end of July ahead of the introduction of a new excise duty on vaping products from 1 October 2026.",
+          "source": "Mynewsdesk / HMRC",
+          "url": "https://www.mynewsdesk.com/uk/hm-revenue-customs-hmrc/pressreleases/businesses-urged-to-apply-by-end-of-july-for-vaping-products-duty-to-continue-trading-from-october-3458651",
+          "publishedAt": "2026-07-15"
+        }
+      ]
     },
     {
       "id": "home-office",
@@ -13,144 +28,144 @@
       "description": "Immigration, visas, policing, security",
       "stories": [
         {
-          "title": "Immigration and Asylum Bill: Second Reading Opening Speech",
-          "summary": "Home Secretary Shabana Mahmood delivered the opening speech for the second reading of the Immigration and Asylum Bill, setting out the government's case for major reform of the UK's asylum system.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/speeches/immigration-and-asylum-bill-second-reading-opening-speech",
+          "title": "Asylum Seekers at Mercy of Home Office Hotel Closures Face Legal Challenge",
+          "summary": "The Home Office has closed 20 asylum seeker hotels following an earlier closure of 11, leaving many in precarious situations. Affected individuals are mounting a legal challenge against the closures.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/jul/14/asylum-seekers-mercy-home-office-hotel-closures-legal-challenge",
           "publishedAt": "2026-07-14"
         },
         {
-          "title": "UK Bans Support for Iran's Islamic Revolutionary Guard Corps (IRGC)",
-          "summary": "The UK government has designated the IRGC as a terrorist organisation under the National Security Act, making support for the group unlawful. The IRGC, Russia's GRU Volunteer Corps, and the Islamic Movement of Companions of the Right are among the first groups listed.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/jul/13/uk-list-iran-islamic-revolutionary-guard-corps-irgc-terrorist-organisation",
-          "publishedAt": "2026-07-13"
+          "title": "Risk of Democratic Interference Added to National Risk Register",
+          "summary": "The UK government has added the risk of democratic interference to the National Risk Register. The Chief Secretary to the Prime Minister also announced that the UK's Home Defence Programme will deliver the largest UK home defence exercise in decades.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/risk-of-democratic-interference-added-to-national-risk-register",
+          "publishedAt": "2026-07-15"
         },
         {
-          "title": "Immigration Bill Amendment to Allow Removal of Rochdale Abuse Convicted Citizens",
-          "summary": "Home Secretary Shabana Mahmood is tabling an amendment to the Immigration Bill that would make it possible to deport Commonwealth citizens convicted of serious criminality, including those involved in the Rochdale abuse scandal.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/jul/13/andy-burnham-expected-to-vote-shabana-mahmood-asylum-system-changes",
-          "publishedAt": "2026-07-13"
+          "title": "AI to Speed Up Justice Under Major Disclosure Reforms",
+          "summary": "The government has announced major reforms to criminal disclosure rules, with AI set to modernise a system written before smartphones existed, freeing up police officer time.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/ai-to-speed-up-justice-under-major-disclosure-reforms",
+          "publishedAt": "2026-07-15"
         }
       ]
     },
     {
       "id": "fcdo",
       "name": "FCDO",
-      "description": "Diplomacy and international relations",
+      "description": "Diplomacy & international relations",
       "stories": [
         {
-          "title": "UK Sanctions Iran-Linked Criminal Group Behind Attacks on Jewish Locations",
-          "summary": "The Foreign, Commonwealth & Development Office has announced UK sanctions against an Iran-linked criminal group that publicly claimed responsibility for recent attacks on Jewish locations in the UK.",
+          "title": "FCDO Summons Iranian Chargé d'Affaires Over IRGC Proxy Group Attacks",
+          "summary": "The Foreign, Commonwealth and Development Office summoned the Iranian Chargé d'Affaires in London in response to attacks carried out by Islamic Revolutionary Guard Corps-linked proxy groups.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/uk-sanctions-iran-linked-criminal-group-that-publicly-claimed-responsibility-for-recent-attacks-on-jewish-locations",
-          "publishedAt": "2026-07-13"
+          "url": "https://www.gov.uk/government/news/fcdo-summons-iranian-charge-daffaires-over-attacks-by-proxy-groups",
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "UK Creates First Envoy Role to Support British Nationals Detained Abroad",
+          "summary": "Former Foreign Office Minister Alistair Burt has been appointed as the UK's first Envoy for Complex Consular Detentions, to support British nationals in the most difficult overseas detention cases.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/uk-creates-first-envoy-role-to-support-british-nationals-detained-abroad",
+          "publishedAt": "2026-07-15"
         }
       ]
     },
     {
       "id": "dwp",
       "name": "DWP",
-      "description": "Benefits and pensions",
+      "description": "Benefits & pensions",
       "stories": [
         {
-          "title": "Biggest Pension Reforms: Value for Money Framework Timeline Laid Out",
-          "summary": "The DWP has set out the timeline for the biggest pension reforms in a generation, including a new Value for Money framework that will require pension schemes to measure and publish performance on investment outcomes and service quality — described as 'top of the league or in the relegation zone'.",
+          "title": "DWP Reappoints Brendan McCafferty as Chair of Nest",
+          "summary": "Brendan McCafferty has been reappointed as Chair of Nest (National Employment Savings Trust), effective from 31 January 2027, continuing in a role he has held since February 2022.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/savers-to-see-if-their-pension-scheme-is-top-of-the-league-or-in-the-relegation-zone-as-government-lays-out-timeline-for-biggest-pension-reforms-in-a-",
-          "publishedAt": "2026-07-13"
+          "url": "https://www.gov.uk/government/news/dwp-reappoints-chair-of-nest",
+          "publishedAt": "2026-07-15"
         },
         {
-          "title": "£60 Million Fund Launched to Transform Employment Support for Disabled People",
-          "summary": "DWP has launched a £60 million fund inviting businesses, charities and organisations to bid for funding to develop innovative ideas to support disabled people move closer to and into employment.",
+          "title": "Pension Schemes Act 2026 Evaluation Strategy Published",
+          "summary": "DWP has published the Evaluation Strategy for the Pension Schemes Act 2026, which received Royal Assent in April and introduced 12 policies aimed at improving Defined Contribution pension schemes.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/60-million-fund-launched-to-transform-employment-support",
-          "publishedAt": "2026-07-13"
+          "url": "https://www.gov.uk/government/publications/pension-schemes-act-2026-evaluation-strategy/pension-schemes-act-2026-evaluation-strategy",
+          "publishedAt": "2026-07-15"
         }
       ]
     },
     {
       "id": "defra",
       "name": "DEFRA",
-      "description": "Environment, food and rural affairs",
+      "description": "Environment, Food & Rural Affairs",
       "stories": [
         {
-          "title": "Government Publishes 30by30 Delivery Plan with £37 Million/Year Funding",
-          "summary": "DEFRA has published the UK's 30by30 Delivery Plan, backed by up to £37 million a year over the next three years to accelerate progress toward protecting 30% of land for nature by 2030. The plan also covers volunteer programmes to support biodiversity.",
-          "source": "DEFRA Environment Blog",
-          "url": "https://defraenvironment.blog.gov.uk/2026/07/13/powering-30by30-commitment-through-volunteering/",
-          "publishedAt": "2026-07-13"
-        },
-        {
-          "title": "Land Use Framework Publications Released",
-          "summary": "DEFRA published a collection of products and publications developed through the Land Use Framework, outlining how land across England can be best used to balance food production, environmental goals and rural economic needs.",
+          "title": "East Marine Plans: Fourth Three-Year Progress Report Published",
+          "summary": "DEFRA published its fourth three-year progress report on the East Marine Plans, covering the period from April 2023 to April 2026, assessing environmental and maritime planning outcomes.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/collections/land-use-framework-publications",
-          "publishedAt": "2026-07-13"
+          "url": "https://www.gov.uk/government/publications/east-marine-plans-fourth-three-year-report",
+          "publishedAt": "2026-07-15"
         }
       ]
     },
     {
       "id": "mod",
-      "name": "Ministry of Defence",
-      "description": "UK armed forces and defence",
+      "name": "MoD",
+      "description": "Ministry of Defence",
       "stories": [
         {
-          "title": "£15 Billion Funding Boost: At Least Six New Air Defence Warships Announced",
-          "summary": "The MoD has announced at least six new air defence warships to defend UK waters and boost domestic shipbuilding, as part of a £15 billion new funding package to transform the Armed Forces. The announcement also includes high-speed boats and new drones for elite Commando units.",
+          "title": "Record £26 Billion Investment to Transform UK Naval Bases",
+          "summary": "Defence Minister Luke Pollard confirmed a record £26 billion investment over ten years to modernise the Royal Navy's three main naval bases: HMNB Clyde, HMNB Devonport, and HMNB Portsmouth.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/organisations/ministry-of-defence",
-          "publishedAt": "2026-07-14"
+          "url": "https://www.gov.uk/government/news/record-26-billion-investment-to-transform-uk-naval-bases-docking-facilities-and-waterfront-infrastructure",
+          "publishedAt": "2026-07-15"
         },
         {
-          "title": "35 Universities Partner in New Defence Universities Alliance",
-          "summary": "A new Defence Universities Alliance has been launched with 35 UK universities to strengthen defence research, build critical skills and support the UK's future defence capabilities.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/boost-for-skills-and-research-as-35-universities-across-the-uk-partner-in-new-defence-alliance",
-          "publishedAt": "2026-07-13"
+          "title": "Faslane Set for £15bn Upgrade to Increase Warfighting Capability",
+          "summary": "A £15bn modernisation of the Faslane (HMNB Clyde) naval base will support thousands of jobs in west Scotland and significantly boost the Royal Navy's warfighting capability.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c1lyl8j75m1o",
+          "publishedAt": "2026-07-15"
         },
         {
-          "title": "MoD Requires All Industry Partners to Achieve Cyber Certification by December 2026",
-          "summary": "The Ministry of Defence has set a December 2026 deadline for all industry partners to achieve Level 0 of the Defence Cyber Certification (DCC), as part of its strategy to build cyber resilience across the UK's defence supply chain.",
-          "source": "Defence Digital Blog",
-          "url": "https://defencedigital.blog.gov.uk/2026/07/13/building-cyber-resilience-in-the-uk-one-step-at-a-time/",
-          "publishedAt": "2026-07-13"
+          "title": "Families of RAF Chinook Crash Victims Have Legal Case Dismissed",
+          "summary": "A High Court judge has ruled that a legal challenge brought by families of RAF Chinook helicopter crash victims against the Ministry of Defence will not be allowed to proceed.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/crm0mkgxn9eo",
+          "publishedAt": "2026-07-15"
         }
       ]
     },
     {
       "id": "dbt",
       "name": "DBT",
-      "description": "Business and trade",
+      "description": "Department for Business and Trade",
       "stories": [
         {
-          "title": "Landmark UK-Switzerland Services Trade Deal Unveiled — £5.2 Billion Annually",
-          "summary": "The UK has sealed an unprecedented services trade agreement with Switzerland, estimated to increase UK exports to Switzerland by £5.2 billion annually. The deal also simplifies exporting processes through paperless trading and paves the way for easier travel for British citizens.",
+          "title": "UK Launches Call for Input on Deepening Trade Relationships with Indonesia, Philippines, UAE and Uruguay",
+          "summary": "The Department for Business and Trade has launched a public consultation to inform how the UK can deepen trade relationships with four key partners: Indonesia, the Philippines, the United Arab Emirates, and Uruguay.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/unprecedented-services-trade-deal-unveiled-as-uk-seals-agreement-with-switzerland",
-          "publishedAt": "2026-07-14"
+          "url": "https://www.gov.uk/government/news/uk-launches-call-for-input-on-deepening-trade-relationships",
+          "publishedAt": "2026-07-15"
         }
       ]
     },
     {
       "id": "dsit",
       "name": "DSIT",
-      "description": "Science, innovation and technology",
+      "description": "Department for Science, Innovation and Technology",
       "stories": [
         {
-          "title": "Barnsley Tech Town's £800,000 AI Skills Fund Opens for Applications",
-          "summary": "DSIT has announced that applications are open for the AI Upskilling Challenge Fund in Barnsley, inviting organisations to deliver innovative AI training to help local workers, businesses and communities benefit from artificial intelligence.",
+          "title": "DSIT Annual Report and Accounts 2025–2026 Published",
+          "summary": "The Department for Science, Innovation and Technology has published its annual report and accounts for the year ending 31 March 2026, outlining activities, achievements, and finances.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/barnsley-tech-towns-800000-ai-skills-fund-opens-for-applications",
-          "publishedAt": "2026-07-13"
+          "url": "https://www.gov.uk/government/publications/dsit-annual-report-and-accounts-2025-to-2026",
+          "publishedAt": "2026-07-14"
         },
         {
-          "title": "New Research on Children's Circumvention Behaviours Online Published",
-          "summary": "DSIT has published new research commissioned from BMG Research examining how children aged 11 to 17 experience and circumvent age verification and parental controls online, to inform online safety policy.",
+          "title": "Research Published on Social Media Restriction Pilots for 13–17 Year Olds",
+          "summary": "DSIT has published qualitative research commissioned from Savanta exploring the impact of social media restrictions on 13–17 year olds in the UK, as the government considers further policy action.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/childrens-circumvention-behaviours-online",
-          "publishedAt": "2026-07-13"
+          "url": "https://www.gov.uk/government/publications/social-media-restriction-pilots-qualitative-research-with-13-to-17-year-olds-in-the-uk",
+          "publishedAt": "2026-07-15"
         }
       ]
     },
@@ -160,11 +175,18 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "Oxford Researchers Develop Vaccine for New Ebolavirus Variant — Fast-Track Review Underway",
-          "summary": "Researchers at the University of Oxford announced on 13 July 2026 they have developed a vaccine for a new variant of Ebolavirus. The NHS Health Research Authority (HRA) has initiated a fast-track review of the vaccine.",
-          "source": "NHS HRA",
-          "url": "https://www.hra.nhs.uk/about-us/news-updates/ebola-vaccine-fast-track-review/",
-          "publishedAt": "2026-07-13"
+          "title": "NHS England Launches New Quality Strategy for NHS-Funded Care",
+          "summary": "NHS England has launched a new Quality Strategy for NHS-funded care in England, setting out actions for NHS organisations and partners to improve care quality across the health system.",
+          "source": "NHS England",
+          "url": "https://www.england.nhs.uk/publication/quality-strategy-for-nhs-funded-care-in-england/",
+          "publishedAt": "2026-07-14"
+        },
+        {
+          "title": "Nottinghamshire ADHD Service to Pilot New Digitally Supported Pathway",
+          "summary": "The ADEPT-N project has been announced, with Nottinghamshire's ADHD service set to pilot a new digitally supported care pathway for patients, aiming to improve access and outcomes.",
+          "source": "Nottinghamshire Healthcare NHS",
+          "url": "https://www.nottinghamshirehealthcare.nhs.uk/latest-news/adeptn-project-announcement-nottinghamshire-adhd-service-to-pilot-a-new-digitally-supported-pathway-for-patients-9824",
+          "publishedAt": "2026-07-14"
         }
       ]
     },
@@ -172,7 +194,22 @@
       "id": "royal-mail",
       "name": "Royal Mail / Post Office",
       "description": "Postal services",
-      "stories": []
+      "stories": [
+        {
+          "title": "Royal Mail Issues Delay Warning Across 216 UK Postcode Areas",
+          "summary": "As of 14 July, Royal Mail has warned of delivery delays affecting 216 postcode areas across the UK, including Wolverhampton, Swindon, Oxford, Carmarthen, Hull, and Bradford.",
+          "source": "Express",
+          "url": "https://www.express.co.uk/news/uk/2228814/royal-mail-latest-delivery-delays",
+          "publishedAt": "2026-07-14"
+        },
+        {
+          "title": "Post Office Plus Launches as Royal Mail Delays Delivery Reforms",
+          "summary": "Post Office Plus has been launched as a new service, while Royal Mail's plan to end Saturday second-class deliveries has been delayed, with the nationwide rollout now scheduled for early 2026 following extended trials.",
+          "source": "MSN / Post Office",
+          "url": "https://www.msn.com/en-gb/news/insight/post-office-plus-launches-as-royal-mail-delays-reforms/gm-GMCEF6B977",
+          "publishedAt": "2026-07-15"
+        }
+      ]
     }
   ]
 }
