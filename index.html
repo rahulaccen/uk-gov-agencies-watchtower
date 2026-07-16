@@ -489,6 +489,17 @@
   }
   .chat-send-btn:hover { opacity: 0.9; }
 
+  /* ── Date sections ── */
+  .date-section { margin-bottom: 1.5rem; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  .date-header { display: flex; align-items: center; gap: 0.75rem; padding: 0.85rem 1.25rem; background: var(--surface2); cursor: pointer; user-select: none; }
+  .date-header:hover { background: #e8eaf2; }
+  .date-header-label { font-weight: 600; font-size: 0.9rem; color: var(--text); flex: 1; }
+  .date-header-count { font-size: 0.8rem; color: var(--text-muted); background: var(--border); padding: 0.2rem 0.6rem; border-radius: 99px; }
+  .date-chevron { font-size: 0.75rem; color: var(--text-muted); }
+  .date-body { padding: 0; }
+  .date-body .agency-section { border-radius: 0; border-left: none; border-right: none; border-top: none; }
+  .date-body .agency-section:last-child { border-bottom: none; }
+
   /* ── Loading state ── */
   .loading-overlay {
     display: none;
@@ -541,10 +552,7 @@
       </div>
     </div>
     <div class="header-meta">
-      <span class="archive-label">📅 Edition:</span>
-      <select class="archive-select" id="archiveSelect" onchange="switchEdition(this.value)">
-        <option value="today">Today</option>
-      </select>
+      <span class="archive-label">📅 All Editions</span>
       <div class="last-updated">
         <span class="status-dot"></span>
         Updated: <span id="lastUpdated">—</span>
@@ -604,55 +612,44 @@
 </div>
 
 <script>
+const WEBHOOK_URL = 'WEBHOOK_URL_PLACEHOLDER';
+const SOURCE = 'gov-agencies';
+
 const AGENCY_ICONS = {
   'hmrc': '💷', 'home-office': '🏠', 'fcdo': '🌍', 'dwp': '👷',
   'defra': '🌿', 'mod': '🛡️', 'dbt': '📦', 'dsit': '🔬',
   'nhs': '🏥', 'royal-mail': '📮'
 };
 
-function agencyIcon(a) {
-  return AGENCY_ICONS[a.id] || '🏛️';
-}
+function agencyIcon(a) { return AGENCY_ICONS[a.id] || '🏛️'; }
 
-let currentNewsData = null;
-
-async function fetchData(date) {
-  const url = (!date || date === 'today')
-    ? 'news_data.json?t=' + Date.now()
-    : 'archive/' + date + '.json?t=' + Date.now();
-  const res = await fetch(url);
-  return res.json();
-}
-
-async function loadArchiveIndex() {
+async function loadAllEditions() {
+  const editions = [];
   try {
-    const res = await fetch('archive_index.json?t=' + Date.now());
-    if (!res.ok) return;
-    const data = await res.json();
-    const sel = document.getElementById('archiveSelect');
-    if (!sel) return;
-    const today = new Date().toISOString().slice(0, 10);
-    const dates = (data.dates || []).filter(d => d !== today);
-    dates.forEach(d => {
-      const opt = document.createElement('option');
-      opt.value = d;
-      opt.textContent = new Date(d + 'T12:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-      sel.appendChild(opt);
-    });
-  } catch(e) { /* no archive yet */ }
-}
-
-async function switchEdition(date) {
-  try {
-    document.getElementById('loadingOverlay').classList.add('active');
-    const data = await fetchData(date);
-    currentNewsData = data;
-    renderAll(data);
+    const idxRes = await fetch('archive_index.json?t=' + Date.now());
+    if (!idxRes.ok) throw new Error('no index');
+    const idx = await idxRes.json();
+    const dates = (idx.dates || []).slice(0, 30);
+    const results = await Promise.all(dates.map(async d => {
+      try {
+        const r = await fetch('archive/' + d + '.json?t=' + Date.now());
+        if (!r.ok) return null;
+        return { date: d, data: await r.json() };
+      } catch(e) { return null; }
+    }));
+    results.filter(Boolean).forEach(e => editions.push(e));
   } catch(e) {
-    alert('Could not load edition for ' + date);
-  } finally {
-    document.getElementById('loadingOverlay').classList.remove('active');
+    try {
+      const r = await fetch('news_data.json?t=' + Date.now());
+      const data = await r.json();
+      editions.push({ date: new Date().toISOString().slice(0, 10), data });
+    } catch(e2) {}
   }
+  return editions;
+}
+
+function formatDate(d) {
+  return new Date(d + 'T12:00:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
 }
 
 function tagClass(tag) {
@@ -676,9 +673,8 @@ function setActive(el) {
   el.classList.add('active');
 }
 
-function renderSections(agencies) {
-  const container = document.getElementById('agencySections');
-  container.innerHTML = agencies.map(a => {
+function renderAgencyRows(agencies, isToday) {
+  return agencies.map(a => {
     const hasStories = a.stories && a.stories.length > 0;
     const storiesHtml = hasStories
       ? a.stories.map((s, i) => `
@@ -694,54 +690,39 @@ function renderSections(agencies) {
               ${s.tag ? `<span class="story-tag ${tagClass(s.tag)}">${s.tag}</span>` : ''}
             </div>
           </div>
-        </div>
-      `).join('')
-      : `<div class="no-stories"><span>🔍</span>No stories in the last 24 hours</div>`;
-
+        </div>`).join('')
+      : `<div class="no-stories"><span>🔍</span>No stories</div>`;
     return `
-      <div class="agency-section" id="agency-${a.id}">
+      <div class="agency-section"${isToday ? ` id="agency-${a.id}"` : ''}>
         <div class="agency-header">
           <span class="agency-header-icon">${agencyIcon(a)}</span>
           <div class="agency-header-info">
             <div class="agency-header-name">${a.fullName || a.name}</div>
-            <div class="agency-header-desc">${a.description}</div>
+            <div class="agency-header-desc">${a.description || ''}</div>
           </div>
           <span class="agency-badge ${hasStories ? 'badge-active' : 'badge-quiet'}">
             ${hasStories ? `${a.stories.length} stories` : 'Quiet'}
           </span>
         </div>
         <div class="stories-list">${storiesHtml}</div>
-      </div>
-    `;
+      </div>`;
   }).join('');
-}
-
-function renderStats(agencies) {
-  const total = agencies.reduce((s, a) => s + (a.stories?.length || 0), 0);
-  const active = agencies.filter(a => a.stories?.length > 0).length;
-  const alerts = agencies.reduce((s, a) => s + (a.stories?.filter(st => st.tag === 'alert').length || 0), 0);
-  const announcements = agencies.reduce((s, a) => s + (a.stories?.filter(st => st.tag === 'announcement' || st.tag === 'policy').length || 0), 0);
-  document.getElementById('totalStories').textContent = total;
-  document.getElementById('activeAgencies').textContent = active;
-  document.getElementById('alertCount').textContent = alerts;
-  document.getElementById('announcementCount').textContent = announcements;
-  return { total };
 }
 
 function renderActivity(agencies, total) {
   const panel = document.getElementById('activityPanel');
   const sorted = [...agencies].sort((a, b) => (b.stories?.length || 0) - (a.stories?.length || 0));
+  const maxCount = Math.max(...sorted.map(x => x.stories?.length || 0), 1);
   panel.innerHTML = sorted.map(a => {
     const count = a.stories?.length || 0;
-    const pct = total > 0 ? Math.round((count / Math.max(...sorted.map(x => x.stories?.length || 0))) * 100) : 0;
+    const pct = Math.round((count / maxCount) * 100);
     return `
       <div class="activity-row">
-        <span class="activity-icon">${a.icon}</span>
+        <span class="activity-icon">${agencyIcon(a)}</span>
         <span class="activity-label">${a.name}</span>
         <div class="activity-bar-wrap"><div class="activity-bar-fill" style="width:${pct}%"></div></div>
         <span class="activity-num">${count}</span>
-      </div>
-    `;
+      </div>`;
   }).join('');
 }
 
@@ -758,30 +739,72 @@ function renderHighlights(agencies) {
     <div class="highlight-item">
       <div class="highlight-agency">${s.agencyIcon} ${s.agencyName}</div>
       ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${s.title || s.headline}</a>` : (s.title || s.headline)}
-    </div>
-  `).join('');
+    </div>`).join('');
 }
 
-function renderAll(data) {
-  document.getElementById('lastUpdated').textContent = data.lastUpdated || '—';
-  const counts = {};
-  data.agencies.forEach(a => { counts[a.id] = a.stories?.length || 0; });
-  renderNav(data.agencies, counts);
-  renderSections(data.agencies);
-  const { total } = renderStats(data.agencies);
-  renderActivity(data.agencies, total);
-  renderHighlights(data.agencies);
+function renderEditions(editions) {
+  const container = document.getElementById('agencySections');
+  container.innerHTML = '';
+
+  // Sidebar nav + stats from today's edition
+  const todayEdition = editions[0];
+  if (todayEdition) {
+    const agencies = todayEdition.data.agencies || [];
+    const counts = {};
+    agencies.forEach(a => { counts[a.id] = a.stories?.length || 0; });
+    renderNav(agencies, counts);
+    const total = agencies.reduce((s, a) => s + (a.stories?.length || 0), 0);
+    const active = agencies.filter(a => a.stories?.length > 0).length;
+    const alerts = agencies.reduce((s, a) => s + (a.stories?.filter(st => st.tag === 'alert').length || 0), 0);
+    const ann = agencies.reduce((s, a) => s + (a.stories?.filter(st => ['announcement','policy'].includes(st.tag)).length || 0), 0);
+    document.getElementById('totalStories').textContent = total;
+    document.getElementById('activeAgencies').textContent = active;
+    document.getElementById('alertCount').textContent = alerts;
+    document.getElementById('announcementCount').textContent = ann;
+    renderActivity(agencies, total);
+    renderHighlights(agencies);
+  }
+
+  // Render all date sections
+  editions.forEach(({ date, data }, idx) => {
+    const agencies = data.agencies || [];
+    const totalStories = agencies.reduce((s, a) => s + (a.stories?.length || 0), 0);
+    const isToday = idx === 0;
+
+    const section = document.createElement('div');
+    section.className = 'date-section';
+    section.innerHTML = `
+      <div class="date-header" onclick="toggleDateSection(this)">
+        <span class="date-header-label">${isToday ? '📅 Today — ' : '📁 '}${formatDate(date)}</span>
+        <span class="date-header-count">${totalStories} stor${totalStories === 1 ? 'y' : 'ies'}</span>
+        <span class="date-chevron">${isToday ? '▲' : '▼'}</span>
+      </div>
+      <div class="date-body" style="display:${isToday ? 'block' : 'none'}">
+        ${renderAgencyRows(agencies, isToday)}
+      </div>`;
+    container.appendChild(section);
+  });
+
   const first = document.querySelector('.nav-item');
   if (first) first.classList.add('active');
+}
+
+function toggleDateSection(header) {
+  const body = header.nextElementSibling;
+  const chevron = header.querySelector('.date-chevron');
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : 'block';
+  chevron.textContent = open ? '▼' : '▲';
 }
 
 async function init() {
   document.getElementById('loadingOverlay').classList.add('active');
   try {
-    const data = await fetchData('today');
-    currentNewsData = data;
-    renderAll(data);
-    loadArchiveIndex();
+    const editions = await loadAllEditions();
+    if (editions.length > 0) {
+      document.getElementById('lastUpdated').textContent = editions[0].data.lastUpdated || editions[0].date;
+      renderEditions(editions);
+    }
   } catch(e) {
     console.error(e);
   } finally {
@@ -791,145 +814,64 @@ async function init() {
 
 init();
 
-/* ── Chatbot ── */
+/* ── Chatbot (webhook) ── */
 function toggleChat() {
   const panel = document.getElementById('chatPanel');
   panel.classList.toggle('open');
-  if (panel.classList.contains('open') && !document.getElementById('chatMessages').children.length) {
-    addBotMsg('👋 Hi! Ask me anything about today\'s UK agency news.\n\nTry: "Summarise HMRC news" · "Top NHS story" · "How many stories today?" · "Any news on Home Office?" · "What\'s happening with DVLA?"');
-  }
 }
 
-function addBotMsg(text) {
+function addMsg(text, cls, isHtml) {
   const msgs = document.getElementById('chatMessages');
   const div = document.createElement('div');
-  div.className = 'chat-bubble bot';
-  div.innerHTML = text.replace(/\n/g, '<br>');
-  msgs.appendChild(div);
-  msgs.scrollTop = msgs.scrollHeight;
-  return div;
-}
-
-function addUserMsg(text) {
-  const msgs = document.getElementById('chatMessages');
-  const div = document.createElement('div');
-  div.className = 'chat-bubble user';
-  div.textContent = text;
+  div.className = 'chat-bubble ' + cls;
+  if (isHtml) div.innerHTML = text; else div.innerHTML = text.replace(/\n/g,'<br>');
   msgs.appendChild(div);
   msgs.scrollTop = msgs.scrollHeight;
 }
 
-function smartAnswer(q) {
-  if (!currentNewsData || !currentNewsData.agencies) return "News data isn't loaded yet — please wait for the next daily scan.";
-  const agencies = currentNewsData.agencies;
-  const lower = q.toLowerCase();
-
-  // Intent: total / how many
-  if (/how many|total|count/.test(lower)) {
-    const total = agencies.reduce((s,a)=>s+(a.stories||[]).length,0);
-    const active = agencies.filter(a=>(a.stories||[]).length>0).length;
-    return `📊 Today's totals:\n• ${total} stories across ${active} active agencies\n• ${agencies.length} agencies monitored in total`;
-  }
-
-  // Intent: top / headline / biggest / leading
-  if (/^top|headline|biggest|leading|main story|best story/.test(lower)) {
-    const all = [];
-    agencies.forEach(a => (a.stories||[]).forEach(s => all.push({agency:a.name, ...s})));
-    if (!all.length) return "No stories found for today yet.";
-    const top = all[0];
-    return `🔝 Top story today:\n\n**${top.agency}** — ${top.title}\n\n${top.summary || ''}\n\n📰 ${top.source}`;
-  }
-
-  // Intent: list all agencies / what agencies
-  if (/which agenc|list agenc|all agenc|what agenc/.test(lower)) {
-    return '🏛️ Agencies monitored:\n' + agencies.map(a=>`• ${a.name} (${(a.stories||[]).length} stories)`).join('\n');
-  }
-
-  // Intent: quiet / no news / nothing happening
-  if (/quiet|silent|nothing|no news|inactive/.test(lower)) {
-    const quiet = agencies.filter(a=>(a.stories||[]).length===0).map(a=>a.name);
-    if (!quiet.length) return '📡 All agencies have news today — a busy day!';
-    return `😴 Quiet agencies today (no stories):\n${quiet.map(n=>`• ${n}`).join('\n')}`;
-  }
-
-  // Intent: busiest / most active
-  if (/busiest|most active|most stories|most news/.test(lower)) {
-    const sorted = [...agencies].filter(a=>(a.stories||[]).length>0).sort((a,b)=>(b.stories||[]).length-(a.stories||[]).length);
-    if (!sorted.length) return 'No stories found today yet.';
-    const top3 = sorted.slice(0,3);
-    return '🔥 Most active agencies today:\n' + top3.map((a,i)=>`${i+1}. ${a.name} — ${a.stories.length} stories`).join('\n');
-  }
-
-  // Intent: summarise / tell me about / news on / what's happening with <agency>
-  // Match agency by name keywords
-  const agencyAliases = {
-    'hmrc': ['hmrc','tax','revenue','customs'],
-    'home-office': ['home office','immigration','visa','border'],
-    'nhs': ['nhs','health','hospital','medical'],
-    'dwp': ['dwp','benefit','welfare','pension','universal credit'],
-    'mod': ['mod','defence','defense','military','army','navy','RAF'],
-    'ofsted': ['ofsted','school inspection','education standards'],
-    'environment-agency': ['environment agency','environment','flood','pollution'],
-    'companies-house': ['companies house','company registration','company'],
-    'ofcom': ['ofcom','media regulator','broadcast','telecom'],
-    'cqc': ['cqc','care quality','care provider'],
-  };
-
-  let matched = null;
-  for (const agency of agencies) {
-    const nameWords = agency.name.toLowerCase().split(/\s+/);
-    const aliases = agencyAliases[agency.id] || nameWords;
-    if (aliases.some(alias => lower.includes(alias))) {
-      matched = agency;
-      break;
-    }
-  }
-
-  if (matched) {
-    const stories = matched.stories || [];
-    if (!stories.length) return `😴 No stories for **${matched.name}** today — all quiet on that front.`;
-    const lines = stories.map((s,i)=>`${i+1}. ${s.title}\n   ${s.summary || ''}\n   📰 ${s.source}`).join('\n\n');
-    return `📋 **${matched.name}** — ${stories.length} stor${stories.length===1?'y':'ies'} today:\n\n${lines}`;
-  }
-
-  // Intent: keyword search across all stories
-  const keywords = lower.replace(/[^a-z0-9 ]/g,'').split(/\s+/).filter(w=>w.length>3 && !['what','tell','about','news','today','with','from','have','some','this','that'].includes(w));
-  const hits = [];
-  agencies.forEach(a => (a.stories||[]).forEach(s => {
-    const text = (s.title+' '+(s.summary||'')).toLowerCase();
-    if (keywords.some(k => text.includes(k))) hits.push({agency:a.name, ...s});
-  }));
-  if (hits.length) {
-    return `🔍 Found ${hits.length} related stor${hits.length===1?'y':'ies'}:\n\n` +
-      hits.slice(0,4).map(h=>`• **${h.agency}** — ${h.title}`).join('\n');
-  }
-
-  return `🤔 I couldn't find anything specific for "${q}".\n\nTry asking about a specific agency (e.g. "HMRC news"), or use: "top story", "how many stories", "busiest agency", or "quiet agencies".`;
-}
-
-function sendChat() {
+async function sendChat() {
   const inp = document.getElementById('chatTextInp');
+  const emailInp = document.getElementById('chatEmailInp');
   const text = inp.value.trim();
+  const email = emailInp.value.trim();
   if (!text) return;
+  if (!email || !email.includes('@')) {
+    emailInp.focus();
+    emailInp.style.borderColor = '#dc2626';
+    addMsg('⚠️ Please enter your email address so we can send your answer.', 'bot', false);
+    return;
+  }
+  emailInp.style.borderColor = '';
   inp.value = '';
-  addUserMsg(text);
-  setTimeout(() => {
-    const answer = smartAnswer(text);
-    addBotMsg(answer);
-  }, 180);
+  addMsg(text, 'user', false);
+  addMsg('⏳ Sending to AI… your answer will arrive at <strong>' + email + '</strong> within a minute.', 'bot', true);
+  try {
+    await fetch(WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question: text, reply_to: email, source: SOURCE })
+    });
+  } catch(e) {
+    addMsg('⚠️ Could not reach the AI service. Please try again shortly.', 'bot', false);
+  }
 }
 </script>
 
-<button class="chat-fab" onclick="toggleChat()" title="Ask AI about today's news">💬</button>
+<button class="chat-fab" onclick="toggleChat()" title="Ask AI — answers sent to your email">💬</button>
 
 <div class="chat-panel" id="chatPanel">
   <div class="chat-head">
-    <div class="chat-head-left">🏛️ News Assistant</div>
+    <div class="chat-head-left">🏛️ AI News Assistant</div>
     <button class="chat-close-btn" onclick="toggleChat()">✕</button>
   </div>
-  <div class="chat-messages" id="chatMessages"></div>
+  <div class="chat-messages" id="chatMessages">
+    <div class="chat-bubble bot">👋 Hi! Ask me anything about the UK agency news — across all editions.<br><br>💡 <em>Your answer will be emailed to you. Enter your email below.</em></div>
+  </div>
+  <div style="padding:0.5rem 1rem 0;border-top:1px solid var(--border)">
+    <input class="chat-text-inp" id="chatEmailInp" type="email" placeholder="Your email address…" style="width:100%;margin-bottom:0.4rem" />
+  </div>
   <div class="chat-input-row">
-    <input class="chat-text-inp" id="chatTextInp" placeholder="Ask about today's news…" onkeydown="if(event.key==='Enter')sendChat()" />
+    <input class="chat-text-inp" id="chatTextInp" placeholder="Ask about any edition…" onkeydown="if(event.key==='Enter')sendChat()" />
     <button class="chat-send-btn" onclick="sendChat()">Send</button>
   </div>
 </div>
