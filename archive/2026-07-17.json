@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T09:49:16+10:00",
+  "lastUpdated": "2026-07-17T16:05:00+10:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -7,11 +7,25 @@
       "description": "Tax collection",
       "stories": [
         {
-          "title": "HMRC Consultation on Lower-Value Tax Debts",
-          "summary": "As part of the Tax Update package announced on 23 June 2026, the government launched a consultation on proposals to tackle lower-value tax debts from customers. Details are covered in Issue 145 of Agent Update.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/agent-update-issue-145/issue-145-of-agent-update",
+          "title": "HMRC Manual Changes: 17 July 2026",
+          "summary": "HMRC has published a new set of manual changes effective 17 July 2026, updating guidance across various tax areas.",
+          "source": "Tax Journal",
+          "url": "https://www.taxjournal.com/articles/hmrc-manual-changes--17-july-2026",
           "publishedAt": "2026-07-17"
+        },
+        {
+          "title": "HMRC Major Projects Business Case Publications",
+          "summary": "HMRC has published business case documentation for its major projects, providing transparency on significant digital and operational transformation programmes.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/collections/hm-revenue-and-customs-hmrc-major-projects-business-case-publications",
+          "publishedAt": "2026-07-16"
+        },
+        {
+          "title": "HMRC Consults on Simplifying Withholding Tax for Foreign Interest Payments",
+          "summary": "HMRC opened a consultation on proposals to simplify the process for withholding taxes on interest payments under double taxation agreements (DTAs), seeking industry feedback.",
+          "source": "Bloomberg Tax",
+          "url": "https://news.bloombergtax.com/daily-tax-report/united-kingdom-tax-agency-seeks-comments-on-simplifying-withholding-for-foreign-interest-payments-under-dtas",
+          "publishedAt": "2026-07-13"
         }
       ]
     },
@@ -21,25 +35,25 @@
       "description": "Immigration, visas, policing, security",
       "stories": [
         {
-          "title": "Home Office Launches Consultation on Future of Undercover Policing Inquiry",
-          "summary": "The Home Office has launched a time-limited public consultation on the future structure, scope and format of the Undercover Policing Inquiry, open for responses from 16 July 2026 until 20 August 2026.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/consultations/future-of-the-undercover-policing-inquiry",
+          "title": "British Girl, 15, Stranded in Rome for Six Weeks Due to New Passport Rules",
+          "summary": "A dual-national British girl missed six weeks of school after being stranded in Rome due to a recent Home Office change in passport policy. She is among several children affected by the new rules.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/jul/16/british-girl-stranded-rome-six-weeks-new-passport-rules",
           "publishedAt": "2026-07-16"
         },
         {
-          "title": "Organised Immigration Crime Arrests Up 74%",
-          "summary": "The Home Office reports at least 1,900 arrests relating to organised immigration crime between April 2025 and March 2026, a 74% increase compared to the previous year, as published in the Border Security Commander's annual report data.",
+          "title": "Home Office Launches Undercover Policing Inquiry Consultation",
+          "summary": "The Home Office has opened a public consultation on the future of the Undercover Policing Inquiry, running from 16 July to 20 August 2026.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/the-border-security-commanders-annual-report-data/disruptions-and-arrests-for-organised-immigration-crime-activity-between-january-2023-and-march-2026",
-          "publishedAt": "2026-07-17"
+          "url": "https://www.gov.uk/government/consultations/future-of-the-undercover-policing-inquiry/undercover-policing-inquiry-consultation-privacy-notice",
+          "publishedAt": "2026-07-16"
         },
         {
-          "title": "Political Peerages Announced — July 2026",
-          "summary": "The Home Office has published a list of new Political Peerages of the United Kingdom for Life, with the announcement made on 17 July 2026.",
+          "title": "Political Peerages July 2026 Announced",
+          "summary": "The Home Office has published the latest round of UK Life Peerages for July 2026, detailing newly appointed members of the House of Lords.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/government/news/political-peerages-july-2026",
-          "publishedAt": "2026-07-17"
+          "publishedAt": "2026-07-16"
         }
       ]
     },
@@ -49,22 +63,22 @@
       "description": "Foreign, Commonwealth & Development Office",
       "stories": [
         {
-          "title": "FCDO Annual Report and Accounts 2025–2026 Published",
-          "summary": "The Foreign, Commonwealth & Development Office has published its annual report and accounts for the financial year 2025 to 2026, providing a comprehensive overview of its activities and expenditure.",
+          "title": "UK Aid Spending Set to Fall by Around 42% by 2027–28",
+          "summary": "An independent watchdog report found UK aid spending is expected to fall by roughly £6.5 billion — a 42% reduction — from a 2023 record high to a historic low by 2027–28, as the UK cuts its aid budget from 0.5% to 0.3% of GNI.",
+          "source": "ICAI",
+          "url": "https://icai.independent.gov.uk/uk-aid-spending-set-to-fall-by-around-42-as-major-shifts-in-development-priorities-take-effect-watchdog-finds/",
+          "publishedAt": "2026-07-17"
+        },
+        {
+          "title": "FCDO Publishes Annual Report and Accounts 2025–2026",
+          "summary": "The Foreign, Commonwealth & Development Office has released its annual report and accounts for financial year 2025–2026, covering diplomatic activities and development spending.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/government/publications/fcdo-annual-report-and-accounts-2025-to-2026",
           "publishedAt": "2026-07-17"
         },
         {
-          "title": "UK Aid Spending Set to Fall by Around 42%",
-          "summary": "UK aid spending is expected to fall by around 42% — or £6.5 billion — from a record high in 2023 to a historic low in 2027–28, as the UK reduces its aid budget from 0.5% to 0.3% of gross national income, according to a new watchdog report.",
-          "source": "ICAI (Independent Commission for Aid Impact)",
-          "url": "https://icai.independent.gov.uk/uk-aid-spending-set-to-fall-by-around-42-as-major-shifts-in-development-priorities-take-effect-watchdog-finds/",
-          "publishedAt": "2026-07-17"
-        },
-        {
-          "title": "UK's Modern Development Approach Published",
-          "summary": "The FCDO has published its updated development approach for July 2026, committing that at least 90% of FCDO's work will mainstream gender equality, and setting out strengthened development priorities.",
+          "title": "UK Commits to 90% Gender Equality Mainstreaming in New Development Approach",
+          "summary": "FCDO's updated modern development approach commits to mainstreaming gender equality across at least 90% of its work, raising ambitions for international development programmes.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/government/publications/the-uks-modern-development-approach/the-uks-modern-development-approach-july-2026",
           "publishedAt": "2026-07-17"
@@ -77,17 +91,17 @@
       "description": "Department for Work and Pensions",
       "stories": [
         {
-          "title": "DWP Allows Winter Fuel Payments Opt-Out in England, Wales and Northern Ireland",
-          "summary": "Customers in England, Wales and Northern Ireland can now contact the DWP to opt out of receiving future Winter Fuel Payments, as detailed in the HMRC Agent Update Issue 145.",
+          "title": "Customers Can Now Opt Out of Future Winter Fuel Payments",
+          "summary": "DWP has confirmed that customers in England, Wales and Northern Ireland can now contact the department to opt out of receiving future Winter Fuel Payments, following recent eligibility changes.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/government/publications/agent-update-issue-145/issue-145-of-agent-update",
           "publishedAt": "2026-07-17"
         },
         {
-          "title": "Carers Allowance Transitional Protection for Scottish Customers",
-          "summary": "A new agency agreement has been published between the Secretary of State for Work and Pensions and Scottish Ministers in respect of Carers Allowance transitional protection for Scottish customers.",
+          "title": "PIP Statistics: Background Quality and Methodology Report Updated",
+          "summary": "DWP has updated its background quality and methodology report for Personal Independence Payment (PIP) statistics, providing detailed explanations of the data collection and assessment methodology.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/carers-allowance-transitional-protection-for-scottish-customers-agency-agreement/agency-agreement-between-the-secretary-of-state-for-work-and-pensions-and-the-scottish-ministers-in-respect-of-carers-allowance-transitional-protecti",
+          "url": "https://www.gov.uk/government/publications/personal-independence-payment-statistics-background-quality-and-methodology-report/pip-statistics-background-quality-and-methodology-report",
           "publishedAt": "2026-07-17"
         }
       ]
@@ -99,23 +113,23 @@
       "stories": [
         {
           "title": "Government Publishes Future of Rural England Report",
-          "summary": "DEFRA has published the Future of Rural England Report, setting out the challenges facing rural communities and outlining government commitments to ensure policy delivers for rural areas across England.",
+          "summary": "DEFRA has released a major report outlining challenges facing rural communities and the government's objective to ensure flourishing rural areas in England through targeted policy intervention.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/government/publications/future-of-rural-england-report",
           "publishedAt": "2026-07-17"
         },
         {
-          "title": "Government Response to OEP Environmental Improvement Report",
-          "summary": "The government has published its response to the Office for Environmental Protection's 2026 report on progress in improving England's natural environment from 2024 to 2025.",
+          "title": "Government Commits to Deliver for Rural Communities",
+          "summary": "DEFRA announced a renewed commitment to deliver for rural communities, including new guidance on how government policy should account for rural needs and service provision.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/government-response-to-the-oep-report-environmental-improvement-plan-progress-from-2024-to-2025",
+          "url": "https://www.gov.uk/government/news/government-commitment-to-deliver-for-rural-communities",
           "publishedAt": "2026-07-17"
         },
         {
-          "title": "RPC Scrutiny of DEFRA Biodiversity Net Gain Regulations",
-          "summary": "The Regulatory Policy Committee has published a statement updating on its scrutiny of DEFRA's impact assessment for biodiversity net gain regulations, assessing the regulatory burden on businesses.",
+          "title": "Government Responds to OEP Report on Environmental Improvement Plan",
+          "summary": "DEFRA published its response to the Office for Environmental Protection's 2026 report on progress improving England's natural environment between 2024 and 2025.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/rpc-statement-impact-of-biodiversity-gain-regulations-from-defra",
+          "url": "https://www.gov.uk/government/publications/government-response-to-the-oep-report-environmental-improvement-plan-progress-from-2024-to-2025",
           "publishedAt": "2026-07-17"
         }
       ]
@@ -126,17 +140,17 @@
       "description": "Ministry of Defence",
       "stories": [
         {
-          "title": "MoD Launches Cancer Study for Armed Forces Community",
-          "summary": "The Ministry of Defence has launched a new study into cancer incidence among 1.4 million serving personnel and veterans, stepping up efforts to improve the long-term health of the Armed Forces community.",
+          "title": "MoD Launches Major Cancer Study for Armed Forces Community",
+          "summary": "The Ministry of Defence has launched a landmark study into cancer incidence among 1.4 million serving personnel and veterans, as part of efforts to improve long-term health outcomes for the armed forces community.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/government/news/study-into-long-term-health-of-armed-forces-community-launched",
           "publishedAt": "2026-07-17"
         },
         {
-          "title": "Major General Phil Carter to Become Interim Chief Defence Medical",
-          "summary": "Major General Phil Carter, currently Surgeon General of the UK Armed Forces, will take on the role of interim Chief Defence Medical following the retirement of Air Marshal Sir Paul Nichols.",
+          "title": "MoD Employer Recognition Scheme Gold Awards 2026",
+          "summary": "Several local councils and organisations have received MoD's prestigious Employer Recognition Scheme Gold Awards 2026 for outstanding support of Armed Forces personnel and veterans.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/major-general-phil-carter-to-become-interim-chief-defence-medical",
+          "url": "https://en.powys.gov.uk/article/22798/Council-honoured-with-prestigious-Ministry-of-Defence-Gold-Award",
           "publishedAt": "2026-07-17"
         }
       ]
@@ -147,23 +161,23 @@
       "description": "Department for Business and Trade",
       "stories": [
         {
-          "title": "Government Brings British Steel into Public Ownership",
-          "summary": "The government has concluded it is in the public interest to take ownership of British Steel, bringing the company into public ownership to protect the future of UK steelmaking and preserve jobs.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/government-brings-british-steel-into-public-ownership-to-protect-uk-steelmaking",
-          "publishedAt": "2026-07-17"
-        },
-        {
-          "title": "Dame Jayne-Anne Gadhia Appointed Chair of Financial Reporting Council",
-          "summary": "The Department for Business and Trade has announced that Dame Jayne-Anne Gadhia has been appointed as the new Chair of the Financial Reporting Council, effective from 16 July 2026.",
+          "title": "Dame Jayne-Anne Gadhia Appointed Chair of the Financial Reporting Council",
+          "summary": "The Department for Business and Trade announced the appointment of Dame Jayne-Anne Gadhia as the new Chair of the Financial Reporting Council, effective from 16 July 2026.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/government/organisations/department-for-business-and-trade",
           "publishedAt": "2026-07-16"
         },
         {
-          "title": "North of England Launches First Joint Trade Mission to India",
-          "summary": "Supported by DBT, which reports UK-India trade reached £47.9bn in 2025 (up 10%), northern mayors joined businesses and universities on the first-ever joint trade mission from the North of England to India.",
-          "source": "North East Combined Authority",
+          "title": "Companies House Annual Report and Accounts 2025–2026 Published",
+          "summary": "Companies House released its annual report showing £12.1 million drawn down from DBT during the year to fund working capital, compared to £21.2 million the previous year, reflecting improved financial management.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/companies-house-annual-report-and-accounts-2025-to-2026/companies-house-annual-report-and-accounts-2025-to-2026",
+          "publishedAt": "2026-07-17"
+        },
+        {
+          "title": "North of England Launches First-Ever Joint Trade Mission to India",
+          "summary": "Northern Mayors, joined by businesses and universities, launched the first-ever joint North of England trade mission to India, as total UK-India trade reached £47.9bn in 2025 — up 10% on the previous year.",
+          "source": "North East CA",
           "url": "https://www.northeast-ca.gov.uk/news/finance-and-investment/north-of-england-unites-for-the-first-ever-joint-trade-mission-to-india",
           "publishedAt": "2026-07-17"
         }
@@ -175,10 +189,17 @@
       "description": "Department for Science, Innovation and Technology",
       "stories": [
         {
-          "title": "DSIT Public Engagement Survey 2025/2026 Published",
-          "summary": "DSIT has published official statistics from its Public Engagement Survey 2025/2026, measuring how UK adults are engaging with science and technology in their day-to-day lives.",
+          "title": "DSIT Publishes Public Engagement Survey 2025/2026",
+          "summary": "DSIT released official statistics on how UK adults are engaging with science and technology in their day-to-day lives, as part of the annual Public Engagement Survey.",
           "source": "GOV.UK",
           "url": "https://www.gov.uk/government/statistics/dsit-public-engagement-survey-20252026",
+          "publishedAt": "2026-07-17"
+        },
+        {
+          "title": "DSIT Non-Consolidated Performance Related Pay 2024–2025 Published",
+          "summary": "DSIT released its annual transparency report on non-consolidated performance-related pay for senior staff for the 2024–2025 financial year.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/dsit-non-consolidated-performance-related-pay-2024-to-2025",
           "publishedAt": "2026-07-17"
         }
       ]
@@ -189,18 +210,25 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "Teenagers from Age 15 Should Receive Free MenB Vaccine, Experts Recommend",
-          "summary": "UK health advisers are now recommending that all teenagers should be offered a free meningitis B (MenB) vaccine at around age 15 — a significant change from previous guidance — in a bid to better protect young people.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c74glj9zkzko",
+          "title": "Advisers Recommend Offering All UK Teenagers Free Meningitis B Vaccine",
+          "summary": "A government advisory committee has recommended that all teenagers across the UK be offered a free meningitis B (MenB) vaccine at around age 15, following a series of fatal outbreaks — a significant expansion of the current NHS immunisation programme.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/society/2026/jul/16/offer-teenagers-a-meningitis-b-vaccine-on-nhs-advisers-tell-uk-government",
           "publishedAt": "2026-07-16"
         },
         {
           "title": "All Newborns in England to Be Screened for Spinal Muscular Atrophy",
-          "summary": "England is expanding newborn screening to include spinal muscular atrophy (SMA), with nearly 72% of newborns due to be tested from October under a pilot programme announced in April and now receiving broader rollout.",
+          "summary": "Almost three-quarters of newborns in England are set to be tested for spinal muscular atrophy (SMA) from October under a pilot programme, with a view to extending universal newborn screening across the NHS.",
           "source": "The Guardian",
           "url": "https://www.theguardian.com/society/2026/jul/16/newborns-babies-england-spinal-muscular-atrophy-sma-screening",
           "publishedAt": "2026-07-16"
+        },
+        {
+          "title": "UK Plasma Approved for Use in Further Life-Saving Medicines",
+          "summary": "NHS Blood and Transplant announced approval for UK-sourced plasma to be used in additional life-saving medicines, following a risk assessment decision announced on 9 July 2026.",
+          "source": "NHS Blood and Transplant",
+          "url": "https://www.nhsbt.nhs.uk/news/approval-for-uk-plasma-to-be-used-for-further-life-saving-medicines/",
+          "publishedAt": "2026-07-09"
         }
       ]
     },
@@ -208,7 +236,22 @@
       "id": "royal-mail",
       "name": "Royal Mail / Post Office",
       "description": "Postal services",
-      "stories": []
+      "stories": [
+        {
+          "title": "Royal Mail Takes Action as New Digital Post Box Vandalised",
+          "summary": "Royal Mail's newly installed digital post boxes have become targets of vandalism, with boxes found covered in graffiti and tags. Royal Mail has responded with action to protect the new infrastructure.",
+          "source": "BBC News",
+          "url": "https://uk.news.yahoo.com/royal-mail-takes-action-digital-152500400.html",
+          "publishedAt": "2026-07-17"
+        },
+        {
+          "title": "Royal Mail Changes 2nd Class Delivery to Alternate Weekdays",
+          "summary": "Royal Mail has begun delivering Second Class letters on alternate weekdays only (Mon/Wed/Fri or Tue/Thu), with no Saturday deliveries — a significant change to the universal service obligation.",
+          "source": "Royal Mail",
+          "url": "https://www.instagram.com/p/Da2g5xpiOCz/",
+          "publishedAt": "2026-07-17"
+        }
+      ]
     }
   ]
 }
