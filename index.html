@@ -276,6 +276,12 @@
     text-decoration: none;
   }
   .story-headline a:hover { color: var(--primary); text-decoration: underline; }
+  .story-summary {
+    font-size: 0.82rem;
+    color: var(--text2);
+    line-height: 1.45;
+    margin: 3px 0 5px 0;
+  }
   .story-meta {
     display: flex;
     align-items: center;
@@ -684,6 +690,7 @@ function renderAgencyRows(agencies, isToday) {
             <div class="story-headline">
               ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.title || s.headline}</a>` : (s.title || s.headline)}
             </div>
+            ${(s.summary || s.brief || s.description) ? `<div class="story-summary">${s.summary || s.brief || s.description}</div>` : ''}
             <div class="story-meta">
               <span class="story-source">📰 ${s.source || 'News'}</span>
               ${s.time ? `<span class="story-time">${s.time}</span>` : ''}
