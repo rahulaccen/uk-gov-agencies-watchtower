@@ -1,54 +1,23 @@
 {
-  "lastUpdated": "2026-10-09T16:16:00+11:00",
+  "lastUpdated": "2026-10-12T16:00:00+11:00",
   "agencies": [
     {
       "id": "hmrc",
       "name": "HMRC",
       "description": "Tax collection",
-      "stories": [
-        {
-          "title": "Starting early is key to less stress around Self Assessment",
-          "summary": "HMRC says a survey of more than 5,200 customers found over 26% experience anxiety around financial or tax deadlines, and is encouraging people to start filing for 2025–26 early. The online filing deadline is 31 January 2027.",
-          "source": "GOV.UK — HM Revenue & Customs",
-          "url": "https://www.gov.uk/government/news/starting-early-is-key-to-less-stress-around-self-assessment",
-          "publishedAt": "2026-10-08"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "home-office",
       "name": "Home Office",
       "description": "Immigration, visas, policing and security",
-      "stories": [
-        {
-          "title": "Retailers challenged to strengthen action on marketing of knives",
-          "summary": "The Home Office says ministers held two summits with online platforms, retailers and enforcement partners, pressing businesses to strengthen safeguards on knife marketing, listings and in-store display. The story reports a challenge and calls for action, not a newly awarded contract or binding retailer commitment.",
-          "source": "GOV.UK — Home Office",
-          "url": "https://www.gov.uk/government/news/retailers-challenged-to-strengthen-action-on-marketing-of-knives",
-          "publishedAt": "2026-10-08"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "fcdo",
       "name": "FCDO",
       "description": "Diplomacy and international relations",
-      "stories": [
-        {
-          "title": "Foreign Secretary statement on the UK's diplomatic presence in Jerusalem",
-          "summary": "After discussions with Israel, the UK said its Consulate General building in Jerusalem will remain open and be known as the UK Mission, Jerusalem. The Foreign Secretary said a number of staff and families had been temporarily withdrawn for security reasons while talks continue.",
-          "source": "GOV.UK — Foreign, Commonwealth & Development Office",
-          "url": "https://www.gov.uk/government/news/foreign-secretary-statement-on-the-uks-diplomatic-presence-in-jerusalem",
-          "publishedAt": "2026-10-08"
-        },
-        {
-          "title": "\"You cannot wait us out\" Miliband tells Putin during first visit to Ukraine as Foreign Secretary",
-          "summary": "On his first Ukraine visit as Foreign Secretary, Ed Miliband met President Volodymyr Zelenskyy and announced a £54 million energy and humanitarian winter-support package, alongside £6.3 million for war-crimes accountability. The release also details a fresh sanctions package targeting about 40 people and entities; it is one report combining same-day announcements, not a separate duplicate sanctions item.",
-          "source": "GOV.UK — Foreign, Commonwealth & Development Office",
-          "url": "https://www.gov.uk/government/news/you-cannot-wait-us-out-miliband-tells-putin-during-first-visit-to-ukraine-as-foreign-secretary",
-          "publishedAt": "2026-10-08"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "dwp",
@@ -60,50 +29,19 @@
       "id": "defra",
       "name": "DEFRA",
       "description": "Environment, food and rural affairs",
-      "stories": [
-        {
-          "title": "Drought permit granted to support Wimbleball Reservoir",
-          "summary": "The Environment Agency said it granted South West Water a drought permit intended to help secure public supplies from Wimbleball Reservoir, which was at 18% capacity on 4 October. The release was published on 8 October, but states the permit was granted on 2 October, so the underlying decision predates this news window.",
-          "source": "GOV.UK — Environment Agency",
-          "url": "https://www.gov.uk/government/news/drought-permit-granted-to-support-wimbleball-reservoir",
-          "publishedAt": "2026-10-08"
-        },
-        {
-          "title": "Illegal waste at Hoad’s Wood fully cleared as crackdown continues",
-          "summary": "The Environment Agency and Defra report that 39,500 tonnes of illegal waste have been removed from Hoad’s Wood in Kent. The Agency says three people have been arrested in its investigation into the dumping.",
-          "source": "GOV.UK — Environment Agency and DEFRA",
-          "url": "https://www.gov.uk/government/news/illegal-waste-at-hoads-wood-fully-cleared-as-crackdown-continues",
-          "publishedAt": "2026-10-09"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "mod",
       "name": "MoD",
       "description": "Ministry of Defence",
-      "stories": [
-        {
-          "title": "New Kyiv Business Centre opens in Ukraine",
-          "summary": "The Ministry of Defence says the Kyiv Business Centre has opened to give UK companies, especially SMEs, a permanent base for building Ukrainian partnerships and pursuing co-development, production and investment opportunities. The release describes the centre as support for industry, not a supplier contract award.",
-          "source": "GOV.UK — Ministry of Defence",
-          "url": "https://www.gov.uk/government/news/new-kyiv-business-centre-opens-in-ukraine",
-          "publishedAt": "2026-10-08"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "bist",
-      "name": "BIST (Department for Business, Innovation, Science and Trade)",
+      "name": "BIST — Department for Business, Innovation, Science and Trade",
       "description": "Business, trade, science, technology and AI coverage grouped as requested",
-      "stories": [
-        {
-          "title": "First ever UK-Germany tech corridor unlocks investment, jobs and opportunity for British business",
-          "summary": "The UK and Germany announced an Industrial Tech Corridor intended to connect companies and accelerate industrial technology partnerships, including AI adoption. The announcement also describes a shared €20 million (£17 million) pot for joint quantum research; this is a funding commitment, not a supplier award.",
-          "source": "GOV.UK — Department for Business, Innovation, Science and Trade",
-          "url": "https://www.gov.uk/government/news/first-ever-uk-germany-tech-corridor-unlocks-investment-jobs-and-opportunity-for-british-business",
-          "publishedAt": "2026-10-08"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "nhs",
@@ -111,11 +49,11 @@
       "description": "National Health Service",
       "stories": [
         {
-          "title": "Experiences of NHS healthcare services in England: 8 October 2026",
-          "summary": "The Office for National Statistics released official statistics in development on experiences of accessing GP services, waiting lists, community health, dentistry and pharmacy. The Health Insight Survey is funded by NHS England; the release is from ONS, not an NHS announcement.",
-          "source": "Office for National Statistics",
-          "url": "https://www.ons.gov.uk/releases/experiencesofnhshealthcareservicesinengland8october2026",
-          "publishedAt": "2026-10-08"
+          "title": "Emergency doctor ‘completely terrified’ of looming winter pressures on NHS",
+          "summary": "BBC Scotland reports that Dr Fiona Hunter described unsafe A&E conditions and patients spending up to 72 hours on corridor trolleys; the Scottish health secretary also responded. The BBC page displayed ‘16 hours ago’ at the scheduled-run check, which places it inside the specified 48-hour window, but the page text did not expose an exact publication minute; the displayed relative age implied approximately 11 October 2026 13:00 UTC.",
+          "source": "BBC News (Scotland)",
+          "url": "https://www.bbc.co.uk/news/articles/c63r5nnxxzgvo",
+          "publishedAt": "2026-10-11"
         }
       ]
     },

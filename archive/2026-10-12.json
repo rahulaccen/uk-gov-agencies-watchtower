@@ -1,0 +1,67 @@
+{
+  "lastUpdated": "2026-10-12T16:00:00+11:00",
+  "agencies": [
+    {
+      "id": "hmrc",
+      "name": "HMRC",
+      "description": "Tax collection",
+      "stories": []
+    },
+    {
+      "id": "home-office",
+      "name": "Home Office",
+      "description": "Immigration, visas, policing and security",
+      "stories": []
+    },
+    {
+      "id": "fcdo",
+      "name": "FCDO",
+      "description": "Diplomacy and international relations",
+      "stories": []
+    },
+    {
+      "id": "dwp",
+      "name": "DWP",
+      "description": "Benefits and pensions",
+      "stories": []
+    },
+    {
+      "id": "defra",
+      "name": "DEFRA",
+      "description": "Environment, food and rural affairs",
+      "stories": []
+    },
+    {
+      "id": "mod",
+      "name": "MoD",
+      "description": "Ministry of Defence",
+      "stories": []
+    },
+    {
+      "id": "bist",
+      "name": "BIST — Department for Business, Innovation, Science and Trade",
+      "description": "Business, trade, science, technology and AI coverage grouped as requested",
+      "stories": []
+    },
+    {
+      "id": "nhs",
+      "name": "NHS",
+      "description": "National Health Service",
+      "stories": [
+        {
+          "title": "Emergency doctor ‘completely terrified’ of looming winter pressures on NHS",
+          "summary": "BBC Scotland reports that Dr Fiona Hunter described unsafe A&E conditions and patients spending up to 72 hours on corridor trolleys; the Scottish health secretary also responded. The BBC page displayed ‘16 hours ago’ at the scheduled-run check, which places it inside the specified 48-hour window, but the page text did not expose an exact publication minute; the displayed relative age implied approximately 11 October 2026 13:00 UTC.",
+          "source": "BBC News (Scotland)",
+          "url": "https://www.bbc.co.uk/news/articles/c63r5nnxxzgvo",
+          "publishedAt": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "royal-mail",
+      "name": "Royal Mail / Post Office",
+      "description": "Postal services",
+      "stories": []
+    }
+  ]
+}
