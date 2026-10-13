@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T16:00:00+11:00",
+  "lastUpdated": "2026-10-13T16:17:00+11:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -11,19 +11,50 @@
       "id": "home-office",
       "name": "Home Office",
       "description": "Immigration, visas, policing and security",
-      "stories": []
+      "stories": [
+        {
+          "title": "Root-and-branch review of security for those in public life",
+          "summary": "The Home Office announced an independent review led by Sir Stephen Lovegrove of protective security for people in public life, alongside expanded dedicated police support. The accompanying national-security statement describes the wider response; these are counted as one story, not two.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/root-and-branch-review-of-security-for-those-in-public-life",
+          "publishedAt": "2026-10-12T18:36:51+01:00"
+        }
+      ]
     },
     {
       "id": "fcdo",
       "name": "FCDO",
       "description": "Diplomacy and international relations",
-      "stories": []
+      "stories": [
+        {
+          "title": "Foreign Secretary statement on Iran, 12 October",
+          "summary": "The Foreign Secretary announced that the Iranian ambassador would be summoned and two Iranian nationals designated for alleged involvement in hostile activity. A same-day multinational statement condemns Iranian attacks and threats; both statements are grouped as one diplomatic-response story.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/foreign-secretary-statement-on-iran-12-october",
+          "publishedAt": "2026-10-12T15:54:00+01:00"
+        }
+      ]
     },
     {
       "id": "dwp",
       "name": "DWP",
       "description": "Benefits and pensions",
-      "stories": []
+      "stories": [
+        {
+          "title": "How DWP checks benefit eligibility using the Eligibility Verification Measure",
+          "summary": "New guidance explains how the Eligibility Verification Measure allows DWP to request limited information from financial institutions to check benefit eligibility. It covers Universal Credit, Pension Credit and New Style ESA; the guidance is not an announcement of a supplier contract.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/guidance/how-dwp-checks-benefit-eligibility-using-the-eligibility-verification-measure",
+          "publishedAt": "2026-10-13T00:01:07+01:00"
+        },
+        {
+          "title": "DWP: workforce management information August 2026",
+          "summary": "DWP published its August 2026 workforce management return, covering permanent staff and contractors’ headcount and payroll costs. This is a new transparency publication about an earlier reporting month, not a new staffing pledge.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/dwp-workforce-management-information-august-2026",
+          "publishedAt": "2026-10-12T15:06:07+01:00"
+        }
+      ]
     },
     {
       "id": "defra",
@@ -35,33 +66,63 @@
       "id": "mod",
       "name": "MoD",
       "description": "Ministry of Defence",
-      "stories": []
+      "stories": [
+        {
+          "title": "Contact with Parliamentarians",
+          "summary": "The Ministry of Defence published a Defence Instruction Notice setting departmental rules and authorisation procedures for contact with parliamentarians, including ministers. It is administrative guidance, not a procurement award or operational announcement.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/contact-with-parliamentarians",
+          "publishedAt": "2026-10-12T11:50:15+01:00"
+        }
+      ]
     },
     {
       "id": "bist",
       "name": "BIST — Department for Business, Innovation, Science and Trade",
-      "description": "Business, trade, science, technology and AI coverage grouped as requested",
-      "stories": []
+      "description": "Combined business, trade, science, technology and AI coverage; current department name corroborated by GOV.UK",
+      "stories": [
+        {
+          "title": "India trade mission unlocks hundreds of UK jobs and new deals",
+          "summary": "Ministers and northern regional leaders began a trade mission to India that the government says supports more than £1 billion in new commercial deals and hundreds of UK jobs. The mission includes the business and environment secretaries; this cross-department story is listed here once to avoid double-counting.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/india-trade-mission-unlocks-hundreds-of-uk-jobs-and-new-deals",
+          "publishedAt": "2026-10-12T10:26:00+01:00"
+        },
+        {
+          "title": "Cyber security skills and sectoral analysis research 2027: privacy notice",
+          "summary": "A new privacy notice describes cyber-security labour-market and sector research, naming Ipsos UK and Perspective Economics as research partners/data processors. It is a research and data-handling publication, not evidence of a newly awarded contract or a stated contract value.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/cyber-security-skills-and-sectoral-analysis-2027-privacy-notice/cyber-security-skills-and-sectoral-analysis-research-2027-privacy-notice",
+          "publishedAt": "2026-10-12T12:16:38+01:00"
+        },
+        {
+          "title": "New laws and learning from near misses – government sets plans to make UK ‘one of the hardest countries to attack using AI’",
+          "summary": "PublicTechnology reports plans to strengthen resilience against AI-powered cyberattacks, including examining legal protections, learning from near misses and extending government code-security pilots. These are proposed protections and programme measures, not a reported supplier contract award.",
+          "source": "PublicTechnology",
+          "url": "https://www.publictechnology.net/2026/10/13/news/new-laws-and-learning-from-near-misses-government-sets-plans-to-make-uk-one-of-the-hardest-countries-to-attack-using-ai/",
+          "publishedAt": "2026-10-13T01:01:00Z"
+        }
+      ]
     },
     {
       "id": "nhs",
       "name": "NHS",
       "description": "National Health Service",
-      "stories": [
-        {
-          "title": "Emergency doctor ‘completely terrified’ of looming winter pressures on NHS",
-          "summary": "BBC Scotland reports that Dr Fiona Hunter described unsafe A&E conditions and patients spending up to 72 hours on corridor trolleys; the Scottish health secretary also responded. The BBC page displayed ‘16 hours ago’ at the scheduled-run check, which places it inside the specified 48-hour window, but the page text did not expose an exact publication minute; the displayed relative age implied approximately 11 October 2026 13:00 UTC.",
-          "source": "BBC News (Scotland)",
-          "url": "https://www.bbc.co.uk/news/articles/c63r5nnxxzgvo",
-          "publishedAt": "2026-10-11"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "royal-mail",
       "name": "Royal Mail / Post Office",
       "description": "Postal services",
-      "stories": []
+      "stories": [
+        {
+          "title": "Bridgwater residents seek urgent review amid month-long Royal Mail delays",
+          "summary": "BBC reports complaints that letters in Bridgwater are taking up to four weeks to arrive, with residents missing appointments and the local MP calling for an urgent Ofcom review. Royal Mail says the delivery office is experiencing resourcing pressures and that action is being taken.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqy8l3m7pd7ko",
+          "publishedAt": "2026-10-12"
+        }
+      ]
     }
   ]
 }
