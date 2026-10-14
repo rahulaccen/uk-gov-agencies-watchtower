@@ -1,0 +1,106 @@
+{
+  "lastUpdated": "2026-10-14T05:17:39.447Z",
+  "agencies": [
+    {
+      "id": "hmrc",
+      "name": "HMRC",
+      "description": "Tax collection",
+      "stories": []
+    },
+    {
+      "id": "home-office",
+      "name": "Home Office",
+      "description": "Immigration, visas, policing and security",
+      "stories": []
+    },
+    {
+      "id": "fcdo",
+      "name": "FCDO",
+      "description": "Diplomacy and international relations",
+      "stories": [
+        {
+          "title": "UK and partners urge Palestinian Authority to reconsider election postponement",
+          "summary": "The UK, Australia, Canada and France jointly regretted the postponement of Palestinian legislative and presidential elections to September 2027. Their statement calls for the decision to be reconsidered and elections held without further delay.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/joint-statement-on-the-postponement-of-palestinian-elections",
+          "publishedAt": "2026-10-13T15:31:00+01:00"
+        }
+      ]
+    },
+    {
+      "id": "dwp",
+      "name": "DWP",
+      "description": "Benefits and pensions",
+      "stories": [
+        {
+          "title": "DWP targets 660,000 households in Pension Credit awareness drive",
+          "summary": "DWP says it will send 660,000 advice leaflets to households in seven areas to encourage eligible pensioners to claim Pension Credit, worth more than £4,500 a year on average. This is an awareness campaign about existing entitlement, not a new benefit award or increase.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/hundreds-of-thousands-of-pensioners-urged-to-check-theyre-not-missing-out-on-vital-pension-credit",
+          "publishedAt": "2026-10-13T12:37:32+01:00"
+        }
+      ]
+    },
+    {
+      "id": "defra",
+      "name": "DEFRA",
+      "description": "Environment, food and rural affairs",
+      "stories": [
+        {
+          "title": "Environment Agency reports 97.5% on-time planning consultation responses",
+          "summary": "The Environment Agency's newly published 2025–26 report says 97.5% of planning consultations and pre-application enquiries received responses within 21 days or another agreed period, up from 88.3% in 2024–25. This is a performance publication about the past financial year, not a new funding announcement or supplier award.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/planning-consultation-response-timeliness-environment-agency/environment-agencys-planning-consultation-response-timeliness-2025-to-2026",
+          "publishedAt": "2026-10-13T09:35:57+01:00"
+        }
+      ]
+    },
+    {
+      "id": "mod",
+      "name": "MoD",
+      "description": "Ministry of Defence",
+      "stories": []
+    },
+    {
+      "id": "bist",
+      "name": "BIST — Department for Business, Innovation, Science and Trade",
+      "description": "Business, trade, science, technology and AI combined coverage; GOV.UK confirms DBT’s new name and transfer of DSIT functions, with other functions moving to DCMS and Cabinet Office",
+      "stories": []
+    },
+    {
+      "id": "nhs",
+      "name": "NHS",
+      "description": "National Health Service",
+      "stories": [
+        {
+          "title": "Sefton cancer-support service faces £607,000 funding withdrawal",
+          "summary": "BBC reports that Southport and Formby GP practices voted to stop funding the Cancer Navigator Service outside their mandatory NHS core contract, with plans due before councillors. Funding is set to cease after 31 March; the centre says it would continue with a greatly reduced service, rather than close entirely.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm0j0gxv4y5no",
+          "publishedAt": "2026-10-13T05:16:46.057Z"
+        }
+      ]
+    },
+    {
+      "id": "royal-mail",
+      "name": "Royal Mail / Post Office",
+      "description": "Postal services",
+      "stories": [
+        {
+          "title": "Union says Royal Mail is losing about 400 postal workers a week",
+          "summary": "The CWU says staff departures have risen to about 400 a week since Royal Mail introduced its DM26 delivery model, and reports problems in hundreds of offices. Royal Mail says the reforms are improving service and supporting financial sustainability; the departure figure is a union claim, not an independently confirmed company statistic.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o",
+          "publishedAt": "2026-10-13T23:03:59.488Z"
+        },
+        {
+          "title": "Telford Centre's last Post Office is due to close on 2 January",
+          "summary": "BBC reports that the branch will close as its host TG Jones store shuts. The Post Office says it is seeking a replacement as soon as possible, but the process could take around six months; a replacement opening date is not confirmed.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyvg07keqdo",
+          "publishedAt": "2026-10-13T05:34:54.545Z"
+        }
+      ]
+    }
+  ]
+}

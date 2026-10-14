@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T16:17:00+11:00",
+  "lastUpdated": "2026-10-14T05:17:39.447Z",
   "agencies": [
     {
       "id": "hmrc",
@@ -11,15 +11,7 @@
       "id": "home-office",
       "name": "Home Office",
       "description": "Immigration, visas, policing and security",
-      "stories": [
-        {
-          "title": "Root-and-branch review of security for those in public life",
-          "summary": "The Home Office announced an independent review led by Sir Stephen Lovegrove of protective security for people in public life, alongside expanded dedicated police support. The accompanying national-security statement describes the wider response; these are counted as one story, not two.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/root-and-branch-review-of-security-for-those-in-public-life",
-          "publishedAt": "2026-10-12T18:36:51+01:00"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "fcdo",
@@ -27,11 +19,11 @@
       "description": "Diplomacy and international relations",
       "stories": [
         {
-          "title": "Foreign Secretary statement on Iran, 12 October",
-          "summary": "The Foreign Secretary announced that the Iranian ambassador would be summoned and two Iranian nationals designated for alleged involvement in hostile activity. A same-day multinational statement condemns Iranian attacks and threats; both statements are grouped as one diplomatic-response story.",
+          "title": "UK and partners urge Palestinian Authority to reconsider election postponement",
+          "summary": "The UK, Australia, Canada and France jointly regretted the postponement of Palestinian legislative and presidential elections to September 2027. Their statement calls for the decision to be reconsidered and elections held without further delay.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/foreign-secretary-statement-on-iran-12-october",
-          "publishedAt": "2026-10-12T15:54:00+01:00"
+          "url": "https://www.gov.uk/government/news/joint-statement-on-the-postponement-of-palestinian-elections",
+          "publishedAt": "2026-10-13T15:31:00+01:00"
         }
       ]
     },
@@ -41,18 +33,11 @@
       "description": "Benefits and pensions",
       "stories": [
         {
-          "title": "How DWP checks benefit eligibility using the Eligibility Verification Measure",
-          "summary": "New guidance explains how the Eligibility Verification Measure allows DWP to request limited information from financial institutions to check benefit eligibility. It covers Universal Credit, Pension Credit and New Style ESA; the guidance is not an announcement of a supplier contract.",
+          "title": "DWP targets 660,000 households in Pension Credit awareness drive",
+          "summary": "DWP says it will send 660,000 advice leaflets to households in seven areas to encourage eligible pensioners to claim Pension Credit, worth more than £4,500 a year on average. This is an awareness campaign about existing entitlement, not a new benefit award or increase.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/guidance/how-dwp-checks-benefit-eligibility-using-the-eligibility-verification-measure",
-          "publishedAt": "2026-10-13T00:01:07+01:00"
-        },
-        {
-          "title": "DWP: workforce management information August 2026",
-          "summary": "DWP published its August 2026 workforce management return, covering permanent staff and contractors’ headcount and payroll costs. This is a new transparency publication about an earlier reporting month, not a new staffing pledge.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/dwp-workforce-management-information-august-2026",
-          "publishedAt": "2026-10-12T15:06:07+01:00"
+          "url": "https://www.gov.uk/government/news/hundreds-of-thousands-of-pensioners-urged-to-check-theyre-not-missing-out-on-vital-pension-credit",
+          "publishedAt": "2026-10-13T12:37:32+01:00"
         }
       ]
     },
@@ -60,55 +45,41 @@
       "id": "defra",
       "name": "DEFRA",
       "description": "Environment, food and rural affairs",
-      "stories": []
+      "stories": [
+        {
+          "title": "Environment Agency reports 97.5% on-time planning consultation responses",
+          "summary": "The Environment Agency's newly published 2025–26 report says 97.5% of planning consultations and pre-application enquiries received responses within 21 days or another agreed period, up from 88.3% in 2024–25. This is a performance publication about the past financial year, not a new funding announcement or supplier award.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/planning-consultation-response-timeliness-environment-agency/environment-agencys-planning-consultation-response-timeliness-2025-to-2026",
+          "publishedAt": "2026-10-13T09:35:57+01:00"
+        }
+      ]
     },
     {
       "id": "mod",
       "name": "MoD",
       "description": "Ministry of Defence",
-      "stories": [
-        {
-          "title": "Contact with Parliamentarians",
-          "summary": "The Ministry of Defence published a Defence Instruction Notice setting departmental rules and authorisation procedures for contact with parliamentarians, including ministers. It is administrative guidance, not a procurement award or operational announcement.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/contact-with-parliamentarians",
-          "publishedAt": "2026-10-12T11:50:15+01:00"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "bist",
       "name": "BIST — Department for Business, Innovation, Science and Trade",
-      "description": "Combined business, trade, science, technology and AI coverage; current department name corroborated by GOV.UK",
-      "stories": [
-        {
-          "title": "India trade mission unlocks hundreds of UK jobs and new deals",
-          "summary": "Ministers and northern regional leaders began a trade mission to India that the government says supports more than £1 billion in new commercial deals and hundreds of UK jobs. The mission includes the business and environment secretaries; this cross-department story is listed here once to avoid double-counting.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/india-trade-mission-unlocks-hundreds-of-uk-jobs-and-new-deals",
-          "publishedAt": "2026-10-12T10:26:00+01:00"
-        },
-        {
-          "title": "Cyber security skills and sectoral analysis research 2027: privacy notice",
-          "summary": "A new privacy notice describes cyber-security labour-market and sector research, naming Ipsos UK and Perspective Economics as research partners/data processors. It is a research and data-handling publication, not evidence of a newly awarded contract or a stated contract value.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/cyber-security-skills-and-sectoral-analysis-2027-privacy-notice/cyber-security-skills-and-sectoral-analysis-research-2027-privacy-notice",
-          "publishedAt": "2026-10-12T12:16:38+01:00"
-        },
-        {
-          "title": "New laws and learning from near misses – government sets plans to make UK ‘one of the hardest countries to attack using AI’",
-          "summary": "PublicTechnology reports plans to strengthen resilience against AI-powered cyberattacks, including examining legal protections, learning from near misses and extending government code-security pilots. These are proposed protections and programme measures, not a reported supplier contract award.",
-          "source": "PublicTechnology",
-          "url": "https://www.publictechnology.net/2026/10/13/news/new-laws-and-learning-from-near-misses-government-sets-plans-to-make-uk-one-of-the-hardest-countries-to-attack-using-ai/",
-          "publishedAt": "2026-10-13T01:01:00Z"
-        }
-      ]
+      "description": "Business, trade, science, technology and AI combined coverage; GOV.UK confirms DBT’s new name and transfer of DSIT functions, with other functions moving to DCMS and Cabinet Office",
+      "stories": []
     },
     {
       "id": "nhs",
       "name": "NHS",
       "description": "National Health Service",
-      "stories": []
+      "stories": [
+        {
+          "title": "Sefton cancer-support service faces £607,000 funding withdrawal",
+          "summary": "BBC reports that Southport and Formby GP practices voted to stop funding the Cancer Navigator Service outside their mandatory NHS core contract, with plans due before councillors. Funding is set to cease after 31 March; the centre says it would continue with a greatly reduced service, rather than close entirely.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm0j0gxv4y5no",
+          "publishedAt": "2026-10-13T05:16:46.057Z"
+        }
+      ]
     },
     {
       "id": "royal-mail",
@@ -116,11 +87,18 @@
       "description": "Postal services",
       "stories": [
         {
-          "title": "Bridgwater residents seek urgent review amid month-long Royal Mail delays",
-          "summary": "BBC reports complaints that letters in Bridgwater are taking up to four weeks to arrive, with residents missing appointments and the local MP calling for an urgent Ofcom review. Royal Mail says the delivery office is experiencing resourcing pressures and that action is being taken.",
+          "title": "Union says Royal Mail is losing about 400 postal workers a week",
+          "summary": "The CWU says staff departures have risen to about 400 a week since Royal Mail introduced its DM26 delivery model, and reports problems in hundreds of offices. Royal Mail says the reforms are improving service and supporting financial sustainability; the departure figure is a union claim, not an independently confirmed company statistic.",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqy8l3m7pd7ko",
-          "publishedAt": "2026-10-12"
+          "url": "https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o",
+          "publishedAt": "2026-10-13T23:03:59.488Z"
+        },
+        {
+          "title": "Telford Centre's last Post Office is due to close on 2 January",
+          "summary": "BBC reports that the branch will close as its host TG Jones store shuts. The Post Office says it is seeking a replacement as soon as possible, but the process could take around six months; a replacement opening date is not confirmed.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyvg07keqdo",
+          "publishedAt": "2026-10-13T05:34:54.545Z"
         }
       ]
     }
