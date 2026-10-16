@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T16:18:00+11:00",
+  "lastUpdated": "2026-10-16T16:15:00+11:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -11,36 +11,13 @@
       "id": "home-office",
       "name": "Home Office",
       "description": "Immigration, visas, policing and security",
-      "stories": [
-        {
-          "title": "UK threatens Eritrea visa ban over migrant returns",
-          "summary": "BBC reports that the UK has threatened a wider visa ban unless Eritrea accepts more returns of migrants and foreign national offenders. Restrictions on Eritrean diplomats’ movement and fast-track VIP visas are due from Thursday; the wider ban remains a threat, not an implemented blanket ban.",
-          "source": "BBC News",
-          "url": "http://www.bbc.co.uk/news/articles/c30rl1q1j200o",
-          "publishedAt": "2026-10-14T21:30:13.302Z"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "fcdo",
       "name": "FCDO",
       "description": "Diplomacy and international relations",
-      "stories": [
-        {
-          "title": "Ann Snow appointed next UK Ambassador to Yemen",
-          "summary": "The FCDO announced Ann Snow’s appointment to succeed Abda Sharif as Ambassador to Yemen. She is due to take up the post in January 2027, rather than immediately.",
-          "source": "FCDO / GOV.UK",
-          "url": "https://www.gov.uk/government/news/change-of-his-majestys-ambassador-to-yemen",
-          "publishedAt": "2026-10-14T10:56:00+01:00"
-        },
-        {
-          "title": "UK proposes reset of development finance",
-          "summary": "The FCDO called for reform of the international financial system, prioritising debt, private investment, resilience and fragile states. This is a policy reform agenda, not an announcement of a new funding award.",
-          "source": "FCDO / GOV.UK",
-          "url": "https://www.gov.uk/government/news/uk-calls-for-fundamental-reset-of-global-financial-system-for-developing-countries",
-          "publishedAt": "2026-10-14T13:49:45+01:00"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "dwp",
@@ -48,25 +25,11 @@
       "description": "Benefits and pensions",
       "stories": [
         {
-          "title": "Newly published employer jobs-service assessment records Amber result",
-          "summary": "GDS published the May 2026 beta assessment of DWP’s employer-facing Find a Job replacement, recording an Amber result. The service supports employer verification and vacancy advertising; this is a newly published assessment, not a new launch or contract award.",
-          "source": "GDS / GOV.UK",
-          "url": "https://www.gov.uk/service-standard-reports/dwp-jobs-and-careers-service-find-a-job-replacement-employers-beta",
-          "publishedAt": "2026-10-14T11:53:25+01:00"
-        },
-        {
-          "title": "Synergy absence and expenses reassessment published with Amber result",
-          "summary": "GDS published the July 2026 alpha reassessment of DWP-led Synergy’s absence and expenses service, recording an Amber result. The report describes a cross-government Oracle SaaS platform; this confirms the named technology, not a new supplier award.",
-          "source": "GDS / GOV.UK",
-          "url": "https://www.gov.uk/service-standard-reports/dwp-synergy-absence-and-expenses-alpha-reassessment",
-          "publishedAt": "2026-10-14T12:34:12+01:00"
-        },
-        {
-          "title": "DWP jobseeker service assessment published with Green result",
-          "summary": "The newly published May 2026 beta assessment gives DWP’s Explore work, build a CV and look for jobs service a Green result. It describes career-focused chatbot support, job search, action plans and CV tools; future access to human careers advisers is planned, not presented as already delivered.",
-          "source": "GDS / GOV.UK",
-          "url": "https://www.gov.uk/service-standard-reports/dwp-explore-work-build-a-cv-and-look-for-jobs-beta",
-          "publishedAt": "2026-10-14T12:01:00+01:00"
+          "title": "DWP publishes Independent Disability Advisory Panel remit",
+          "summary": "Newly published terms of reference set out how expertise from Deaf and disabled people and people with long-term health conditions will inform DWP policy design and delivery. This is a governance publication, not a benefits-rate change or a funding award.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/independent-disability-advisory-panel-terms-of-reference",
+          "publishedAt": "2026-10-15T09:30:01+01:00"
         }
       ]
     },
@@ -76,11 +39,18 @@
       "description": "Environment, food and rural affairs",
       "stories": [
         {
-          "title": "England launches organic farming action plan",
-          "summary": "Defra launched a long-term plan aiming to increase organically farmed agricultural land from around 3.4% towards 10% by 2036. It proposes producer support, stronger supply chains and market development; the ambition is not a completed outcome or a supplier contract award.",
-          "source": "Defra / GOV.UK",
-          "url": "https://www.gov.uk/government/news/plan-to-unlock-organic-market-for-stronger-farms-more-homegrown-food",
-          "publishedAt": "2026-10-14T11:56:55+01:00"
+          "title": "Severe drought triggers stronger water-supply protection measures",
+          "summary": "Severe drought has been declared in parts of six southern English counties, with daily reservoir and river monitoring, tighter abstraction checks and local resilience planning. Defra says customer supplies remain uninterrupted; the action is preventative rather than an announcement of supply cuts.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/government-activates-plan-to-protect-consumers-as-severe-drought-declared-in-parts-of-england",
+          "publishedAt": "2026-10-15T12:31:00+01:00"
+        },
+        {
+          "title": "Defra seeks evidence on proposed persistent organic pollutants",
+          "summary": "Defra is requesting scientific and socioeconomic evidence to support Stockholm Convention assessments of nominated flame retardants and related pollutants. This is an evidence-gathering step towards possible international controls, not a newly enacted ban.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/substances-proposed-as-persistent-organic-pollutants-pops-2026-request-for-information/request-for-information-pops-2026-stockholm-convention",
+          "publishedAt": "2026-10-15T18:26:07+01:00"
         }
       ]
     },
@@ -90,18 +60,11 @@
       "description": "Ministry of Defence",
       "stories": [
         {
-          "title": "Defence leaders call for faster capability delivery at DSEI 2027 launch",
-          "summary": "MoD leaders launched the DSEI UK 2027 theme with calls for faster acquisition, innovation and readiness. This is strategic direction and an exhibition launch, not a procurement award or newly committed programme budget.",
-          "source": "Ministry of Defence / GOV.UK",
-          "url": "https://www.gov.uk/government/news/dsei-uk-27-mod-leaders-focus-on-speed-innovation-and-readiness",
-          "publishedAt": "2026-10-14T13:23:00+01:00"
-        },
-        {
-          "title": "MoD reports full military burial for First World War soldier",
-          "summary": "A newly published MoD report records the burial of Lance Corporal Claude Stanley Dell in Belgium with full military honours on 13 October. The publication is fresh in this window; the ceremony itself took place the previous day.",
-          "source": "Ministry of Defence / GOV.UK",
-          "url": "https://www.gov.uk/government/news/scarborough-soldier-buried-in-belgium-more-than-a-century-after-his-death",
-          "publishedAt": "2026-10-14T12:03:00+01:00"
+          "title": "Unknown First World War soldier buried with full military honours",
+          "summary": "BBC reports that an unidentified soldier believed to have served with the West Yorkshire Regiment was buried in France on 14 October, in a service organised by the MoD’s Joint Casualty and Compassionate Centre. The report is newly published in this window; the ceremony occurred the preceding day.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6n8dz7xrl5go",
+          "publishedAt": "2026-10-15T13:02:30.320Z"
         }
       ]
     },
@@ -111,11 +74,18 @@
       "description": "Department for Business, Innovation, Science and Trade",
       "stories": [
         {
-          "title": "Consultation targets bogus self-employment",
-          "summary": "BIST announced proposals to tackle the misclassification of workers as self-employed, potentially benefiting more than 900,000 people. The measures are being consulted on and are not yet enacted employment rights.",
-          "source": "BIST / GOV.UK",
-          "url": "https://www.gov.uk/government/news/new-action-to-crackdown-on-bogus-self-employment-loopholes",
-          "publishedAt": "2026-10-14T14:49:19+01:00"
+          "title": "BIST releases first National Survey of Businesses",
+          "summary": "The first results cover interviews with 1,019 senior representatives of UK businesses with employees, conducted from June to August 2026. The new survey broadens coverage beyond international trade to domestic business policy; these are newly published statistics, not newly occurring business events.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/statistics/national-survey-of-businesses-wave-1-june-to-august-2026",
+          "publishedAt": "2026-10-15T09:30:02+01:00"
+        },
+        {
+          "title": "Franco-German proposal opens conditional route into “Made in Europe” rules",
+          "summary": "The Guardian reports that France now backs conditional UK inclusion in proposed EU automotive preference rules, tied to reciprocity and alignment on trade-defence measures. This remains a proposal in draft legislation, not an agreed UK exemption or a concluded trade deal.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/15/france-drops-opposition-to-uk-being-included-in-made-in-europe-legislation",
+          "publishedAt": "2026-10-15T19:28:34.000Z"
         }
       ]
     },
@@ -123,22 +93,7 @@
       "id": "nhs",
       "name": "NHS",
       "description": "National Health Service",
-      "stories": [
-        {
-          "title": "MHRA sets out 2030 strategy for AI and personalised medicine",
-          "summary": "The medicines regulator published a strategy to modernise patient-centred regulation and support safer, faster access to innovation, including AI and personalised medicines. Included as related health-system coverage: this is an MHRA strategy, not an NHS procurement award.",
-          "source": "MHRA / GOV.UK",
-          "url": "https://www.gov.uk/government/news/mhra-2030-strategy-to-modernise-patient-centred-regulation-for-the-era-of-ai-and-personalised-medicines",
-          "publishedAt": "2026-10-14T10:00:03+01:00"
-        },
-        {
-          "title": "Lincolnshire trust announces Nervecentre EPR rollout",
-          "summary": "United Lincolnshire Teaching Hospitals announced the rollout of its Nervecentre electronic patient record between 13 and 16 October. The trust itself confirms the system’s name and launch window; this is an implementation update, not a newly awarded contract.",
-          "source": "United Lincolnshire Teaching Hospitals NHS Trust",
-          "url": "https://www.ulh.nhs.uk/news/the-nervecentre-electronic-patient-record-epr-is-coming-to-united-lincolnshire-teaching-hospitals-nhs-trust/",
-          "publishedAt": "2026-10-14T09:49:11+00:00"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "royal-mail",
