@@ -1,0 +1,82 @@
+{
+  "lastUpdated": "2026-10-19T16:18:00+11:00",
+  "agencies": [
+    {
+      "id": "hmrc",
+      "name": "HMRC",
+      "description": "Tax collection",
+      "stories": []
+    },
+    {
+      "id": "home-office",
+      "name": "Home Office",
+      "description": "Immigration, visas, policing and security",
+      "stories": []
+    },
+    {
+      "id": "fcdo",
+      "name": "FCDO",
+      "description": "Diplomacy and international relations",
+      "stories": []
+    },
+    {
+      "id": "dwp",
+      "name": "DWP",
+      "description": "Benefits and pensions",
+      "stories": []
+    },
+    {
+      "id": "defra",
+      "name": "DEFRA",
+      "description": "Environment, food and rural affairs",
+      "stories": []
+    },
+    {
+      "id": "mod",
+      "name": "MoD",
+      "description": "Ministry of Defence",
+      "stories": []
+    },
+    {
+      "id": "bist",
+      "name": "BIST",
+      "description": "Department for Business, Innovation, Science and Trade",
+      "stories": [
+        {
+          "title": "UK seeks closer EU AI ties and access to European technology procurement, report says",
+          "summary": "The Telegraph reports that ministers are seeking closer alignment with EU AI rules and “trusted access” for UK firms to proposed European technology procurement preferences. These are reported negotiating aims for forthcoming talks—not an agreed deal, enacted UK rule or contract award.",
+          "source": "The Telegraph",
+          "url": "https://www.telegraph.co.uk/business/2026/10/18/burnham-seeks-closer-alignment-with-eu-on-ai/",
+          "publishedAt": "2026-10-18T14:58:00+01:00"
+        }
+      ]
+    },
+    {
+      "id": "nhs",
+      "name": "NHS",
+      "description": "National Health Service",
+      "stories": [
+        {
+          "title": "FOI reporting finds mixed NHS uptake of Palantir data platform",
+          "summary": "The Guardian reports that 16 trusts and health boards said they do not use the federated data platform, with several citing limited additional value over local systems. NHS England says 137 trusts have reported benefits; Palantir disputes the critical analysis. This is new reporting on an existing programme, not a new award or confirmed cancellation.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/17/palantir-patient-data-tech-rejected-by-many-nhs-trusts-in-england",
+          "publishedAt": "2026-10-17T06:00:24.000Z"
+        },
+        {
+          "title": "Health secretary demands action over inappropriate access to patient records",
+          "summary": "BBC reports calls for staff suspension and disciplinary action following inappropriate access to Nottingham attacks victims’ records and potential breaches involving a tiger-attack victim. Nottingham University Hospitals says a new alerting system is under testing; no supplier or contract value is identified.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq2e9nw82ljdo",
+          "publishedAt": "2026-10-18T10:52:31.433Z"
+        }
+      ]
+    },
+    {
+      "id": "royal-mail",
+      "name": "Royal Mail / Post Office",
+      "description": "Postal services",
+      "stories": []
+    }
+  ]
+}
