@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T16:18:00+11:00",
+  "lastUpdated": "2026-10-20T16:19:00+11:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -23,19 +23,57 @@
       "id": "dwp",
       "name": "DWP",
       "description": "Benefits and pensions",
-      "stories": []
+      "stories": [
+        {
+          "title": "Jobs plans set out new youth apprenticeships and placements",
+          "summary": "BIST and DWP announced employer commitments to 22,400 new under-25 professional/business-services apprenticeships annually over five years, alongside 40,000 annual construction placements within a previously announced ambition. These are planned opportunities, not jobs already delivered; the linked PBS plan is covered here once.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/over-100000-job-and-training-opportunities-a-year-to-give-young-people-a-route-into-britains-growth-industries-as-part-of-industrial-strategy",
+          "publishedAt": "2026-10-19T16:08:08+01:00"
+        }
+      ]
     },
     {
       "id": "defra",
       "name": "DEFRA",
       "description": "Environment, food and rural affairs",
-      "stories": []
+      "stories": [
+        {
+          "title": "Published drought direction prioritises essential water supplies",
+          "summary": "A newly published legal direction prioritises public supply around Wimbleball, Ardingly, Roadford and Colliford reservoirs, with monitored, proportionate temporary measures. It took effect on 15 October: this is publication of the instrument, not a new drought declaration or suspension of environmental duties.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/ministerial-direction-to-protect-public-water-supplies-in-areas-affected-by-severe-drought",
+          "publishedAt": "2026-10-19T09:44:27+01:00"
+        },
+        {
+          "title": "Environment Agency publishes UKEAP air-pollution technical reporting",
+          "summary": "Newly published technical reporting describes monitoring-network activities and data; the 2025 report was prepared by UKCEH and WSP UK for the Environment Agency and Defra. This is reporting on an earlier year, not a new supplier award.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/uk-eutrophying-and-acidifying-atmospheric-pollutants-ukeap-network-technical-reports",
+          "publishedAt": "2026-10-19T16:54:55+01:00"
+        }
+      ]
     },
     {
       "id": "mod",
       "name": "MoD",
       "description": "Ministry of Defence",
-      "stories": []
+      "stories": [
+        {
+          "title": "Farmer family’s civil case against MoD opens in Belfast",
+          "summary": "BBC reports allegations in the Sean Farmer family’s civil case concerning his 1975 killing. The family’s barrister alleged security-force involvement; these are court submissions, not findings that the MoD was liable.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckdd8m442m4po",
+          "publishedAt": "2026-10-19T17:03:05.731Z"
+        },
+        {
+          "title": "Outgoing Red Arrows leader discusses team’s future",
+          "summary": "Former team leader Jon Bond told BBC there would always be a place for the Red Arrows as the ageing Hawk fleet approaches retirement. The newly published interview follows his Friday departure; it does not establish a new aircraft contract or supplier.",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwe8l7e4l6kdo",
+          "publishedAt": "2026-10-19T13:47:23.567Z"
+        }
+      ]
     },
     {
       "id": "bist",
@@ -43,11 +81,18 @@
       "description": "Department for Business, Innovation, Science and Trade",
       "stories": [
         {
-          "title": "UK seeks closer EU AI ties and access to European technology procurement, report says",
-          "summary": "The Telegraph reports that ministers are seeking closer alignment with EU AI rules and “trusted access” for UK firms to proposed European technology procurement preferences. These are reported negotiating aims for forthcoming talks—not an agreed deal, enacted UK rule or contract award.",
-          "source": "The Telegraph",
-          "url": "https://www.telegraph.co.uk/business/2026/10/18/burnham-seeks-closer-alignment-with-eu-on-ai/",
-          "publishedAt": "2026-10-18T14:58:00+01:00"
+          "title": "Science advisers publish AI-sovereignty recommendations",
+          "summary": "The Council for Science and Technology published a letter recommending an AI-sovereignty plan, coordinated governance, domestic capability and trusted model access. The letter is dated 30 July and addressed to the Cabinet Office’s AI minister: newly published advice, not adopted BIST policy, approved pilots or funding.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/ai-sovereignty-preserving-uk-agency-in-an-ai-enabled-world",
+          "publishedAt": "2026-10-19T10:30:05+01:00"
+        },
+        {
+          "title": "BIST opens selection process for independent ballot scrutineers",
+          "summary": "Organisations can apply by 17 January 2027 to join an updated statutory list for trade-union and CAC ballots, including electronic/hybrid voting. This is an open qualification process, not an awarded contract or a named supplier selection.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/independent-scrutineer-selection-process",
+          "publishedAt": "2026-10-19T09:30:01+01:00"
         }
       ]
     },
@@ -55,22 +100,7 @@
       "id": "nhs",
       "name": "NHS",
       "description": "National Health Service",
-      "stories": [
-        {
-          "title": "FOI reporting finds mixed NHS uptake of Palantir data platform",
-          "summary": "The Guardian reports that 16 trusts and health boards said they do not use the federated data platform, with several citing limited additional value over local systems. NHS England says 137 trusts have reported benefits; Palantir disputes the critical analysis. This is new reporting on an existing programme, not a new award or confirmed cancellation.",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/oct/17/palantir-patient-data-tech-rejected-by-many-nhs-trusts-in-england",
-          "publishedAt": "2026-10-17T06:00:24.000Z"
-        },
-        {
-          "title": "Health secretary demands action over inappropriate access to patient records",
-          "summary": "BBC reports calls for staff suspension and disciplinary action following inappropriate access to Nottingham attacks victims’ records and potential breaches involving a tiger-attack victim. Nottingham University Hospitals says a new alerting system is under testing; no supplier or contract value is identified.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq2e9nw82ljdo",
-          "publishedAt": "2026-10-18T10:52:31.433Z"
-        }
-      ]
+      "stories": []
     },
     {
       "id": "royal-mail",
