@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T16:19:00+11:00",
+  "lastUpdated": "2026-10-21T16:00:00+11:00",
   "agencies": [
     {
       "id": "hmrc",
@@ -17,7 +17,15 @@
       "id": "fcdo",
       "name": "FCDO",
       "description": "Diplomacy and international relations",
-      "stories": []
+      "stories": [
+        {
+          "title": "FCDO opens £750,000 Albania migration grant competition",
+          "summary": "Up to £750,000 is available for behavioural-insights and social-norm interventions in Albania, December 2026–March 2028. Eligible organisations and consortia can apply by 19 November; this is a grant call, not an award.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/albania-addressing-irregular-migration-programme-call-for-proposals",
+          "publishedAt": "2026-10-20T13:43:44+01:00"
+        }
+      ]
     },
     {
       "id": "dwp",
@@ -25,11 +33,18 @@
       "description": "Benefits and pensions",
       "stories": [
         {
-          "title": "Jobs plans set out new youth apprenticeships and placements",
-          "summary": "BIST and DWP announced employer commitments to 22,400 new under-25 professional/business-services apprenticeships annually over five years, alongside 40,000 annual construction placements within a previously announced ambition. These are planned opportunities, not jobs already delivered; the linked PBS plan is covered here once.",
+          "title": "DWP seeks evidence on State Pension deferral",
+          "summary": "Responses are invited until 1 December on why people defer, understanding of options and barriers. This evidence-gathering exercise proposes no specific policy change.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/over-100000-job-and-training-opportunities-a-year-to-give-young-people-a-route-into-britains-growth-industries-as-part-of-industrial-strategy",
-          "publishedAt": "2026-10-19T16:08:08+01:00"
+          "url": "https://www.gov.uk/government/calls-for-evidence/state-pension-deferral-call-for-evidence",
+          "publishedAt": "2026-10-20T09:30:06+01:00"
+        },
+        {
+          "title": "Money and Pensions Service publishes annual accounts",
+          "summary": "The DWP-funded independent organisation published its 2025–26 activities and accounts. This concerns the year ending March 2026, not a new funding or supplier announcement.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/money-and-pensions-service-annual-report-and-accounts-2025-to-2026",
+          "publishedAt": "2026-10-20T16:01:14+01:00"
         }
       ]
     },
@@ -39,18 +54,18 @@
       "description": "Environment, food and rural affairs",
       "stories": [
         {
-          "title": "Published drought direction prioritises essential water supplies",
-          "summary": "A newly published legal direction prioritises public supply around Wimbleball, Ardingly, Roadford and Colliford reservoirs, with monitored, proportionate temporary measures. It took effect on 15 October: this is publication of the instrument, not a new drought declaration or suspension of environmental duties.",
+          "title": "Water bosses report drought resilience measures",
+          "summary": "Following Monday’s National Drought Group meeting, companies reported leak detection, transfers and supply-protection measures. Some permits are granted but non-essential-use bans remain under consideration; this is not a new drought declaration.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/ministerial-direction-to-protect-public-water-supplies-in-areas-affected-by-severe-drought",
-          "publishedAt": "2026-10-19T09:44:27+01:00"
+          "url": "https://www.gov.uk/government/news/water-company-bosses-update-national-drought-group-on-resilience",
+          "publishedAt": "2026-10-20T15:42:55+01:00"
         },
         {
-          "title": "Environment Agency publishes UKEAP air-pollution technical reporting",
-          "summary": "Newly published technical reporting describes monitoring-network activities and data; the 2025 report was prepared by UKCEH and WSP UK for the Environment Agency and Defra. This is reporting on an earlier year, not a new supplier award.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/uk-eutrophying-and-acidifying-atmospheric-pollutants-ukeap-network-technical-reports",
-          "publishedAt": "2026-10-19T16:54:55+01:00"
+          "title": "Defra promotes biodiversity research competition",
+          "summary": "A new Defra blog highlights an open GCBC call focused on the Amazon, Congo Basin and Coral Triangle. The cited £40m concerns the existing research portfolio, not this round’s value or a new award.",
+          "source": "Defra blog",
+          "url": "https://defraenvironment.blog.gov.uk/2026/10/20/defra-launches-new-research-in-the-amazon-congo-and-coral-triangle/",
+          "publishedAt": "2026-10-20T13:30:19+01:00"
         }
       ]
     },
@@ -60,18 +75,18 @@
       "description": "Ministry of Defence",
       "stories": [
         {
-          "title": "Farmer family’s civil case against MoD opens in Belfast",
-          "summary": "BBC reports allegations in the Sean Farmer family’s civil case concerning his 1975 killing. The family’s barrister alleged security-force involvement; these are court submissions, not findings that the MoD was liable.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckdd8m442m4po",
-          "publishedAt": "2026-10-19T17:03:05.731Z"
+          "title": "RAF Typhoons to fly defensive missions for Saudi Arabia",
+          "summary": "MoD announced defensive counter-air missions, A400M transport support and military advisers in response to Houthi attacks. Typhoons will not conduct offensive strikes; no new equipment contract is announced.",
+          "source": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia",
+          "publishedAt": "2026-10-20T11:59:00+01:00"
         },
         {
-          "title": "Outgoing Red Arrows leader discusses team’s future",
-          "summary": "Former team leader Jon Bond told BBC there would always be a place for the Red Arrows as the ageing Hawk fleet approaches retirement. The newly published interview follows his Friday departure; it does not establish a new aircraft contract or supplier.",
+          "title": "Farmer family’s MoD civil case adjourned",
+          "summary": "BBC reports the case is expected to resume in January after new material emerged. This is a procedural development since yesterday’s report; MoD denies liability and allegations are not judicial findings.",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwe8l7e4l6kdo",
-          "publishedAt": "2026-10-19T13:47:23.567Z"
+          "url": "https://www.bbc.co.uk/news/articles/cw62yq607242o",
+          "publishedAt": "2026-10-20T17:41:41.685Z"
         }
       ]
     },
@@ -81,18 +96,11 @@
       "description": "Department for Business, Innovation, Science and Trade",
       "stories": [
         {
-          "title": "Science advisers publish AI-sovereignty recommendations",
-          "summary": "The Council for Science and Technology published a letter recommending an AI-sovereignty plan, coordinated governance, domestic capability and trusted model access. The letter is dated 30 July and addressed to the Cabinet Office’s AI minister: newly published advice, not adopted BIST policy, approved pilots or funding.",
+          "title": "Tech employers pledge 10,000 work experiences over three years",
+          "summary": "A joint DCMS/BIST announcement names Microsoft, Cisco, IBM, Cognizant, Arm, Kainos, QinetiQ and AtkinsRéalis. A separate 20,000 annual entry-level-role target can include existing vacancies; neither figure means jobs delivered or awarded supplier contracts.",
           "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/ai-sovereignty-preserving-uk-agency-in-an-ai-enabled-world",
-          "publishedAt": "2026-10-19T10:30:05+01:00"
-        },
-        {
-          "title": "BIST opens selection process for independent ballot scrutineers",
-          "summary": "Organisations can apply by 17 January 2027 to join an updated statutory list for trade-union and CAC ballots, including electronic/hybrid voting. This is an open qualification process, not an awarded contract or a named supplier selection.",
-          "source": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/independent-scrutineer-selection-process",
-          "publishedAt": "2026-10-19T09:30:01+01:00"
+          "url": "https://www.gov.uk/government/news/10000-young-people-to-get-foot-in-the-door-of-britains-tech-sector-as-work-placements-rolled-out-across-the-country",
+          "publishedAt": "2026-10-21T00:01:05+01:00"
         }
       ]
     },
@@ -100,13 +108,29 @@
       "id": "nhs",
       "name": "NHS",
       "description": "National Health Service",
-      "stories": []
+      "stories": [
+        {
+          "title": "Research finds weaker support for NHS founding principles",
+          "summary": "The Guardian reports King’s Fund/Ipsos analysis showing declining support between 2021 and 2025, though large majorities still support free, universal, tax-funded care. This is survey analysis, not an NHS funding-model change.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/society/2026/oct/20/public-support-founding-principles-nhs-falling-across-uk-population",
+          "publishedAt": "2026-10-20T05:00:16.000Z"
+        }
+      ]
     },
     {
       "id": "royal-mail",
       "name": "Royal Mail / Post Office",
       "description": "Postal services",
-      "stories": []
+      "stories": [
+        {
+          "title": "Royal Mail user issues reported during Google Cloud outage",
+          "summary": "The Guardian cites Downdetector reports involving Royal Mail during a London cloud power incident; Google says cloud services were restored. This does not independently establish Royal Mail’s root cause, delivery disruption or a supplier award.",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/20/power-outage-google-datacentre-london-widespread-disruption",
+          "publishedAt": "2026-10-20T16:50:31.000Z"
+        }
+      ]
     }
   ]
 }
